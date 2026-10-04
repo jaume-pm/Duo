@@ -156,6 +156,17 @@ textarea {
   font-size: 1.08rem;
 }
 
+.lesson-list {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 860px) {
+  .lesson-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .lesson-card,
 .workbook,
 .ex-card,

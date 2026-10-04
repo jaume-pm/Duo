@@ -1,0 +1,1315 @@
+{
+  "id": "02",
+  "number": 2,
+  "titleZh": "看房子",
+  "titleEn": "Look at the apartment",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–2",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–2",
+  "words": [
+    {
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "pos": "prep.",
+      "meaningEn": "to, for"
+    },
+    {
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "pos": "v.",
+      "meaningEn": "to look for"
+    },
+    {
+      "hanzi": "房子",
+      "pinyin": "fángzi",
+      "pos": "n.",
+      "meaningEn": "house, apartment"
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "pos": "adv.",
+      "meaningEn": "really, indeed"
+    },
+    {
+      "hanzi": "离",
+      "pinyin": "lí",
+      "pos": "v.",
+      "meaningEn": "to be away from"
+    },
+    {
+      "hanzi": "公司",
+      "pinyin": "gōngsī",
+      "pos": "n.",
+      "meaningEn": "company, firm"
+    },
+    {
+      "hanzi": "近",
+      "pinyin": "jìn",
+      "pos": "adj.",
+      "meaningEn": "near, close"
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "yě",
+      "pos": "adv.",
+      "meaningEn": "also, too"
+    },
+    {
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "pos": "num.",
+      "meaningEn": "thousand"
+    },
+    {
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "pos": "n.",
+      "meaningEn": "room"
+    },
+    {
+      "hanzi": "每",
+      "pinyin": "měi",
+      "pos": "pron.",
+      "meaningEn": "every, each"
+    },
+    {
+      "hanzi": "公共汽车",
+      "pinyin": "gōnggòngqìchē",
+      "pos": "n.",
+      "meaningEn": "bus"
+    },
+    {
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "pos": "n.",
+      "meaningEn": "stop, station"
+    },
+    {
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "pos": "num.",
+      "meaningEn": "two"
+    },
+    {
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "pos": "num.",
+      "meaningEn": "hundred"
+    },
+    {
+      "hanzi": "米",
+      "pinyin": "mǐ",
+      "pos": "m.w.",
+      "meaningEn": "meter"
+    },
+    {
+      "hanzi": "超市",
+      "pinyin": "chāoshì",
+      "pos": "n.",
+      "meaningEn": "supermarket"
+    },
+    {
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "pos": "adj.",
+      "meaningEn": "far, distant"
+    },
+    {
+      "hanzi": "旁边",
+      "pinyin": "pángbiān",
+      "pos": "n.",
+      "meaningEn": "beside"
+    },
+    {
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "pos": "v.",
+      "meaningEn": "to walk"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "This book is for you.",
+        "template": "这本书是____你的。",
+        "pinyin": "Zhè běn shū shì ____ nǐ de.",
+        "answers": [
+          "给",
+          "gěi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "I am looking for a friend.",
+        "template": "我____朋友。",
+        "pinyin": "Wǒ ____ péngyou.",
+        "answers": [
+          "找",
+          "zhǎo"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "The apartment is very close.",
+        "template": "____很近。",
+        "pinyin": "____ hěn jìn.",
+        "answers": [
+          "房子",
+          "fángzi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "This room is really big.",
+        "template": "这个房间____大。",
+        "pinyin": "Zhège fángjiān ____ dà.",
+        "answers": [
+          "真",
+          "zhēn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "School is far from home.",
+        "template": "学校____家很远。",
+        "pinyin": "Xuéxiào ____ jiā hěn yuǎn.",
+        "answers": [
+          "离",
+          "lí"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Dad is at the company.",
+        "template": "爸爸在____。",
+        "pinyin": "Bàba zài ____.",
+        "answers": [
+          "公司",
+          "gōngsī"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "The supermarket is close.",
+        "template": "超市很____。",
+        "pinyin": "Chāoshì hěn ____.",
+        "answers": [
+          "近",
+          "jìn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "I also like this room.",
+        "template": "我____喜欢这个房间。",
+        "pinyin": "Wǒ ____ xǐhuan zhège fángjiān.",
+        "answers": [
+          "也",
+          "yě"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "This book is one thousand kuai.",
+        "tokens": [
+          "这",
+          "本",
+          "书",
+          "一",
+          "千",
+          "块"
+        ],
+        "answers": [
+          "这本书一千块"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "Each room is big.",
+        "tokens": [
+          "每",
+          "个",
+          "房间",
+          "都",
+          "大"
+        ],
+        "answers": [
+          "每个房间都大"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "I take the bus.",
+        "tokens": [
+          "我",
+          "坐",
+          "公共汽车"
+        ],
+        "answers": [
+          "我坐公共汽车"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "The stop is close.",
+        "tokens": [
+          "站",
+          "很",
+          "近"
+        ],
+        "answers": [
+          "站很近"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "I am buying two books.",
+        "tokens": [
+          "我",
+          "买",
+          "两",
+          "本",
+          "书"
+        ],
+        "answers": [
+          "我买两本书"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "Walk two hundred meters.",
+        "tokens": [
+          "走",
+          "两",
+          "百",
+          "米"
+        ],
+        "answers": [
+          "走两百米"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "It is three hundred meters.",
+        "answers": [
+          "三百米"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "The shop is beside the station.",
+        "answers": [
+          "商店在站旁边"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "Home is far.",
+        "answers": [
+          "家很远"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "I walk to school.",
+        "answers": [
+          "我走去学校"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "The supermarket is next to home.",
+        "answers": [
+          "超市在家旁边"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "Take a look at this apartment.",
+        "answers": [
+          "你看看房子"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "redup",
+      "title": "Verb reduplication",
+      "structure": "AA / A一A",
+      "summary": "Reduplicating a verb (看看, 问问) makes the action short and light. It is close in meaning to V+一下.",
+      "exampleHanzi": "你看看这本书。",
+      "examplePinyin": "Nǐ kànkan zhè běn shū.",
+      "exampleEn": "Take a look at this book.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "Take a look at this book.",
+            "template": "你____这本书。",
+            "pinyin": "Nǐ ____ zhè běn shū.",
+            "answers": [
+              "看看",
+              "kànkan"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "Ask the teacher.",
+            "template": "你____老师。",
+            "pinyin": "Nǐ ____ lǎoshī.",
+            "answers": [
+              "问问",
+              "wènwen"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "Talk about it.",
+            "template": "你____。",
+            "pinyin": "Nǐ ____.",
+            "answers": [
+              "说说",
+              "shuōshuo"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "Think about it.",
+            "template": "我____。",
+            "pinyin": "Wǒ ____.",
+            "answers": [
+              "想想",
+              "xiǎngxiang"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "Walk around a bit.",
+            "template": "我们____。",
+            "pinyin": "Wǒmen ____.",
+            "answers": [
+              "走走",
+              "zǒuzou"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "Have a look at the apartment.",
+            "template": "她____房子。",
+            "pinyin": "Tā ____ fángzi.",
+            "answers": [
+              "看看",
+              "kànkan"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "Ask your friend.",
+            "template": "他____朋友。",
+            "pinyin": "Tā ____ péngyou.",
+            "answers": [
+              "问问",
+              "wènwen"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Talk about the company.",
+            "template": "你____公司。",
+            "pinyin": "Nǐ ____ gōngsī.",
+            "answers": [
+              "说说",
+              "shuōshuo"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "Please look at this room.",
+            "tokens": [
+              "请",
+              "看看",
+              "这个",
+              "房间"
+            ],
+            "answers": [
+              "请看看这个房间"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "Mom wants to take a look.",
+            "tokens": [
+              "妈妈",
+              "看看"
+            ],
+            "answers": [
+              "妈妈看看"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "The child is having a look.",
+            "tokens": [
+              "孩子",
+              "看看"
+            ],
+            "answers": [
+              "孩子看看"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "Let’s walk a little.",
+            "tokens": [
+              "我们",
+              "走走"
+            ],
+            "answers": [
+              "我们走走"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "Ask dad.",
+            "tokens": [
+              "你",
+              "问问",
+              "爸爸"
+            ],
+            "answers": [
+              "你问问爸爸"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "Talk about this friend.",
+            "tokens": [
+              "你",
+              "说说",
+              "朋友"
+            ],
+            "answers": [
+              "你说说朋友"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "Think again.",
+            "answers": [
+              "你想想"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-t02",
+            "source": "Look at the supermarket.",
+            "answers": [
+              "我看看超市"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-t03",
+            "source": "Ask mom.",
+            "answers": [
+              "我问问妈妈"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-t04",
+            "source": "Have a look at the rooms.",
+            "answers": [
+              "你看看房间"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-t05",
+            "source": "Talk about this book.",
+            "answers": [
+              "他说说这本书"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Walk with me.",
+            "answers": [
+              "我们走走"
+            ],
+            "tip": "Reduplicate the verb for a brief, casual action."
+          }
+        ]
+      }
+    },
+    {
+      "id": "zhen-adj",
+      "title": "真 + adjective",
+      "structure": "subject + 真 + adjective",
+      "summary": "真 is a modal adverb meaning “really.” Put it before an adjective to exclaim about a quality.",
+      "exampleHanzi": "这个房间真大。",
+      "examplePinyin": "Zhège fángjiān zhēn dà.",
+      "exampleEn": "This room is really big.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "This room is really big.",
+            "template": "这个房间____大。",
+            "pinyin": "Zhège fángjiān ____ dà.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "That apartment is really close.",
+            "template": "那个房子____近。",
+            "pinyin": "Nàge fángzi ____ jìn.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "This dish is really good.",
+            "template": "这个菜____好。",
+            "pinyin": "Zhège cài ____ hǎo.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "The weather is really hot.",
+            "template": "天气____热。",
+            "pinyin": "Tiānqì ____ rè.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Her child is really pretty.",
+            "template": "她的孩子____漂亮。",
+            "pinyin": "Tā de háizi ____ piàoliang.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "This book is really good.",
+            "template": "这本书____好。",
+            "pinyin": "Zhè běn shū ____ hǎo.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "The company is really far.",
+            "template": "公司____远。",
+            "pinyin": "Gōngsī ____ yuǎn.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "That supermarket is really close.",
+            "template": "那个超市____近。",
+            "pinyin": "Nàge chāoshì ____ jìn.",
+            "answers": [
+              "真",
+              "zhēn"
+            ],
+            "tip": "真 comes right before the adjective."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "This room is really pretty.",
+            "tokens": [
+              "这个",
+              "房间",
+              "真",
+              "漂亮"
+            ],
+            "answers": [
+              "这个房间真漂亮"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "Dad is really busy.",
+            "tokens": [
+              "爸爸",
+              "真",
+              "忙"
+            ],
+            "answers": [
+              "爸爸真忙"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "The cat is really small.",
+            "tokens": [
+              "猫",
+              "真",
+              "小"
+            ],
+            "answers": [
+              "猫真小"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "This tea is really hot.",
+            "tokens": [
+              "这",
+              "杯",
+              "茶",
+              "真",
+              "热"
+            ],
+            "answers": [
+              "这杯茶真热"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "The school is really big.",
+            "tokens": [
+              "学校",
+              "真",
+              "大"
+            ],
+            "answers": [
+              "学校真大"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "That friend is really nice.",
+            "tokens": [
+              "那个",
+              "朋友",
+              "真",
+              "好"
+            ],
+            "answers": [
+              "那个朋友真好"
+            ],
+            "tip": "真 comes right before the adjective."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "The apartment is really far.",
+            "answers": [
+              "房子真远"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-t02",
+            "source": "This station is really close.",
+            "answers": [
+              "这个站真近"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-t03",
+            "source": "The child is really happy.",
+            "answers": [
+              "孩子真高兴"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-t04",
+            "source": "Mom is really pretty.",
+            "answers": [
+              "妈妈真漂亮"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Today is really hot.",
+            "answers": [
+              "今天真热"
+            ],
+            "tip": "真 comes right before the adjective."
+          },
+          {
+            "id": "g2-t06",
+            "source": "This room is really small.",
+            "answers": [
+              "这个房间真小"
+            ],
+            "tip": "真 comes right before the adjective."
+          }
+        ]
+      }
+    },
+    {
+      "id": "li-distance",
+      "title": "A 离 B",
+      "structure": "A 离 B + distance / 近 / 远",
+      "summary": "离 means “to be away from.” Name two places, then say how far, or 很近 / 很远 / 不远.",
+      "exampleHanzi": "学校离家很近。",
+      "examplePinyin": "Xuéxiào lí jiā hěn jìn.",
+      "exampleEn": "School is close to home.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "School is close to home.",
+            "template": "学校____家很近。",
+            "pinyin": "Xuéxiào ____ jiā hěn jìn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "The supermarket is not far from here.",
+            "template": "超市____这儿不远。",
+            "pinyin": "Chāoshì ____ zhèr bù yuǎn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "The company is far from home.",
+            "template": "公司____家很远。",
+            "pinyin": "Gōngsī ____ jiā hěn yuǎn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "The station is two hundred meters from here.",
+            "template": "站____这儿两百米。",
+            "pinyin": "Zhàn ____ zhèr liǎng bǎi mǐ.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "The airport is far from school.",
+            "template": "机场____学校很远。",
+            "pinyin": "Jīchǎng ____ xuéxiào hěn yuǎn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "His home is close to the company.",
+            "template": "他家____公司很近。",
+            "pinyin": "Tā jiā ____ gōngsī hěn jìn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "The shop is close to the station.",
+            "template": "商店____站很近。",
+            "pinyin": "Shāngdiàn ____ zhàn hěn jìn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "The hospital is not far from home.",
+            "template": "医院____家不远。",
+            "pinyin": "Yīyuàn ____ jiā bù yuǎn.",
+            "answers": [
+              "离",
+              "lí"
+            ],
+            "tip": "Put 离 between the two places."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "The stop is close to the supermarket.",
+            "tokens": [
+              "站",
+              "离",
+              "超市",
+              "很",
+              "近"
+            ],
+            "answers": [
+              "站离超市很近"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "My home is far from Beijing.",
+            "tokens": [
+              "我",
+              "家",
+              "离",
+              "北京",
+              "很",
+              "远"
+            ],
+            "answers": [
+              "我家离北京很远"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "The school is three hundred meters from here.",
+            "tokens": [
+              "学校",
+              "离",
+              "这儿",
+              "三",
+              "百",
+              "米"
+            ],
+            "answers": [
+              "学校离这儿三百米"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "The apartment is close to school.",
+            "tokens": [
+              "房子",
+              "离",
+              "学校",
+              "很",
+              "近"
+            ],
+            "answers": [
+              "房子离学校很近"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "The company is not far from the airport.",
+            "tokens": [
+              "公司",
+              "离",
+              "机场",
+              "不",
+              "远"
+            ],
+            "answers": [
+              "公司离机场不远"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "The supermarket is far from the company.",
+            "tokens": [
+              "超市",
+              "离",
+              "公司",
+              "很",
+              "远"
+            ],
+            "answers": [
+              "超市离公司很远"
+            ],
+            "tip": "Put 离 between the two places."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "Home is close to the shop.",
+            "answers": [
+              "家离商店很近"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-t02",
+            "source": "The station is not far from school.",
+            "answers": [
+              "站离学校不远"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-t03",
+            "source": "The hospital is far from the airport.",
+            "answers": [
+              "医院离机场很远"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-t04",
+            "source": "The room is close to the shop.",
+            "answers": [
+              "房间离商店很近"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-t05",
+            "source": "Beijing is far from here.",
+            "answers": [
+              "北京离这儿很远"
+            ],
+            "tip": "Put 离 between the two places."
+          },
+          {
+            "id": "g3-t06",
+            "source": "The company is two hundred meters from home.",
+            "answers": [
+              "公司离家两百米"
+            ],
+            "tip": "Put 离 between the two places."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mei-dou",
+      "title": "每…都",
+      "structure": "每 + measure word + noun + 都 + predicate",
+      "summary": "每 means each/every. It usually needs a measure word, and 都 follows the noun. 每天 and 每年 need no extra measure word.",
+      "exampleHanzi": "每个房间都很大。",
+      "examplePinyin": "Měi ge fángjiān dōu hěn dà.",
+      "exampleEn": "Every room is very big.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "Every room is very big.",
+            "template": "____个房间都很大。",
+            "pinyin": "____ ge fángjiān dōu hěn dà.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "Every student likes Chinese.",
+            "template": "____个学生都喜欢汉语。",
+            "pinyin": "____ ge xuésheng dōu xǐhuan Hànyǔ.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "Every book is new.",
+            "template": "____本书都新。",
+            "pinyin": "____ běn shū dōu xīn.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "Every day I walk.",
+            "template": "____天都走。",
+            "pinyin": "____ tiān dōu zǒu.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "Every friend is here.",
+            "template": "____个朋友都在。",
+            "pinyin": "____ ge péngyou dōu zài.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "Every company is far.",
+            "template": "____个公司都很远。",
+            "pinyin": "____ ge gōngsī dōu hěn yuǎn.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "Every child is happy.",
+            "template": "____个孩子都很高兴。",
+            "pinyin": "____ ge háizi dōu hěn gāoxìng.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "Every apartment is close.",
+            "template": "____个房子都很近。",
+            "pinyin": "____ ge fángzi dōu hěn jìn.",
+            "answers": [
+              "每",
+              "měi"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "Every year he comes.",
+            "tokens": [
+              "每",
+              "年",
+              "都",
+              "来"
+            ],
+            "answers": [
+              "每年都来"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "Every room is pretty.",
+            "tokens": [
+              "每",
+              "个",
+              "房间",
+              "都",
+              "很",
+              "漂亮"
+            ],
+            "answers": [
+              "每个房间都很漂亮"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "Every teacher works.",
+            "tokens": [
+              "每",
+              "个",
+              "老师",
+              "都",
+              "工作"
+            ],
+            "answers": [
+              "每个老师都工作"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "Every supermarket is big.",
+            "tokens": [
+              "每",
+              "个",
+              "超市",
+              "都",
+              "很",
+              "大"
+            ],
+            "answers": [
+              "每个超市都很大"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "Every day she reads.",
+            "tokens": [
+              "每",
+              "天",
+              "都",
+              "看",
+              "书"
+            ],
+            "answers": [
+              "每天都看书"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "Every student is here.",
+            "tokens": [
+              "每",
+              "个",
+              "学生",
+              "都",
+              "在"
+            ],
+            "answers": [
+              "每个学生都在"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Every station is close.",
+            "answers": [
+              "每个站都很近"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-t02",
+            "source": "Every day dad goes to the company.",
+            "answers": [
+              "爸爸每天都去公司"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-t03",
+            "source": "Every child likes cats.",
+            "answers": [
+              "每个孩子都喜欢猫"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-t04",
+            "source": "Every book is good.",
+            "answers": [
+              "每本书都很好"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Every friend walks.",
+            "answers": [
+              "每个朋友都走"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          },
+          {
+            "id": "g4-t06",
+            "source": "Every room has a table.",
+            "answers": [
+              "每个房间都有桌子"
+            ],
+            "tip": "每…都: measure word, then 都 after the noun."
+          }
+        ]
+      }
+    }
+  ]
+}

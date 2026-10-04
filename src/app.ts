@@ -5,6 +5,7 @@ import {
   getLesson,
   getTrackItems,
   grammarItemCount,
+  lessonHeading,
   lessons,
   trackLabel,
   type MixCard,
@@ -164,7 +165,21 @@ function render(): void {
 }
 
 function renderHome(): HTMLElement {
-  const lesson = lessons[0];
+  const list = el("div", { class: "lesson-list" });
+  for (const lesson of lessons) {
+    list.append(
+      el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
+        el("div", { class: "lesson-card__meta" },
+          el("span", { class: "chip", text: `Lesson ${lesson.number}` }),
+          el("span", { class: "muted", text: lesson.sourceNote }),
+        ),
+        el("p", { class: "hanzi-title", text: lessonHeading(lesson) }),
+        el("p", { class: "card-en", text: lesson.titleEn }),
+        el("p", { class: "card-stats", text: `${lesson.words.length} words · ${lesson.grammar.length} grammar points` }),
+        el("span", { class: "card-cta", text: "Open lesson →" }),
+      ),
+    );
+  }
   return el("div", { class: "page" },
     el("header", { class: "topbar" },
       el("div", { class: "brand" },
@@ -183,16 +198,7 @@ function renderHome(): HTMLElement {
           "Drill each grammar point, or mix them so the pattern keeps changing. Sentences use HSK 1 plus the words you have already learned.",
         ),
       ),
-      el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
-        el("div", { class: "lesson-card__meta" },
-          el("span", { class: "chip", text: `Lesson ${lesson.number}` }),
-          el("span", { class: "muted", text: lesson.sourceNote }),
-        ),
-        el("p", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
-        el("p", { class: "card-en", text: lesson.titleEn }),
-        el("p", { class: "card-stats", text: `${lesson.words.length} words · ${lesson.grammar.length} grammar points` }),
-        el("span", { class: "card-cta", text: "Open lesson →" }),
-      ),
+      list,
     ),
   );
 }
@@ -268,7 +274,7 @@ function renderHub(lesson: Lesson): HTMLElement {
     el("main", { class: "shell" },
       el("section", { class: "lesson-head" },
         el("p", { class: "kicker", text: `Lesson ${lesson.number}` }),
-        el("h1", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
+        el("h1", { class: "hanzi-title", text: lessonHeading(lesson) }),
         el("p", { class: "card-en", text: "Words and grammar only — new practice sentences, not the textbook dialogue." }),
       ),
       el("section", { class: "block" },
@@ -308,7 +314,7 @@ function renderTrack(lesson: Lesson, track: Track): HTMLElement {
       el("main", { class: "shell" },
         el("section", { class: "lesson-head" },
           el("p", { class: "kicker", text: "Vocabulary" }),
-          el("h1", { text: "Lesson 1 words" }),
+          el("h1", { text: `Lesson ${lesson.number} words` }),
           el("p", { class: "lede", text: "Fill, unscramble, and translate using this lesson’s word list. No copied textbook lines." }),
         ),
         el("section", { class: "block" },

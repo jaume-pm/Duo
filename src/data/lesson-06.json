@@ -1,0 +1,1286 @@
+{
+  "id": "06",
+  "number": 6,
+  "titleZh": "计划旅游",
+  "titleEn": "Planning a trip",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–6",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–6",
+  "words": [
+    {
+      "hanzi": "准备",
+      "pinyin": "zhǔnbèi",
+      "pos": "v.",
+      "meaningEn": "to intend, to plan"
+    },
+    {
+      "hanzi": "旅游",
+      "pinyin": "lǚyóu",
+      "pos": "v.",
+      "meaningEn": "to travel"
+    },
+    {
+      "hanzi": "可能",
+      "pinyin": "kěnéng",
+      "pos": "aux.",
+      "meaningEn": "maybe, perhaps"
+    },
+    {
+      "hanzi": "泰国",
+      "pinyin": "Tàiguó",
+      "pos": "n.",
+      "meaningEn": "Thailand"
+    },
+    {
+      "hanzi": "过",
+      "pinyin": "guo",
+      "pos": "part.",
+      "meaningEn": "past experience"
+    },
+    {
+      "hanzi": "便宜",
+      "pinyin": "piányi",
+      "pos": "adj.",
+      "meaningEn": "cheap"
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "rì",
+      "pos": "n.",
+      "meaningEn": "day, date"
+    },
+    {
+      "hanzi": "从",
+      "pinyin": "cóng",
+      "pos": "prep.",
+      "meaningEn": "from"
+    },
+    {
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "pos": "n.",
+      "meaningEn": "hour"
+    },
+    {
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "pos": "n.",
+      "meaningEn": "train"
+    },
+    {
+      "hanzi": "票",
+      "pinyin": "piào",
+      "pos": "n.",
+      "meaningEn": "ticket"
+    },
+    {
+      "hanzi": "火车站",
+      "pinyin": "huǒchēzhàn",
+      "pos": "n.",
+      "meaningEn": "train station"
+    },
+    {
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "pos": "n.",
+      "meaningEn": "cell phone"
+    },
+    {
+      "hanzi": "告诉",
+      "pinyin": "gàosu",
+      "pos": "v.",
+      "meaningEn": "to tell"
+    },
+    {
+      "hanzi": "知道",
+      "pinyin": "zhīdào",
+      "pos": "v.",
+      "meaningEn": "to know"
+    },
+    {
+      "hanzi": "以后",
+      "pinyin": "yǐhòu",
+      "pos": "n.",
+      "meaningEn": "after, later"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "I plan to travel.",
+        "template": "我____去旅游。",
+        "pinyin": "Wǒ ____ qù lǚyóu.",
+        "answers": [
+          "准备",
+          "zhǔnbèi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "They like to travel.",
+        "template": "他们喜欢____。",
+        "pinyin": "Tāmen xǐhuan ____.",
+        "answers": [
+          "旅游",
+          "lǚyóu"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "I may go tomorrow.",
+        "template": "我____明天去。",
+        "pinyin": "Wǒ ____ míngtiān qù.",
+        "answers": [
+          "可能",
+          "kěnéng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "Thailand is pretty.",
+        "template": "____很漂亮。",
+        "pinyin": "____ hěn piàoliang.",
+        "answers": [
+          "泰国",
+          "Tàiguó"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "Have you been there?",
+        "template": "你去____吗？",
+        "pinyin": "Nǐ qù ____ ma?",
+        "answers": [
+          "过",
+          "guo"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Things are cheap.",
+        "template": "东西很____。",
+        "pinyin": "Dōngxi hěn ____.",
+        "answers": [
+          "便宜",
+          "piányi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "The first of the month.",
+        "template": "一____。",
+        "pinyin": "Yī ____.",
+        "answers": [
+          "日",
+          "rì"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "From Beijing.",
+        "template": "____北京。",
+        "pinyin": "____ Běijīng.",
+        "answers": [
+          "从",
+          "cóng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "It takes two hours.",
+        "tokens": [
+          "要",
+          "两",
+          "个",
+          "小时"
+        ],
+        "answers": [
+          "要两个小时"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "I take the train.",
+        "tokens": [
+          "我",
+          "坐",
+          "火车"
+        ],
+        "answers": [
+          "我坐火车"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "I bought a ticket.",
+        "tokens": [
+          "我",
+          "买",
+          "票",
+          "了"
+        ],
+        "answers": [
+          "我买票了"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "I am at the train station.",
+        "tokens": [
+          "我",
+          "在",
+          "火车站"
+        ],
+        "answers": [
+          "我在火车站"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "This phone is new.",
+        "tokens": [
+          "这个",
+          "手机",
+          "很",
+          "新"
+        ],
+        "answers": [
+          "这个手机很新"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "Please tell me.",
+        "tokens": [
+          "请",
+          "告诉",
+          "我"
+        ],
+        "answers": [
+          "请告诉我"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "I know.",
+        "answers": [
+          "我知道"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "See you later.",
+        "answers": [
+          "以后见"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "I plan to buy a ticket.",
+        "answers": [
+          "我准备买票"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "The train ticket is cheap.",
+        "answers": [
+          "火车票很便宜"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "Tell mom.",
+        "answers": [
+          "告诉妈妈"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "I know this.",
+        "answers": [
+          "我知道这个"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "deshihou",
+      "title": "…的时候",
+      "structure": "time / verb phrase + 的时候",
+      "summary": "的时候 means “when…” after a time word or a verb phrase.",
+      "exampleHanzi": "我五岁的时候喜欢猫。",
+      "examplePinyin": "Wǒ wǔ suì de shíhou xǐhuan māo.",
+      "exampleEn": "When I was five I liked cats.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "When I was five I liked cats.",
+            "template": "我五岁____喜欢猫。",
+            "pinyin": "Wǒ wǔ suì ____ xǐhuan māo.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "When it is eight in the morning.",
+            "template": "早上八点____。",
+            "pinyin": "Zǎoshang bā diǎn ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "When I sleep.",
+            "template": "我睡觉____。",
+            "pinyin": "Wǒ shuìjiào ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "When mom cooks.",
+            "template": "妈妈做饭____。",
+            "pinyin": "Māma zuò fàn ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "When dad works.",
+            "template": "爸爸上班____。",
+            "pinyin": "Bàba shàngbān ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "When I travel.",
+            "template": "我旅游____。",
+            "pinyin": "Wǒ lǚyóu ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "When she waits.",
+            "template": "她等____。",
+            "pinyin": "Tā děng ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "When we rest.",
+            "template": "我们休息____。",
+            "pinyin": "Wǒmen xiūxi ____.",
+            "answers": [
+              "的时候",
+              "de shíhou"
+            ],
+            "tip": "的时候 = when (that time)."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "When the child gets up.",
+            "tokens": [
+              "孩子",
+              "起床",
+              "的时候"
+            ],
+            "answers": [
+              "孩子起床的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "When I take the train.",
+            "tokens": [
+              "我",
+              "坐",
+              "火车",
+              "的时候"
+            ],
+            "answers": [
+              "我坐火车的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "When it is hot.",
+            "tokens": [
+              "天气",
+              "热",
+              "的时候"
+            ],
+            "answers": [
+              "天气热的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "When I was a student.",
+            "tokens": [
+              "我",
+              "是",
+              "学生",
+              "的时候"
+            ],
+            "answers": [
+              "我是学生的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "When they take an exam.",
+            "tokens": [
+              "他们",
+              "考试",
+              "的时候"
+            ],
+            "answers": [
+              "他们考试的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "When you go to the company.",
+            "tokens": [
+              "你",
+              "去",
+              "公司",
+              "的时候"
+            ],
+            "answers": [
+              "你去公司的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "When I use the phone.",
+            "answers": [
+              "我用手机的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-t02",
+            "source": "When younger sister reads.",
+            "answers": [
+              "妹妹看书的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-t03",
+            "source": "When we start class.",
+            "answers": [
+              "我们开始课的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-t04",
+            "source": "When he is at the station.",
+            "answers": [
+              "他在火车站的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-t05",
+            "source": "When I buy tickets.",
+            "answers": [
+              "我买票的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          },
+          {
+            "id": "g1-t06",
+            "source": "When you know.",
+            "answers": [
+              "你知道的时候"
+            ],
+            "tip": "的时候 = when (that time)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "keneng",
+      "title": "可能",
+      "structure": "subject + 可能 + verb / 可能 + subject + verb",
+      "summary": "可能 means “maybe / probably.” It can go before or after the subject.",
+      "exampleHanzi": "我们可能会去泰国。",
+      "examplePinyin": "Wǒmen kěnéng huì qù Tàiguó.",
+      "exampleEn": "We may go to Thailand.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "We may go to Thailand.",
+            "template": "我们____去泰国。",
+            "pinyin": "Wǒmen ____ qù Tàiguó.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "I may know her.",
+            "template": "我____认识她。",
+            "pinyin": "Wǒ ____ rènshi tā.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "He may not go.",
+            "template": "他____不去了。",
+            "pinyin": "Tā ____ bù qù le.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "She might not know.",
+            "template": "她____不知道。",
+            "pinyin": "Tā ____ bù zhīdào.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "It may rain.",
+            "template": "____下雨。",
+            "pinyin": "____ xiàyǔ.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "They may take the train.",
+            "template": "他们____坐火车。",
+            "pinyin": "Tāmen ____ zuò huǒchē.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "I may buy a ticket tomorrow.",
+            "template": "我明天____买票。",
+            "pinyin": "Wǒ míngtiān ____ mǎi piào.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "Dad may come.",
+            "template": "爸爸____来。",
+            "pinyin": "Bàba ____ lái.",
+            "answers": [
+              "可能",
+              "kěnéng"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "The ticket may be cheap.",
+            "tokens": [
+              "票",
+              "可能",
+              "很",
+              "便宜"
+            ],
+            "answers": [
+              "票可能很便宜"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "We may wait two hours.",
+            "tokens": [
+              "我们",
+              "可能",
+              "等",
+              "两",
+              "个",
+              "小时"
+            ],
+            "answers": [
+              "我们可能等两个小时"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "She may travel.",
+            "tokens": [
+              "她",
+              "可能",
+              "去",
+              "旅游"
+            ],
+            "answers": [
+              "她可能去旅游"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "He may be at the station.",
+            "tokens": [
+              "他",
+              "可能",
+              "在",
+              "火车站"
+            ],
+            "answers": [
+              "他可能在火车站"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "I may tell you later.",
+            "tokens": [
+              "我",
+              "以后",
+              "可能",
+              "告诉",
+              "你"
+            ],
+            "answers": [
+              "我以后可能告诉你"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "The phone may be new.",
+            "tokens": [
+              "手机",
+              "可能",
+              "很",
+              "新"
+            ],
+            "answers": [
+              "手机可能很新"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "They may start at eight.",
+            "answers": [
+              "他们可能八点开始"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-t02",
+            "source": "Younger sister may like Thailand.",
+            "answers": [
+              "妹妹可能喜欢泰国"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-t03",
+            "source": "I may not have time.",
+            "answers": [
+              "我可能没有时间"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-t04",
+            "source": "He may be late.",
+            "answers": [
+              "他可能迟到"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-t05",
+            "source": "We may go from Beijing.",
+            "answers": [
+              "我们可能从北京去"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          },
+          {
+            "id": "g2-t06",
+            "source": "You may already know.",
+            "answers": [
+              "你可能已经知道了"
+            ],
+            "tip": "可能 marks a guess: maybe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guo-exp",
+      "title": "Verb + 过",
+      "structure": "verb + 过 (+ object)",
+      "summary": "过 after a verb marks a past experience. Negate with 没(有) before the verb. Don’t use 了 with this 过.",
+      "exampleHanzi": "你去过泰国吗？",
+      "examplePinyin": "Nǐ qùguo Tàiguó ma?",
+      "exampleEn": "Have you been to Thailand?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "Have you been to Thailand?",
+            "template": "你去____泰国吗？",
+            "pinyin": "Nǐ qù ____ Tàiguó ma?",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "I have been to his home.",
+            "template": "我去____他家。",
+            "pinyin": "Wǒ qù ____ tā jiā.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "She has read this book.",
+            "template": "她看____这本书。",
+            "pinyin": "Tā kàn ____ zhè běn shū.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "They have come to China.",
+            "template": "他们来____中国。",
+            "pinyin": "Tāmen lái ____ Zhōngguó.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "I have taken a plane.",
+            "template": "我坐____飞机。",
+            "pinyin": "Wǒ zuò ____ fēijī.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "I have not been to Thailand.",
+            "template": "我没去____泰国。",
+            "pinyin": "Wǒ méi qù ____ Tàiguó.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "He has not seen this.",
+            "template": "他没看____。",
+            "pinyin": "Tā méi kàn ____.",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "Have you eaten this dish?",
+            "template": "你吃____这个菜吗？",
+            "pinyin": "Nǐ chī ____ zhège cài ma?",
+            "answers": [
+              "过",
+              "guo"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "I have used a phone.",
+            "tokens": [
+              "我",
+              "用",
+              "过",
+              "手机"
+            ],
+            "answers": [
+              "我用过手机"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "She has taken a train.",
+            "tokens": [
+              "她",
+              "坐",
+              "过",
+              "火车"
+            ],
+            "answers": [
+              "她坐过火车"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "We have traveled.",
+            "tokens": [
+              "我们",
+              "旅游",
+              "过"
+            ],
+            "answers": [
+              "我们旅游过"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "Dad has not been to Beijing.",
+            "tokens": [
+              "爸爸",
+              "没",
+              "去",
+              "过",
+              "北京"
+            ],
+            "answers": [
+              "爸爸没去过北京"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "I have asked the teacher.",
+            "tokens": [
+              "我",
+              "问",
+              "过",
+              "老师"
+            ],
+            "answers": [
+              "我问过老师"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "He has drunk coffee.",
+            "tokens": [
+              "他",
+              "喝",
+              "过",
+              "咖啡"
+            ],
+            "answers": [
+              "他喝过咖啡"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "Have they worked here?",
+            "answers": [
+              "他们在这儿工作过吗"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-t02",
+            "source": "I have never waited that long.",
+            "answers": [
+              "我没等过"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-t03",
+            "source": "Younger sister has seen an airplane.",
+            "answers": [
+              "妹妹看过飞机"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-t04",
+            "source": "I have bought tickets.",
+            "answers": [
+              "我买过票"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-t05",
+            "source": "She has not told me.",
+            "answers": [
+              "她没告诉过我"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          },
+          {
+            "id": "g3-t06",
+            "source": "Have you been to the train station?",
+            "answers": [
+              "你去过火车站吗"
+            ],
+            "tip": "Verb + 过 = have ever done. Negative: 没 + verb + 过."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cong-dao",
+      "title": "从 A 到 B",
+      "structure": "从 A 到 B",
+      "summary": "从 A 到 B marks a range from place or time A to B. You can add how long it takes.",
+      "exampleHanzi": "从北京到泰国要四个多小时。",
+      "examplePinyin": "Cóng Běijīng dào Tàiguó yào sì ge duō xiǎoshí.",
+      "exampleEn": "From Beijing to Thailand takes a little over four hours.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "From Beijing to Thailand.",
+            "template": "____北京到泰国。",
+            "pinyin": "____ Běijīng dào Tàiguó.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "From home to the company.",
+            "template": "____家到公司。",
+            "pinyin": "____ jiā dào gōngsī.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "From the school to the station.",
+            "template": "____学校到站。",
+            "pinyin": "____ xuéxiào dào zhàn.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "From here to the airport.",
+            "template": "____这儿到机场。",
+            "pinyin": "____ zhèr dào jīchǎng.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "From Beijing to Shanghai.",
+            "template": "从北京____上海。",
+            "pinyin": "Cóng Běijīng ____ Shànghǎi.",
+            "answers": [
+              "到",
+              "dào"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "From the train station to home.",
+            "template": "____火车站到家。",
+            "pinyin": "____ huǒchēzhàn dào jiā.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "From morning to evening.",
+            "template": "____早上到晚上。",
+            "pinyin": "____ zǎoshang dào wǎnshang.",
+            "answers": [
+              "从",
+              "cóng"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "From one o’clock to three.",
+            "template": "从一点____三点。",
+            "pinyin": "Cóng yī diǎn ____ sān diǎn.",
+            "answers": [
+              "到",
+              "dào"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "It takes two hours from here to school.",
+            "tokens": [
+              "从",
+              "这儿",
+              "到",
+              "学校",
+              "要",
+              "两",
+              "个",
+              "小时"
+            ],
+            "answers": [
+              "从这儿到学校要两个小时"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "From the supermarket to the company.",
+            "tokens": [
+              "从",
+              "超市",
+              "到",
+              "公司"
+            ],
+            "answers": [
+              "从超市到公司"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "From China to Thailand.",
+            "tokens": [
+              "从",
+              "中国",
+              "到",
+              "泰国"
+            ],
+            "answers": [
+              "从中国到泰国"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "From my home to the hospital.",
+            "tokens": [
+              "从",
+              "我",
+              "家",
+              "到",
+              "医院"
+            ],
+            "answers": [
+              "从我家到医院"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "From the classroom to the shop.",
+            "tokens": [
+              "从",
+              "教室",
+              "到",
+              "商店"
+            ],
+            "answers": [
+              "从教室到商店"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "From today to tomorrow.",
+            "tokens": [
+              "从",
+              "今天",
+              "到",
+              "明天"
+            ],
+            "answers": [
+              "从今天到明天"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "From the airport to the train station.",
+            "answers": [
+              "从机场到火车站"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-t02",
+            "source": "From work to home.",
+            "answers": [
+              "从公司到家"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-t03",
+            "source": "From seven to nine.",
+            "answers": [
+              "从七点到九点"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-t04",
+            "source": "From this room to that room.",
+            "answers": [
+              "从这个房间到那个房间"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-t05",
+            "source": "From Beijing to Thailand takes four hours.",
+            "answers": [
+              "从北京到泰国要四个小时"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          },
+          {
+            "id": "g4-t06",
+            "source": "From the station to the supermarket.",
+            "answers": [
+              "从站到超市"
+            ],
+            "tip": "从 A 到 B = from A to B."
+          }
+        ]
+      }
+    }
+  ]
+}
