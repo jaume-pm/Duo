@@ -27,7 +27,7 @@ npm run preview
 
 - **Vocabulary** — fill, unscramble, and translate drills for the lesson word list.
 - **Grammar** — each point has 20 fill, unscramble, and translate items.
-- **Mixed practice** — one shuffled stream of every grammar item in the lesson, so the pattern keeps changing.
+- **Mixed practice** — shuffled grammar from one lesson, from lessons 1 through N, or from the lessons you tick. You can keep every exercise type or lock the mix to fill-in, unscramble, or translate.
 
 Sentences use **HSK 1 plus the HSK 2 lessons you have already reached**. Lesson 1 only uses HSK 1 + Lesson 1 words. Lesson 2 may use Lessons 1 and 2, and so on. Not every word appears; the pool is just what you already know so the grammar is answerable.
 

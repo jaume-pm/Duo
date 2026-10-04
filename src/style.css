@@ -172,7 +172,8 @@ textarea {
 .ex-card,
 .grammar-card,
 .vocab-item,
-.mix-card {
+.mix-card,
+.mix-builder {
   background: var(--card);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -200,10 +201,89 @@ textarea {
   border-color: #c9b59a;
 }
 
-.mix-card h2 {
+.mix-card--panel:hover {
+  border-color: var(--line);
+}
+
+.mix-card h2,
+.mix-builder h2 {
   margin: 0.15rem 0 0.45rem;
   font-family: var(--serif);
   font-size: 1.55rem;
+}
+
+.mix-builder h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.mix-builder {
+  padding: 1.4rem 1.5rem 1.3rem;
+  margin-bottom: 1.4rem;
+  border-radius: 24px;
+}
+
+.mix-build-block {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.mix-build-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.mix-select {
+  min-height: 2.6rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.mix-pick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.mix-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.mix-chip:has(input:checked) {
+  border-color: var(--cinnabar);
+  background: #f6e6e2;
+}
+
+.mix-type-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.95rem;
+}
+
+.mix-cumulative {
+  margin: 0.85rem 0 0;
+}
+
+.mix-note {
+  margin: 0.55rem 0 0;
 }
 
 .lesson-card__meta,
