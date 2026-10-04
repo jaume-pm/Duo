@@ -1,0 +1,1539 @@
+{
+  "id": "03",
+  "number": 3,
+  "titleZh": "去公司",
+  "titleEn": "Go to the company",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–3",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–3",
+  "words": [
+    {
+      "hanzi": "要",
+      "pinyin": "yào",
+      "pos": "mod.",
+      "meaningEn": "to want to, would like to"
+    },
+    {
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "pos": "n.",
+      "meaningEn": "milk"
+    },
+    {
+      "hanzi": "咖啡",
+      "pinyin": "kāfēi",
+      "pos": "n.",
+      "meaningEn": "coffee"
+    },
+    {
+      "hanzi": "第一",
+      "pinyin": "dì yī",
+      "pos": "num.",
+      "meaningEn": "first"
+    },
+    {
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "pos": "adj.",
+      "meaningEn": "new"
+    },
+    {
+      "hanzi": "上班",
+      "pinyin": "shàngbān",
+      "pos": "v.",
+      "meaningEn": "to go to work"
+    },
+    {
+      "hanzi": "再",
+      "pinyin": "zài",
+      "pos": "adv.",
+      "meaningEn": "again, once more"
+    },
+    {
+      "hanzi": "别",
+      "pinyin": "bié",
+      "pos": "adv.",
+      "meaningEn": "don’t, stop"
+    },
+    {
+      "hanzi": "对",
+      "pinyin": "duì",
+      "pos": "prep.",
+      "meaningEn": "to, for"
+    },
+    {
+      "hanzi": "身体",
+      "pinyin": "shēntǐ",
+      "pos": "n.",
+      "meaningEn": "body, health"
+    },
+    {
+      "hanzi": "报纸",
+      "pinyin": "bàozhǐ",
+      "pos": "n.",
+      "meaningEn": "newspaper"
+    },
+    {
+      "hanzi": "迟到",
+      "pinyin": "chídào",
+      "pos": "v.",
+      "meaningEn": "to be late"
+    },
+    {
+      "hanzi": "等",
+      "pinyin": "děng",
+      "pos": "v.",
+      "meaningEn": "to wait"
+    },
+    {
+      "hanzi": "送",
+      "pinyin": "sòng",
+      "pos": "v.",
+      "meaningEn": "to give a ride / deliver"
+    },
+    {
+      "hanzi": "可以",
+      "pinyin": "kěyǐ",
+      "pos": "mod.",
+      "meaningEn": "can, may"
+    },
+    {
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "pos": "adj.",
+      "meaningEn": "quick, fast"
+    },
+    {
+      "hanzi": "进",
+      "pinyin": "jìn",
+      "pos": "v.",
+      "meaningEn": "to enter"
+    },
+    {
+      "hanzi": "大家",
+      "pinyin": "dàjiā",
+      "pos": "pron.",
+      "meaningEn": "everybody"
+    },
+    {
+      "hanzi": "姓",
+      "pinyin": "xìng",
+      "pos": "v./n.",
+      "meaningEn": "surname"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "I want to drink milk.",
+        "template": "我____喝牛奶。",
+        "pinyin": "Wǒ ____ hē niúnǎi.",
+        "answers": [
+          "要",
+          "yào"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "She does not want coffee.",
+        "template": "她不想喝____。",
+        "pinyin": "Tā bù xiǎng hē ____.",
+        "answers": [
+          "咖啡",
+          "kāfēi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "Today is the first day.",
+        "template": "今天是____天。",
+        "pinyin": "Jīntiān shì ____ tiān.",
+        "answers": [
+          "第一",
+          "dì-yī"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "This is a new company.",
+        "template": "这是____公司。",
+        "pinyin": "Zhè shì ____ gōngsī.",
+        "answers": [
+          "新",
+          "xīn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "Dad goes to work in the morning.",
+        "template": "爸爸早上____。",
+        "pinyin": "Bàba zǎoshang ____.",
+        "answers": [
+          "上班",
+          "shàngbān"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "I want to drink another cup.",
+        "template": "我想____喝一杯。",
+        "pinyin": "Wǒ xiǎng ____ hē yī bēi.",
+        "answers": [
+          "再",
+          "zài"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "Don’t be late.",
+        "template": "____迟到。",
+        "pinyin": "____ chídào.",
+        "answers": [
+          "别",
+          "bié"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "Coffee is bad for your health.",
+        "template": "咖啡____身体不好。",
+        "pinyin": "Kāfēi ____ shēntǐ bù hǎo.",
+        "answers": [
+          "对",
+          "duì"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "I am waiting.",
+        "tokens": [
+          "我",
+          "在",
+          "等"
+        ],
+        "answers": [
+          "我在等"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "He can come in.",
+        "tokens": [
+          "他",
+          "可以",
+          "进"
+        ],
+        "answers": [
+          "他可以进"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "Everyone is here.",
+        "tokens": [
+          "大家",
+          "都",
+          "在"
+        ],
+        "answers": [
+          "大家都在"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "My surname is Wang.",
+        "tokens": [
+          "我",
+          "姓",
+          "王"
+        ],
+        "answers": [
+          "我姓王"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "Don’t read the newspaper.",
+        "tokens": [
+          "别",
+          "看",
+          "报纸"
+        ],
+        "answers": [
+          "别看报纸"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "She will give me a ride.",
+        "tokens": [
+          "她",
+          "送",
+          "我",
+          "去",
+          "公司"
+        ],
+        "answers": [
+          "她送我去公司"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "Come in quickly.",
+        "answers": [
+          "快进"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "Milk is good.",
+        "answers": [
+          "牛奶很好"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "I am waiting for a friend.",
+        "answers": [
+          "我等朋友"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "He is late today.",
+        "answers": [
+          "他今天迟到"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "You may drink tea.",
+        "answers": [
+          "你可以喝茶"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "Everyone likes coffee.",
+        "answers": [
+          "大家喜欢咖啡"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "yao-v",
+      "title": "要 + verb",
+      "structure": "subject + 要 + verb",
+      "summary": "要 as a modal verb means “want to.” Put it before another verb. The usual negative is 不想, not 不要.",
+      "exampleHanzi": "我要喝牛奶。",
+      "examplePinyin": "Wǒ yào hē niúnǎi.",
+      "exampleEn": "I want to drink milk.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "I want to drink milk.",
+            "template": "我____喝牛奶。",
+            "pinyin": "Wǒ ____ hē niúnǎi.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "He wants to learn Chinese.",
+            "template": "他____学习汉语。",
+            "pinyin": "Tā ____ xuéxí Hànyǔ.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "She wants to eat rice.",
+            "template": "她____吃米饭。",
+            "pinyin": "Tā ____ chī mǐfàn.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "I want to go to work.",
+            "template": "我____上班。",
+            "pinyin": "Wǒ ____ shàngbān.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "They want to drink coffee.",
+            "template": "他们____喝咖啡。",
+            "pinyin": "Tāmen ____ hē kāfēi.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "I don’t want to drink milk.",
+            "template": "我____喝牛奶。",
+            "pinyin": "Wǒ ____ hē niúnǎi.",
+            "answers": [
+              "不想",
+              "bùxiǎng"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "He doesn’t want to eat.",
+            "template": "他____吃。",
+            "pinyin": "Tā ____ chī.",
+            "answers": [
+              "不想",
+              "bùxiǎng"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "I want to wait.",
+            "template": "我____等。",
+            "pinyin": "Wǒ ____ děng.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "She wants to come in.",
+            "tokens": [
+              "她",
+              "要",
+              "进"
+            ],
+            "answers": [
+              "她要进"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "Dad wants to read the newspaper.",
+            "tokens": [
+              "爸爸",
+              "要",
+              "看",
+              "报纸"
+            ],
+            "answers": [
+              "爸爸要看报纸"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "The child wants to drink tea.",
+            "tokens": [
+              "孩子",
+              "要",
+              "喝",
+              "茶"
+            ],
+            "answers": [
+              "孩子要喝茶"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "I want to look for a company.",
+            "tokens": [
+              "我",
+              "要",
+              "找",
+              "公司"
+            ],
+            "answers": [
+              "我要找公司"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "We want to go home.",
+            "tokens": [
+              "我们",
+              "要",
+              "回",
+              "家"
+            ],
+            "answers": [
+              "我们要回家"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "Mom wants to buy coffee.",
+            "tokens": [
+              "妈妈",
+              "要",
+              "买",
+              "咖啡"
+            ],
+            "answers": [
+              "妈妈要买咖啡"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "I don’t want to be late.",
+            "answers": [
+              "我不想迟到"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-t02",
+            "source": "He wants to give you a ride.",
+            "answers": [
+              "他要送你"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-t03",
+            "source": "She doesn’t want coffee.",
+            "answers": [
+              "她不想喝咖啡"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-t04",
+            "source": "I want to see everyone.",
+            "answers": [
+              "我要看大家"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-t05",
+            "source": "They want a new apartment.",
+            "answers": [
+              "他们要找新房子"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Do you want to drink milk?",
+            "answers": [
+              "你要喝牛奶吗"
+            ],
+            "tip": "要 + verb. Negate with 不想."
+          }
+        ]
+      }
+    },
+    {
+      "id": "di-number",
+      "title": "第 + number",
+      "structure": "第 + number (+ measure) + noun",
+      "summary": "第 turns a number into an ordinal: 第一 first, 第二天 the next day, 第三个 the third one.",
+      "exampleHanzi": "今天是第一天。",
+      "examplePinyin": "Jīntiān shì dì-yī tiān.",
+      "exampleEn": "Today is the first day.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "Today is the first day.",
+            "template": "今天是____天。",
+            "pinyin": "Jīntiān shì ____ tiān.",
+            "answers": [
+              "第一",
+              "dì-yī"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "This is the second book.",
+            "template": "这是____本书。",
+            "pinyin": "Zhè shì ____ běn shū.",
+            "answers": [
+              "第二",
+              "dì-èr"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "He is the first student.",
+            "template": "他是____个学生。",
+            "pinyin": "Tā shì ____ ge xuésheng.",
+            "answers": [
+              "第一",
+              "dì-yī"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "Tomorrow is the third day.",
+            "template": "明天是____天。",
+            "pinyin": "Míngtiān shì ____ tiān.",
+            "answers": [
+              "第三",
+              "dì-sān"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "This is the first cup of coffee.",
+            "template": "这是____杯咖啡。",
+            "pinyin": "Zhè shì ____ bēi kāfēi.",
+            "answers": [
+              "第一",
+              "dì-yī"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "That is the second company.",
+            "template": "那是____个公司。",
+            "pinyin": "Nà shì ____ ge gōngsī.",
+            "answers": [
+              "第二",
+              "dì-èr"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "I am reading the first book.",
+            "template": "我看____本书。",
+            "pinyin": "Wǒ kàn ____ běn shū.",
+            "answers": [
+              "第一",
+              "dì-yī"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "She bought the third apple.",
+            "template": "她买____个苹果。",
+            "pinyin": "Tā mǎi ____ ge píngguǒ.",
+            "answers": [
+              "第三",
+              "dì-sān"
+            ],
+            "tip": "第 + number makes an ordinal."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "This is my first day at work.",
+            "tokens": [
+              "今天",
+              "是",
+              "我",
+              "第一",
+              "天",
+              "上班"
+            ],
+            "answers": [
+              "今天是我第一天上班"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "He lives in the second room.",
+            "tokens": [
+              "他",
+              "住",
+              "第二",
+              "个",
+              "房间"
+            ],
+            "answers": [
+              "他住第二个房间"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "The first friend is here.",
+            "tokens": [
+              "第一",
+              "个",
+              "朋友",
+              "在"
+            ],
+            "answers": [
+              "第一个朋友在"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "This is the fourth day.",
+            "tokens": [
+              "今天",
+              "是",
+              "第四",
+              "天"
+            ],
+            "answers": [
+              "今天是第四天"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "I want the first cup.",
+            "tokens": [
+              "我",
+              "要",
+              "第一",
+              "杯"
+            ],
+            "answers": [
+              "我要第一杯"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "The second child is small.",
+            "tokens": [
+              "第二",
+              "个",
+              "孩子",
+              "很",
+              "小"
+            ],
+            "answers": [
+              "第二个孩子很小"
+            ],
+            "tip": "第 + number makes an ordinal."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "This is the first newspaper.",
+            "answers": [
+              "这是第一张报纸"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-t02",
+            "source": "The third room is big.",
+            "answers": [
+              "第三个房间很大"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-t03",
+            "source": "The first day is Monday.",
+            "answers": [
+              "第一天是星期一"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-t04",
+            "source": "The second cup is hot.",
+            "answers": [
+              "第二杯很热"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-t05",
+            "source": "This is the first company.",
+            "answers": [
+              "这是第一个公司"
+            ],
+            "tip": "第 + number makes an ordinal."
+          },
+          {
+            "id": "g2-t06",
+            "source": "I like the second book.",
+            "answers": [
+              "我喜欢第二本书"
+            ],
+            "tip": "第 + number makes an ordinal."
+          }
+        ]
+      }
+    },
+    {
+      "id": "zai-again",
+      "title": "再 + verb",
+      "structure": "modal + 再 + verb",
+      "summary": "再 means “again / another time.” It sits before the verb. If there is a modal (想, 要, 会, 可以), 再 comes after the modal.",
+      "exampleHanzi": "我想再喝一杯咖啡。",
+      "examplePinyin": "Wǒ xiǎng zài hē yì bēi kāfēi.",
+      "exampleEn": "I want to drink another cup of coffee.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "I want to drink another cup of coffee.",
+            "template": "我想____喝一杯咖啡。",
+            "pinyin": "Wǒ xiǎng ____ hē yī bēi kāfēi.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "He will come again tomorrow.",
+            "template": "他明天会____来。",
+            "pinyin": "Tā míngtiān huì ____ lái.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "Let me look again.",
+            "template": "我____看一下。",
+            "pinyin": "Wǒ ____ kàn yíxià.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "I want to buy one more cup.",
+            "template": "我想____买一个杯子。",
+            "pinyin": "Wǒ xiǎng ____ mǎi yī ge bēizi.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "Please say it again.",
+            "template": "你____说。",
+            "pinyin": "Nǐ ____ shuō.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "We will wait a bit more.",
+            "template": "我们____等。",
+            "pinyin": "Wǒmen ____ děng.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "She wants to read the paper again.",
+            "template": "她想____看报纸。",
+            "pinyin": "Tā xiǎng ____ kàn bàozhǐ.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "Come in again.",
+            "template": "你____进。",
+            "pinyin": "Nǐ ____ jìn.",
+            "answers": [
+              "再",
+              "zài"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "I will ask again.",
+            "tokens": [
+              "我",
+              "再",
+              "问",
+              "一下"
+            ],
+            "answers": [
+              "我再问一下"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "Drink some more milk.",
+            "tokens": [
+              "再",
+              "喝",
+              "牛奶"
+            ],
+            "answers": [
+              "再喝牛奶"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "He will study again tomorrow.",
+            "tokens": [
+              "他",
+              "明天",
+              "再",
+              "学习"
+            ],
+            "answers": [
+              "他明天再学习"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "I want to go again.",
+            "tokens": [
+              "我",
+              "想",
+              "再",
+              "去"
+            ],
+            "answers": [
+              "我想再去"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "She can wait a little more.",
+            "tokens": [
+              "她",
+              "可以",
+              "再",
+              "等"
+            ],
+            "answers": [
+              "她可以再等"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Let’s walk a bit more.",
+            "tokens": [
+              "我们",
+              "再",
+              "走"
+            ],
+            "answers": [
+              "我们再走"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "I will introduce him again.",
+            "answers": [
+              "我再介绍一下"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-t02",
+            "source": "Buy one more book.",
+            "answers": [
+              "再买一本书"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-t03",
+            "source": "He wants to eat more.",
+            "answers": [
+              "他要再吃"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-t04",
+            "source": "Look at the room again.",
+            "answers": [
+              "再看房间"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-t05",
+            "source": "I will send you again tomorrow.",
+            "answers": [
+              "我明天再送你"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          },
+          {
+            "id": "g3-t06",
+            "source": "She will not be late again.",
+            "answers": [
+              "她不再迟到"
+            ],
+            "tip": "再 goes after a modal and before the verb."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dui",
+      "title": "对…好 / 不好",
+      "structure": "A 对 B + adjective",
+      "summary": "对 is a preposition meaning “to / for.” The pattern is A 对 B + adj./verb, often 好 or 不好.",
+      "exampleHanzi": "喝咖啡对身体不好。",
+      "examplePinyin": "Hē kāfēi duì shēntǐ bù hǎo.",
+      "exampleEn": "Drinking coffee is bad for your health.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "Drinking coffee is bad for your health.",
+            "template": "喝咖啡____身体不好。",
+            "pinyin": "Hē kāfēi ____ shēntǐ bù hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "Drinking milk is good for the body.",
+            "template": "喝牛奶____身体好。",
+            "pinyin": "Hē niúnǎi ____ shēntǐ hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "The teacher is nice to the students.",
+            "template": "老师____学生很好。",
+            "pinyin": "Lǎoshī ____ xuésheng hěn hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "Watching TV is bad for the body.",
+            "template": "看电视____身体不好。",
+            "pinyin": "Kàn diànshì ____ shēntǐ bù hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "Walking is good for your health.",
+            "template": "走____身体好。",
+            "pinyin": "Zǒu ____ shēntǐ hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "This book is good for learning Chinese.",
+            "template": "这本书____学习汉语好。",
+            "pinyin": "Zhè běn shū ____ xuéxí Hànyǔ hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "Mom is nice to the child.",
+            "template": "妈妈____孩子很好。",
+            "pinyin": "Māma ____ háizi hěn hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "Coffee is not good for dad.",
+            "template": "咖啡____爸爸不好。",
+            "pinyin": "Kāfēi ____ bàba bù hǎo.",
+            "answers": [
+              "对",
+              "duì"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "Work is tiring for her.",
+            "tokens": [
+              "工作",
+              "对",
+              "她",
+              "很",
+              "忙"
+            ],
+            "answers": [
+              "工作对她很忙"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "Friends are good to me.",
+            "tokens": [
+              "朋友",
+              "对",
+              "我",
+              "很",
+              "好"
+            ],
+            "answers": [
+              "朋友对我很好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "This tea is good for the body.",
+            "tokens": [
+              "这",
+              "杯",
+              "茶",
+              "对",
+              "身体",
+              "好"
+            ],
+            "answers": [
+              "这杯茶对身体好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "Being late is bad for work.",
+            "tokens": [
+              "迟到",
+              "对",
+              "工作",
+              "不",
+              "好"
+            ],
+            "answers": [
+              "迟到对工作不好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "Reading is good for students.",
+            "tokens": [
+              "看",
+              "书",
+              "对",
+              "学生",
+              "好"
+            ],
+            "answers": [
+              "看书对学生好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "The company is good to everyone.",
+            "tokens": [
+              "公司",
+              "对",
+              "大家",
+              "很",
+              "好"
+            ],
+            "answers": [
+              "公司对大家很好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Hot weather is bad for the child.",
+            "answers": [
+              "热对孩子不好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-t02",
+            "source": "Chinese is good for work.",
+            "answers": [
+              "汉语对工作好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-t03",
+            "source": "This room is good for studying.",
+            "answers": [
+              "这个房间对学习好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-t04",
+            "source": "Milk is good for the child.",
+            "answers": [
+              "牛奶对孩子好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-t05",
+            "source": "She is nice to everyone.",
+            "answers": [
+              "她对大家很好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          },
+          {
+            "id": "g4-t06",
+            "source": "Eating too much is bad for you.",
+            "answers": [
+              "吃太多对身体不好"
+            ],
+            "tip": "对 sits before the person or thing that is affected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bie-buyao",
+      "title": "别 / 不要…了",
+      "structure": "别 / 不要 + verb + 了",
+      "summary": "别 or 不要 plus a verb (often with 了) tells someone to stop or not to do something.",
+      "exampleHanzi": "别看报纸了。",
+      "examplePinyin": "Bié kàn bàozhǐ le.",
+      "exampleEn": "Stop reading the newspaper.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g5-f01",
+            "prompt": "Stop reading the newspaper.",
+            "template": "____看报纸了。",
+            "pinyin": "____ kàn bàozhǐ le.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f02",
+            "prompt": "Don’t be late.",
+            "template": "____迟到。",
+            "pinyin": "____ chídào.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f03",
+            "prompt": "Don’t drink coffee.",
+            "template": "____喝咖啡了。",
+            "pinyin": "____ hē kāfēi le.",
+            "answers": [
+              "不要",
+              "búyào"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f04",
+            "prompt": "Don’t come in.",
+            "template": "____进。",
+            "pinyin": "____ jìn.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f05",
+            "prompt": "Stop waiting.",
+            "template": "____等了。",
+            "pinyin": "____ děng le.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f06",
+            "prompt": "Don’t read this book.",
+            "template": "____看这本书了。",
+            "pinyin": "____ kàn zhè běn shū le.",
+            "answers": [
+              "不要",
+              "búyào"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f07",
+            "prompt": "Don’t go to work today.",
+            "template": "今天____上班。",
+            "pinyin": "Jīntiān ____ shàngbān.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-f08",
+            "prompt": "Stop talking.",
+            "template": "____说了。",
+            "pinyin": "____ shuō le.",
+            "answers": [
+              "别",
+              "bié"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g5-s01",
+            "prompt": "Don’t drink milk.",
+            "tokens": [
+              "别",
+              "喝",
+              "牛奶",
+              "了"
+            ],
+            "answers": [
+              "别喝牛奶了"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-s02",
+            "prompt": "Don’t look for him.",
+            "tokens": [
+              "别",
+              "找",
+              "他"
+            ],
+            "answers": [
+              "别找他"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-s03",
+            "prompt": "Stop eating.",
+            "tokens": [
+              "不要",
+              "吃",
+              "了"
+            ],
+            "answers": [
+              "不要吃了"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-s04",
+            "prompt": "Don’t wait for me.",
+            "tokens": [
+              "别",
+              "等",
+              "我"
+            ],
+            "answers": [
+              "别等我"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-s05",
+            "prompt": "Don’t be late tomorrow.",
+            "tokens": [
+              "明天",
+              "别",
+              "迟到"
+            ],
+            "answers": [
+              "明天别迟到"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-s06",
+            "prompt": "Stop watching TV.",
+            "tokens": [
+              "别",
+              "看",
+              "电视",
+              "了"
+            ],
+            "answers": [
+              "别看电视了"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          }
+        ],
+        "translate": [
+          {
+            "id": "g5-t01",
+            "source": "Don’t go out.",
+            "answers": [
+              "别出去"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-t02",
+            "source": "Don’t send him today.",
+            "answers": [
+              "今天不要送他"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-t03",
+            "source": "Stop drinking tea.",
+            "answers": [
+              "别喝茶了"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-t04",
+            "source": "Don’t go in.",
+            "answers": [
+              "不要进"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-t05",
+            "source": "Don’t ask the teacher.",
+            "answers": [
+              "别问老师"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          },
+          {
+            "id": "g5-t06",
+            "source": "Stop walking.",
+            "answers": [
+              "别走了"
+            ],
+            "tip": "别 / 不要 + verb. 了 often adds “stop doing that.”"
+          }
+        ]
+      }
+    }
+  ]
+}

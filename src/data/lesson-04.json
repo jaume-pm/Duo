@@ -1,0 +1,1523 @@
+{
+  "id": "04",
+  "number": 4,
+  "titleZh": "找汉语学校",
+  "titleEn": "Find a Chinese school",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–4",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–4",
+  "words": [
+    {
+      "hanzi": "正在",
+      "pinyin": "zhèngzài",
+      "pos": "adv.",
+      "meaningEn": "in the process of"
+    },
+    {
+      "hanzi": "虽然",
+      "pinyin": "suīrán",
+      "pos": "conj.",
+      "meaningEn": "although"
+    },
+    {
+      "hanzi": "但是",
+      "pinyin": "dànshì",
+      "pos": "conj.",
+      "meaningEn": "but, yet"
+    },
+    {
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "pos": "n.",
+      "meaningEn": "evening, night"
+    },
+    {
+      "hanzi": "开始",
+      "pinyin": "kāishǐ",
+      "pos": "v.",
+      "meaningEn": "to begin, to start"
+    },
+    {
+      "hanzi": "课",
+      "pinyin": "kè",
+      "pos": "n.",
+      "meaningEn": "class, lesson"
+    },
+    {
+      "hanzi": "让",
+      "pinyin": "ràng",
+      "pos": "v.",
+      "meaningEn": "to ask, to let, to allow"
+    },
+    {
+      "hanzi": "帮助",
+      "pinyin": "bāngzhù",
+      "pos": "v.",
+      "meaningEn": "to help"
+    },
+    {
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "pos": "v.",
+      "meaningEn": "to understand"
+    },
+    {
+      "hanzi": "长",
+      "pinyin": "cháng",
+      "pos": "adj.",
+      "meaningEn": "long"
+    },
+    {
+      "hanzi": "时间",
+      "pinyin": "shíjiān",
+      "pos": "n.",
+      "meaningEn": "time"
+    },
+    {
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "pos": "v.",
+      "meaningEn": "to rest"
+    },
+    {
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "pos": "part.",
+      "meaningEn": "suggestion particle"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "I am looking for a school.",
+        "template": "我____找学校。",
+        "pinyin": "Wǒ ____ zhǎo xuéxiào.",
+        "answers": [
+          "正在",
+          "zhèngzài"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "Although it is hot, I will go.",
+        "template": "____很热但是我去。",
+        "pinyin": "____ hěn rè dànshì wǒ qù.",
+        "answers": [
+          "虽然",
+          "suīrán"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "I like it, but he does not.",
+        "template": "我喜欢____他不喜欢。",
+        "pinyin": "Wǒ xǐhuan ____ tā bù xǐhuan.",
+        "answers": [
+          "但是",
+          "dànshì"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "We start in the evening.",
+        "template": "我们____开始。",
+        "pinyin": "Wǒmen ____ kāishǐ.",
+        "answers": [
+          "晚上",
+          "wǎnshang"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "The class starts tomorrow.",
+        "template": "____明天开始。",
+        "pinyin": "____ míngtiān kāishǐ.",
+        "answers": [
+          "课",
+          "kè"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Let her rest.",
+        "template": "____她休息。",
+        "pinyin": "____ tā xiūxi.",
+        "answers": [
+          "让",
+          "ràng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "This book can help you.",
+        "template": "这本书____你。",
+        "pinyin": "Zhè běn shū ____ nǐ.",
+        "answers": [
+          "帮助",
+          "bāngzhù"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "I understand now.",
+        "template": "我____了。",
+        "pinyin": "Wǒ ____ le.",
+        "answers": [
+          "懂",
+          "dǒng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "The time is long.",
+        "tokens": [
+          "时间",
+          "很",
+          "长"
+        ],
+        "answers": [
+          "时间很长"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "I don’t have time.",
+        "tokens": [
+          "我",
+          "没有",
+          "时间"
+        ],
+        "answers": [
+          "我没有时间"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "Let’s rest.",
+        "tokens": [
+          "我们",
+          "休息",
+          "吧"
+        ],
+        "answers": [
+          "我们休息吧"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "Let’s go.",
+        "tokens": [
+          "我们",
+          "去",
+          "吧"
+        ],
+        "answers": [
+          "我们去吧"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "She is watching TV.",
+        "tokens": [
+          "她",
+          "正在",
+          "看",
+          "电视"
+        ],
+        "answers": [
+          "她正在看电视"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "Class starts at seven.",
+        "tokens": [
+          "课",
+          "七",
+          "点",
+          "开始"
+        ],
+        "answers": [
+          "课七点开始"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "Dad lets me come in.",
+        "answers": [
+          "爸爸让我进"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "I understood the Chinese.",
+        "answers": [
+          "我听懂汉语了"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "The evening is very hot.",
+        "answers": [
+          "晚上很热"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "Although I am busy, I will go.",
+        "answers": [
+          "虽然我很忙但是我去"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "Rest a bit.",
+        "answers": [
+          "休息一下"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "Let’s wait.",
+        "answers": [
+          "我们等吧"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "bushima",
+      "title": "不是…吗",
+      "structure": "不是…吗？",
+      "summary": "不是…吗 is a rhetorical question. You already know the answer; you are reminding someone or showing surprise.",
+      "exampleHanzi": "你不是老师吗？",
+      "examplePinyin": "Nǐ búshì lǎoshī ma?",
+      "exampleEn": "You are a teacher, aren’t you?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "You are a teacher, aren’t you?",
+            "template": "你____老师吗？",
+            "pinyin": "Nǐ ____ lǎoshī ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "He can speak Chinese, can’t he?",
+            "template": "他____会说汉语吗？",
+            "pinyin": "Tā ____ huì shuō Hànyǔ ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "She is at the company, isn’t she?",
+            "template": "她____在公司吗？",
+            "pinyin": "Tā ____ zài gōngsī ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "This is your book, isn’t it?",
+            "template": "这____你的书吗？",
+            "pinyin": "Zhè ____ nǐ de shū ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "You are going today, aren’t you?",
+            "template": "你今天____去吗？",
+            "pinyin": "Nǐ jīntiān ____ qù ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "He already left, didn’t he?",
+            "template": "他____走了吗？",
+            "pinyin": "Tā ____ zǒu le ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "We have a class, don’t we?",
+            "template": "我们____有课吗？",
+            "pinyin": "Wǒmen ____ yǒu kè ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Dad is at home, isn’t he?",
+            "template": "爸爸____在家吗？",
+            "pinyin": "Bàba ____ zài jiā ma?",
+            "answers": [
+              "不是",
+              "búshì"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "This apartment is close, isn’t it?",
+            "tokens": [
+              "这个",
+              "房子",
+              "不是",
+              "很",
+              "近",
+              "吗"
+            ],
+            "answers": [
+              "这个房子不是很近吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "You like coffee, don’t you?",
+            "tokens": [
+              "你",
+              "不是",
+              "喜欢",
+              "咖啡",
+              "吗"
+            ],
+            "answers": [
+              "你不是喜欢咖啡吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "She is a student, isn’t she?",
+            "tokens": [
+              "她",
+              "不是",
+              "学生",
+              "吗"
+            ],
+            "answers": [
+              "她不是学生吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "The child already arrived, didn’t he?",
+            "tokens": [
+              "孩子",
+              "不是",
+              "到",
+              "了",
+              "吗"
+            ],
+            "answers": [
+              "孩子不是到了吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "You are not going to work, are you?",
+            "tokens": [
+              "你",
+              "不是",
+              "不",
+              "上班",
+              "吗"
+            ],
+            "answers": [
+              "你不是不上班吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "This is a new school, isn’t it?",
+            "tokens": [
+              "这",
+              "不是",
+              "新",
+              "学校",
+              "吗"
+            ],
+            "answers": [
+              "这不是新学校吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "He is waiting, isn’t he?",
+            "answers": [
+              "他不是在等吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-t02",
+            "source": "We start this evening, don’t we?",
+            "answers": [
+              "我们不是晚上开始吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-t03",
+            "source": "Mom can help, can’t she?",
+            "answers": [
+              "妈妈不是会帮助吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-t04",
+            "source": "You understood, didn’t you?",
+            "answers": [
+              "你不是懂了吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-t05",
+            "source": "The shop is beside the station, isn’t it?",
+            "answers": [
+              "商店不是在站旁边吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          },
+          {
+            "id": "g1-t06",
+            "source": "They are resting, aren’t they?",
+            "answers": [
+              "他们不是在休息吗"
+            ],
+            "tip": "不是…吗 asks a question you think you already know."
+          }
+        ]
+      }
+    },
+    {
+      "id": "suiran-danshi",
+      "title": "虽然…但是",
+      "structure": "虽然 clause 1，但是 clause 2",
+      "summary": "虽然 means although and 但是 means but. Chinese uses them together in one sentence.",
+      "exampleHanzi": "虽然很热，但是我去。",
+      "examplePinyin": "Suīrán hěn rè, dànshì wǒ qù.",
+      "exampleEn": "Although it is hot, I will go.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "Although it is hot, I will go.",
+            "template": "____很热但是我去。",
+            "pinyin": "____ hěn rè dànshì wǒ qù.",
+            "answers": [
+              "虽然",
+              "suīrán"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "Although I am busy, I like this.",
+            "template": "虽然我很忙____我喜欢。",
+            "pinyin": "Suīrán wǒ hěn máng ____ wǒ xǐhuan.",
+            "answers": [
+              "但是",
+              "dànshì"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "Although the apartment is far, it is pretty.",
+            "template": "____房子很远但是很漂亮。",
+            "pinyin": "____ fángzi hěn yuǎn dànshì hěn piàoliang.",
+            "answers": [
+              "虽然",
+              "suīrán"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "Although he can speak Chinese, the child cannot.",
+            "template": "虽然他会说汉语____孩子不会。",
+            "pinyin": "Suīrán tā huì shuō Hànyǔ ____ háizi bù huì.",
+            "answers": [
+              "但是",
+              "dànshì"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Although it is cold, we will go out.",
+            "template": "____很冷但是我们出去。",
+            "pinyin": "____ hěn lěng dànshì wǒmen chū qù.",
+            "answers": [
+              "虽然",
+              "suīrán"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "Although I like coffee, I drink tea.",
+            "template": "虽然我喜欢咖啡____我喝茶。",
+            "pinyin": "Suīrán wǒ xǐhuan kāfēi ____ wǒ hē chá.",
+            "answers": [
+              "但是",
+              "dànshì"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "Although work is a lot, I am not late.",
+            "template": "____工作很多但是我不迟到。",
+            "pinyin": "____ gōngzuò hěn duō dànshì wǒ bù chídào.",
+            "answers": [
+              "虽然",
+              "suīrán"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "Although the school is new, it is small.",
+            "template": "虽然学校很新____很小。",
+            "pinyin": "Suīrán xuéxiào hěn xīn ____ hěn xiǎo.",
+            "answers": [
+              "但是",
+              "dànshì"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "Although I don’t have time, I will wait.",
+            "tokens": [
+              "虽然",
+              "我",
+              "没有",
+              "时间",
+              "但是",
+              "我",
+              "等"
+            ],
+            "answers": [
+              "虽然我没有时间但是我等"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "Although she is tired, she still works.",
+            "tokens": [
+              "虽然",
+              "她",
+              "很",
+              "忙",
+              "但是",
+              "她",
+              "上班"
+            ],
+            "answers": [
+              "虽然她很忙但是她上班"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "Although milk is good, I don’t like it.",
+            "tokens": [
+              "虽然",
+              "牛奶",
+              "很",
+              "好",
+              "但是",
+              "我",
+              "不",
+              "喜欢"
+            ],
+            "answers": [
+              "虽然牛奶很好但是我不喜欢"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "Although home is far, I am not late.",
+            "tokens": [
+              "虽然",
+              "家",
+              "很",
+              "远",
+              "但是",
+              "我",
+              "不",
+              "迟到"
+            ],
+            "answers": [
+              "虽然家很远但是我不迟到"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "Although the class is long, I like it.",
+            "tokens": [
+              "虽然",
+              "课",
+              "很",
+              "长",
+              "但是",
+              "我",
+              "喜欢"
+            ],
+            "answers": [
+              "虽然课很长但是我喜欢"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "Although he is a student, he works.",
+            "tokens": [
+              "虽然",
+              "他",
+              "是",
+              "学生",
+              "但是",
+              "他",
+              "工作"
+            ],
+            "answers": [
+              "虽然他是学生但是他工作"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "Although the room is small, it is pretty.",
+            "answers": [
+              "虽然房间很小但是很漂亮"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-t02",
+            "source": "Although I understood, I will ask.",
+            "answers": [
+              "虽然我懂了但是我问"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-t03",
+            "source": "Although it is evening, we still go.",
+            "answers": [
+              "虽然是晚上但是我们去"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-t04",
+            "source": "Although dad lets me go, I don’t want to.",
+            "answers": [
+              "虽然爸爸让我去但是我不想去"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Although the supermarket is close, I walk slowly.",
+            "answers": [
+              "虽然超市很近但是我走"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          },
+          {
+            "id": "g2-t06",
+            "source": "Although they rest, they still help.",
+            "answers": [
+              "虽然他们休息但是他们帮助我"
+            ],
+            "tip": "虽然 and 但是 work as a pair."
+          }
+        ]
+      }
+    },
+    {
+      "id": "result-comp",
+      "title": "Result complement",
+      "structure": "verb + 懂 / 见 / 到 / 好",
+      "summary": "A result complement after a verb shows the outcome: 听懂 understood by listening, 看见 saw, 找到 found, 做好 finished well. Negate with 没, and do not use 了.",
+      "exampleHanzi": "我听懂了。",
+      "examplePinyin": "Wǒ tīngdǒng le.",
+      "exampleEn": "I understood (by listening).",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "I understood (by listening).",
+            "template": "我____了。",
+            "pinyin": "Wǒ ____ le.",
+            "answers": [
+              "听懂",
+              "tīngdǒng"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "I saw the cat.",
+            "template": "我____猫了。",
+            "pinyin": "Wǒ ____ māo le.",
+            "answers": [
+              "看见",
+              "kànjiàn"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "She found a school.",
+            "template": "她____学校了。",
+            "pinyin": "Tā ____ xuéxiào le.",
+            "answers": [
+              "找到",
+              "zhǎodào"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "Mom finished cooking.",
+            "template": "妈妈____饭了。",
+            "pinyin": "Māma ____ fàn le.",
+            "answers": [
+              "做好",
+              "zuòhǎo"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "He understood the Chinese.",
+            "template": "他____汉语了。",
+            "pinyin": "Tā ____ Hànyǔ le.",
+            "answers": [
+              "听懂",
+              "tīngdǒng"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "I did not see him.",
+            "template": "我没____他。",
+            "pinyin": "Wǒ méi ____ tā.",
+            "answers": [
+              "看见",
+              "kànjiàn"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "They did not find the company.",
+            "template": "他们没____公司。",
+            "pinyin": "Tāmen méi ____ gōngsī.",
+            "answers": [
+              "找到",
+              "zhǎodào"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "I did not understand.",
+            "template": "我没____。",
+            "pinyin": "Wǒ méi ____.",
+            "answers": [
+              "听懂",
+              "tīngdǒng"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "Did you see the child?",
+            "tokens": [
+              "你",
+              "看见",
+              "孩子",
+              "了",
+              "吗"
+            ],
+            "answers": [
+              "你看见孩子了吗"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "Did she find the book?",
+            "tokens": [
+              "她",
+              "找到",
+              "书",
+              "了",
+              "吗"
+            ],
+            "answers": [
+              "她找到书了吗"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "I understood this lesson.",
+            "tokens": [
+              "我",
+              "听懂",
+              "课",
+              "了"
+            ],
+            "answers": [
+              "我听懂课了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "He saw the teacher.",
+            "tokens": [
+              "他",
+              "看见",
+              "老师",
+              "了"
+            ],
+            "answers": [
+              "他看见老师了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "We found the apartment.",
+            "tokens": [
+              "我们",
+              "找到",
+              "房子",
+              "了"
+            ],
+            "answers": [
+              "我们找到房子了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Dad finished the work.",
+            "tokens": [
+              "爸爸",
+              "做好",
+              "工作",
+              "了"
+            ],
+            "answers": [
+              "爸爸做好工作了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "I cannot understand yet.",
+            "answers": [
+              "我没听懂"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-t02",
+            "source": "She did not see mom.",
+            "answers": [
+              "她没看见妈妈"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-t03",
+            "source": "I found a new school.",
+            "answers": [
+              "我找到新学校了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-t04",
+            "source": "You understood, didn’t you?",
+            "answers": [
+              "你听懂了吗"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-t05",
+            "source": "He did not finish cooking.",
+            "answers": [
+              "他没做好饭"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          },
+          {
+            "id": "g3-t06",
+            "source": "I saw everyone.",
+            "answers": [
+              "我看见大家了"
+            ],
+            "tip": "The second verb or adjective is the result of the first."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rang",
+      "title": "让 + someone + verb",
+      "structure": "subject + 让 + person + verb",
+      "summary": "让 introduces a pivotal sentence: you let or ask someone to do something. 请 and 叫 work the same way.",
+      "exampleHanzi": "你让他们休息一下吧。",
+      "examplePinyin": "Nǐ ràng tāmen xiūxi yíxià ba.",
+      "exampleEn": "Ask them to rest a bit.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "Ask them to rest.",
+            "template": "你____他们休息。",
+            "pinyin": "Nǐ ____ tāmen xiūxi.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "Mom lets me go.",
+            "template": "妈妈____我去。",
+            "pinyin": "Māma ____ wǒ qù.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "Let her come in.",
+            "template": "____她进。",
+            "pinyin": "____ tā jìn.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "Dad asks me to wait.",
+            "template": "爸爸____我等。",
+            "pinyin": "Bàba ____ wǒ děng.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "The teacher lets us rest.",
+            "template": "老师____我们休息。",
+            "pinyin": "Lǎoshī ____ wǒmen xiūxi.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "Let him look.",
+            "template": "____他看。",
+            "pinyin": "____ tā kàn.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "She lets the child drink milk.",
+            "template": "她____孩子喝牛奶。",
+            "pinyin": "Tā ____ háizi hē niúnǎi.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "Let me help you.",
+            "template": "____我帮助你。",
+            "pinyin": "____ wǒ bāngzhù nǐ.",
+            "answers": [
+              "让",
+              "ràng"
+            ],
+            "tip": "让 + person + verb."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "They let us start.",
+            "tokens": [
+              "他们",
+              "让",
+              "我们",
+              "开始"
+            ],
+            "answers": [
+              "他们让我们开始"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "Don’t let him be late.",
+            "tokens": [
+              "别",
+              "让",
+              "他",
+              "迟到"
+            ],
+            "answers": [
+              "别让他迟到"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "Let everyone come in.",
+            "tokens": [
+              "让",
+              "大家",
+              "进"
+            ],
+            "answers": [
+              "让大家进"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "I let my friend look.",
+            "tokens": [
+              "我",
+              "让",
+              "朋友",
+              "看"
+            ],
+            "answers": [
+              "我让朋友看"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "Let the student write.",
+            "tokens": [
+              "让",
+              "学生",
+              "写"
+            ],
+            "answers": [
+              "让学生写"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "Mom lets us watch TV.",
+            "tokens": [
+              "妈妈",
+              "让",
+              "我们",
+              "看",
+              "电视"
+            ],
+            "answers": [
+              "妈妈让我们看电视"
+            ],
+            "tip": "让 + person + verb."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Let her find a school.",
+            "answers": [
+              "让她找学校"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-t02",
+            "source": "The company lets him rest.",
+            "answers": [
+              "公司让他休息"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-t03",
+            "source": "Let me say it.",
+            "answers": [
+              "让我说"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-t04",
+            "source": "He lets me drink tea.",
+            "answers": [
+              "他让我喝茶"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Let the child sleep.",
+            "answers": [
+              "让孩子睡觉"
+            ],
+            "tip": "让 + person + verb."
+          },
+          {
+            "id": "g4-t06",
+            "source": "Please let her wait.",
+            "answers": [
+              "请让她等"
+            ],
+            "tip": "让 + person + verb."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba-suggest",
+      "title": "…吧",
+      "structure": "statement + 吧",
+      "summary": "吧 at the end of a sentence turns it into a suggestion: let’s… / how about…",
+      "exampleHanzi": "我们去吧。",
+      "examplePinyin": "Wǒmen qù ba.",
+      "exampleEn": "Let’s go.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g5-f01",
+            "prompt": "Let’s go.",
+            "template": "我们去____。",
+            "pinyin": "Wǒmen qù ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f02",
+            "prompt": "Let’s rest.",
+            "template": "我们休息____。",
+            "pinyin": "Wǒmen xiūxi ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f03",
+            "prompt": "Have some tea.",
+            "template": "你喝茶____。",
+            "pinyin": "Nǐ hē chá ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f04",
+            "prompt": "Let’s wait.",
+            "template": "我们等____。",
+            "pinyin": "Wǒmen děng ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f05",
+            "prompt": "Ask the teacher.",
+            "template": "你问老师____。",
+            "pinyin": "Nǐ wèn lǎoshī ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f06",
+            "prompt": "Let’s start.",
+            "template": "我们开始____。",
+            "pinyin": "Wǒmen kāishǐ ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f07",
+            "prompt": "Come in.",
+            "template": "你进____。",
+            "pinyin": "Nǐ jìn ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-f08",
+            "prompt": "Let’s look at the apartment.",
+            "template": "我们看房子____。",
+            "pinyin": "Wǒmen kàn fángzi ____.",
+            "answers": [
+              "吧",
+              "ba"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g5-s01",
+            "prompt": "Drink some milk.",
+            "tokens": [
+              "你",
+              "喝",
+              "牛奶",
+              "吧"
+            ],
+            "answers": [
+              "你喝牛奶吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-s02",
+            "prompt": "Let’s go to class.",
+            "tokens": [
+              "我们",
+              "去",
+              "上课",
+              "吧"
+            ],
+            "answers": [
+              "我们去上课吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-s03",
+            "prompt": "You rest.",
+            "tokens": [
+              "你",
+              "休息",
+              "吧"
+            ],
+            "answers": [
+              "你休息吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-s04",
+            "prompt": "Let’s eat.",
+            "tokens": [
+              "我们",
+              "吃",
+              "吧"
+            ],
+            "answers": [
+              "我们吃吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-s05",
+            "prompt": "Call dad.",
+            "tokens": [
+              "你",
+              "打",
+              "电话",
+              "吧"
+            ],
+            "answers": [
+              "你打电话吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-s06",
+            "prompt": "Let’s walk.",
+            "tokens": [
+              "我们",
+              "走",
+              "吧"
+            ],
+            "answers": [
+              "我们走吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g5-t01",
+            "source": "Have a look.",
+            "answers": [
+              "你看看吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-t02",
+            "source": "Let’s wait for her.",
+            "answers": [
+              "我们等她吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-t03",
+            "source": "Go home.",
+            "answers": [
+              "你回家吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-t04",
+            "source": "Let’s help him.",
+            "answers": [
+              "我们帮助他吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-t05",
+            "source": "Sit down.",
+            "answers": [
+              "你坐吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          },
+          {
+            "id": "g5-t06",
+            "source": "Let’s drink coffee.",
+            "answers": [
+              "我们喝咖啡吧"
+            ],
+            "tip": "吧 at the end makes a suggestion."
+          }
+        ]
+      }
+    }
+  ]
+}

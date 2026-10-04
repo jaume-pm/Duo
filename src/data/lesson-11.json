@@ -1,0 +1,1028 @@
+{
+  "id": "11",
+  "number": 11,
+  "titleZh": "中国新年",
+  "titleEn": "Chinese New Year",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–11",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–11",
+  "words": [
+    {
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "pos": "n.",
+      "meaningEn": "elder sister"
+    },
+    {
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "pos": "n.",
+      "meaningEn": "younger brother"
+    },
+    {
+      "hanzi": "次",
+      "pinyin": "cì",
+      "pos": "m.w.",
+      "meaningEn": "times"
+    },
+    {
+      "hanzi": "只有",
+      "pinyin": "zhǐyǒu",
+      "pos": "conj.",
+      "meaningEn": "only"
+    },
+    {
+      "hanzi": "阴",
+      "pinyin": "yīn",
+      "pos": "adj.",
+      "meaningEn": "overcast"
+    },
+    {
+      "hanzi": "晴",
+      "pinyin": "qíng",
+      "pos": "adj.",
+      "meaningEn": "sunny, clear"
+    },
+    {
+      "hanzi": "眼睛",
+      "pinyin": "yǎnjing",
+      "pos": "n.",
+      "meaningEn": "eye"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "Elder sister is in China.",
+        "template": "____在中国。",
+        "pinyin": "____ zài Zhōngguó.",
+        "answers": [
+          "姐姐",
+          "jiějie"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "Younger brother came.",
+        "template": "____来了。",
+        "pinyin": "____ lái le.",
+        "answers": [
+          "弟弟",
+          "dìdi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "I have been once.",
+        "template": "我来过一____。",
+        "pinyin": "Wǒ lái guo yī ____.",
+        "answers": [
+          "次",
+          "cì"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "I only go home at New Year.",
+        "template": "我____新年回家。",
+        "pinyin": "Wǒ ____ xīnnián huí jiā.",
+        "answers": [
+          "只有",
+          "zhǐyǒu"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "The sky is overcast.",
+        "template": "天____了。",
+        "pinyin": "Tiān ____ le.",
+        "answers": [
+          "阴",
+          "yīn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Today is sunny.",
+        "template": "今天很____。",
+        "pinyin": "Jīntiān hěn ____.",
+        "answers": [
+          "晴",
+          "qíng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "Dad’s eyes are not good.",
+        "template": "爸爸的____不太好。",
+        "pinyin": "Bàba de ____ bù tài hǎo.",
+        "answers": [
+          "眼睛",
+          "yǎnjing"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "Sister speaks Chinese well.",
+        "template": "____汉语说得很好。",
+        "pinyin": "____ Hànyǔ shuō de hěn hǎo.",
+        "answers": [
+          "姐姐",
+          "jiějie"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "Brother has been here once.",
+        "tokens": [
+          "弟弟",
+          "来",
+          "过",
+          "一",
+          "次"
+        ],
+        "answers": [
+          "弟弟来过一次"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "I go back only once a year.",
+        "tokens": [
+          "我",
+          "一",
+          "年",
+          "只有",
+          "一",
+          "次",
+          "回",
+          "家"
+        ],
+        "answers": [
+          "我一年只有一次回家"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "It may rain because it’s overcast.",
+        "tokens": [
+          "天",
+          "阴",
+          "了",
+          "可能",
+          "下雨"
+        ],
+        "answers": [
+          "天阴了可能下雨"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "We’ll go when it’s clear.",
+        "tokens": [
+          "天",
+          "晴",
+          "了",
+          "再",
+          "去"
+        ],
+        "answers": [
+          "天晴了再去"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "I want a bigger phone for his eyes.",
+        "tokens": [
+          "眼睛",
+          "不",
+          "好",
+          "要",
+          "大",
+          "的",
+          "手机"
+        ],
+        "answers": [
+          "眼睛不好要大的手机"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "Younger brother worked in China.",
+        "tokens": [
+          "弟弟",
+          "在",
+          "中国",
+          "工作",
+          "过"
+        ],
+        "answers": [
+          "弟弟在中国工作过"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "Elder sister will come at New Year.",
+        "answers": [
+          "姐姐新年会来"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "I have seen her twice.",
+        "answers": [
+          "我见过她两次"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "Only she can help.",
+        "answers": [
+          "只有她可以帮助"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "The weather is clear now.",
+        "answers": [
+          "现在天晴了"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "My eyes are tired.",
+        "answers": [
+          "我的眼睛不好"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "It’s overcast today.",
+        "answers": [
+          "今天阴"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "jiuyao",
+      "title": "就要…了",
+      "structure": "就要 / 快要 / 快 / 要 + verb + 了",
+      "summary": "就要…了 (also 快要…了, 快…了, 要…了) means something is about to happen.",
+      "exampleHanzi": "就要到中国的新年了。",
+      "examplePinyin": "Jiù yào dào Zhōngguó de xīnnián le.",
+      "exampleEn": "Chinese New Year is about to arrive.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "Chinese New Year is about to arrive.",
+            "template": "____到新年了。",
+            "pinyin": "____ dào xīnnián le.",
+            "answers": [
+              "就要",
+              "jiùyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "Dad is about to come back.",
+            "template": "爸爸____回来了。",
+            "pinyin": "Bàba ____ huílai le.",
+            "answers": [
+              "就要",
+              "jiùyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "It’s about to rain.",
+            "template": "____下雨了。",
+            "pinyin": "____ xiàyǔ le.",
+            "answers": [
+              "就要",
+              "jiùyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "The train is about to leave.",
+            "template": "火车____开了。",
+            "pinyin": "Huǒchē ____ kāi le.",
+            "answers": [
+              "快要",
+              "kuàiyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "Chinese class is about to start.",
+            "template": "汉语课____开始了。",
+            "pinyin": "Hànyǔ kè ____ kāishǐ le.",
+            "answers": [
+              "要",
+              "yào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "I am about to go home.",
+            "template": "我____回家了。",
+            "pinyin": "Wǒ ____ huí jiā le.",
+            "answers": [
+              "就要",
+              "jiùyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "Younger brother is about to come.",
+            "template": "弟弟____来了。",
+            "pinyin": "Dìdi ____ lái le.",
+            "answers": [
+              "就要",
+              "jiùyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Elder sister is about to leave.",
+            "template": "姐姐____走了。",
+            "pinyin": "Jiějie ____ zǒu le.",
+            "answers": [
+              "快要",
+              "kuàiyào"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "The New Year is coming.",
+            "tokens": [
+              "新年",
+              "快",
+              "到",
+              "了"
+            ],
+            "answers": [
+              "新年快到了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "I’m about to finish.",
+            "tokens": [
+              "我",
+              "就要",
+              "做完",
+              "了"
+            ],
+            "answers": [
+              "我就要做完了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "She is about to leave hospital.",
+            "tokens": [
+              "她",
+              "就要",
+              "出院",
+              "了"
+            ],
+            "answers": [
+              "她就要出院了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "The plane is about to arrive.",
+            "tokens": [
+              "飞机",
+              "就要",
+              "到",
+              "了"
+            ],
+            "answers": [
+              "飞机就要到了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "We are about to eat.",
+            "tokens": [
+              "我们",
+              "要",
+              "吃",
+              "饭",
+              "了"
+            ],
+            "answers": [
+              "我们要吃饭了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "It’s about to rain.",
+            "tokens": [
+              "天",
+              "就要",
+              "下雨",
+              "了"
+            ],
+            "answers": [
+              "天就要下雨了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "He is about to get up.",
+            "answers": [
+              "他就要起床了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-t02",
+            "source": "The exam is about to start.",
+            "answers": [
+              "考试快要开始了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-t03",
+            "source": "I am about to tell you.",
+            "answers": [
+              "我就要告诉你了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-t04",
+            "source": "They are about to travel.",
+            "answers": [
+              "他们就要去旅游了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-t05",
+            "source": "The weather is about to clear.",
+            "answers": [
+              "天就要晴了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          },
+          {
+            "id": "g1-t06",
+            "source": "New Year is almost here.",
+            "answers": [
+              "就要到了"
+            ],
+            "tip": "就要 / 快要 / 要 + verb + 了 = about to."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ci-times",
+      "title": "Number + 次",
+      "structure": "verb + number + 次 (+ object)",
+      "summary": "次 counts times. Number + 次 often follows the verb. With a place it can go before or after the place; with a person it must follow the person.",
+      "exampleHanzi": "我弟弟来过一次。",
+      "examplePinyin": "Wǒ dìdi láiguo yí cì.",
+      "exampleEn": "My younger brother has been here once.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "Younger brother has been here once.",
+            "template": "弟弟来过一____。",
+            "pinyin": "Dìdi lái guo yī ____.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "I have taken a plane three times.",
+            "template": "我坐过三____飞机。",
+            "pinyin": "Wǒ zuò guo sān ____ fēijī.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "They have seen the movie twice.",
+            "template": "他们看过两____电影。",
+            "pinyin": "Tāmen kàn guo liǎng ____ diànyǐng.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "I have been to Shanghai three times.",
+            "template": "我去过三____上海。",
+            "pinyin": "Wǒ qù guo sān ____ Shànghǎi.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "I have been here once.",
+            "template": "我来过一____。",
+            "pinyin": "Wǒ lái guo yī ____.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "I have met you three times.",
+            "template": "我见过你三____。",
+            "pinyin": "Wǒ jiàn guo nǐ sān ____.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "We looked for him once.",
+            "template": "我们找过他一____。",
+            "pinyin": "Wǒmen zhǎo guo tā yī ____.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "The teacher called him twice.",
+            "template": "老师叫了他两____。",
+            "pinyin": "Lǎoshī jiào le tā liǎng ____.",
+            "answers": [
+              "次",
+              "cì"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "Elder sister has come twice.",
+            "tokens": [
+              "姐姐",
+              "来",
+              "过",
+              "两",
+              "次"
+            ],
+            "answers": [
+              "姐姐来过两次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "I have asked once.",
+            "tokens": [
+              "我",
+              "问",
+              "过",
+              "一",
+              "次"
+            ],
+            "answers": [
+              "我问过一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "He has been to Thailand once.",
+            "tokens": [
+              "他",
+              "去",
+              "过",
+              "泰国",
+              "一",
+              "次"
+            ],
+            "answers": [
+              "他去过泰国一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "I play basketball twice a week.",
+            "tokens": [
+              "我",
+              "一",
+              "个",
+              "星期",
+              "打篮球",
+              "两",
+              "次"
+            ],
+            "answers": [
+              "我一个星期打篮球两次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "She has taken the train three times.",
+            "tokens": [
+              "她",
+              "坐",
+              "过",
+              "三",
+              "次",
+              "火车"
+            ],
+            "answers": [
+              "她坐过三次火车"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "We have swum once.",
+            "tokens": [
+              "我们",
+              "游泳",
+              "过",
+              "一",
+              "次"
+            ],
+            "answers": [
+              "我们游泳过一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "Younger brother has seen me once.",
+            "answers": [
+              "弟弟见过我一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-t02",
+            "source": "I go home once a year.",
+            "answers": [
+              "我一年回家一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-t03",
+            "source": "They have traveled twice.",
+            "answers": [
+              "他们旅游过两次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-t04",
+            "source": "I have used this phone once.",
+            "answers": [
+              "我用过这个手机一次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Dad has come three times.",
+            "answers": [
+              "爸爸来过三次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          },
+          {
+            "id": "g2-t06",
+            "source": "I have taken photos twice.",
+            "answers": [
+              "我照相过两次"
+            ],
+            "tip": "次 = times. Verb + number + 次."
+          }
+        ]
+      }
+    },
+    {
+      "id": "de-bi",
+      "title": "V 得 比",
+      "structure": "A 比 B + V + 得 + adj  /  A + V + 得 + 比 + B + adj",
+      "summary": "When a state complement and a comparison occur together: 他比我学得快 or 他学得比我快.",
+      "exampleHanzi": "她说得比我好。",
+      "examplePinyin": "Tā shuō de bǐ wǒ hǎo.",
+      "exampleEn": "She speaks better than I do.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "She speaks better than I do.",
+            "template": "她说得____我好。",
+            "pinyin": "Tā shuō de ____ wǒ hǎo.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "He learns faster than I do.",
+            "template": "他学得____我快。",
+            "pinyin": "Tā xué de ____ wǒ kuài.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "Xiaoming runs faster than I do.",
+            "template": "他跑得____我快。",
+            "pinyin": "Tā pǎo de ____ wǒ kuài.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "Elder sister speaks better than younger brother.",
+            "template": "姐姐说得____弟弟好。",
+            "pinyin": "Jiějie shuō de ____ dìdi hǎo.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "I write better than he does.",
+            "template": "我写得____他好。",
+            "pinyin": "Wǒ xiě de ____ tā hǎo.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "She sings better than I do.",
+            "template": "她唱歌唱得____我好。",
+            "pinyin": "Tā chànggē chàng de ____ wǒ hǎo.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "Dad walks faster than mom.",
+            "template": "爸爸走得____妈妈快。",
+            "pinyin": "Bàba zǒu de ____ māma kuài.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "Younger brother gets up earlier than I do.",
+            "template": "弟弟起床起得____我早。",
+            "pinyin": "Dìdi qǐchuáng qǐ de ____ wǒ zǎo.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "He does exams better than I do.",
+            "tokens": [
+              "他",
+              "考",
+              "得",
+              "比",
+              "我",
+              "好"
+            ],
+            "answers": [
+              "他考得比我好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "I rest more than she does.",
+            "tokens": [
+              "我",
+              "休息",
+              "得",
+              "比",
+              "她",
+              "多"
+            ],
+            "answers": [
+              "我休息得比她多"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "Elder sister works faster.",
+            "tokens": [
+              "姐姐",
+              "做",
+              "得",
+              "比",
+              "我",
+              "快"
+            ],
+            "answers": [
+              "姐姐做得比我快"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "She swims better than I do.",
+            "tokens": [
+              "她",
+              "游泳",
+              "游",
+              "得",
+              "比",
+              "我",
+              "好"
+            ],
+            "answers": [
+              "她游泳游得比我好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "I wait longer than he does.",
+            "tokens": [
+              "我",
+              "等",
+              "得",
+              "比",
+              "他",
+              "长"
+            ],
+            "answers": [
+              "我等得比他长"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Younger brother eats faster.",
+            "tokens": [
+              "弟弟",
+              "吃",
+              "得",
+              "比",
+              "我",
+              "快"
+            ],
+            "answers": [
+              "弟弟吃得比我快"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "He speaks Chinese better than I do.",
+            "answers": [
+              "他说汉语说得比我好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-t02",
+            "source": "Mom cooks better than I do.",
+            "answers": [
+              "妈妈做得比我好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-t03",
+            "source": "I jog faster than dad.",
+            "answers": [
+              "我跑步跑得比爸爸快"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-t04",
+            "source": "She sees better than I do.",
+            "answers": [
+              "她看得比我好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-t05",
+            "source": "Elder brother asks more than I do.",
+            "answers": [
+              "哥哥问得比我多"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          },
+          {
+            "id": "g3-t06",
+            "source": "They play better than we do.",
+            "answers": [
+              "他们玩儿得比我们好"
+            ],
+            "tip": "Two orders: A 比 B V 得 adj, or A V 得 比 B adj."
+          }
+        ]
+      }
+    }
+  ]
+}

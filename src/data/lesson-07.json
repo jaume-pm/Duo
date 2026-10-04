@@ -1,0 +1,1262 @@
+{
+  "id": "07",
+  "number": 7,
+  "titleZh": "谈论旅游",
+  "titleEn": "Talking about travel",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–7",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–7",
+  "words": [
+    {
+      "hanzi": "快乐",
+      "pinyin": "kuàilè",
+      "pos": "adj.",
+      "meaningEn": "happy"
+    },
+    {
+      "hanzi": "礼物",
+      "pinyin": "lǐwù",
+      "pos": "n.",
+      "meaningEn": "gift, present"
+    },
+    {
+      "hanzi": "手表",
+      "pinyin": "shǒubiǎo",
+      "pos": "n.",
+      "meaningEn": "watch"
+    },
+    {
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "pos": "adv.",
+      "meaningEn": "very"
+    },
+    {
+      "hanzi": "玩儿",
+      "pinyin": "wánr",
+      "pos": "v.",
+      "meaningEn": "to play, to have fun"
+    },
+    {
+      "hanzi": "还",
+      "pinyin": "hái",
+      "pos": "adv.",
+      "meaningEn": "passably; still"
+    },
+    {
+      "hanzi": "去年",
+      "pinyin": "qùnián",
+      "pos": "n.",
+      "meaningEn": "last year"
+    },
+    {
+      "hanzi": "雪",
+      "pinyin": "xuě",
+      "pos": "n.",
+      "meaningEn": "snow"
+    },
+    {
+      "hanzi": "路",
+      "pinyin": "lù",
+      "pos": "n.",
+      "meaningEn": "road, way"
+    },
+    {
+      "hanzi": "白",
+      "pinyin": "bái",
+      "pos": "adj.",
+      "meaningEn": "white"
+    },
+    {
+      "hanzi": "好吃",
+      "pinyin": "hǎochī",
+      "pos": "adj.",
+      "meaningEn": "delicious"
+    },
+    {
+      "hanzi": "宾馆",
+      "pinyin": "bīnguǎn",
+      "pos": "n.",
+      "meaningEn": "hotel"
+    },
+    {
+      "hanzi": "游泳",
+      "pinyin": "yóuyǒng",
+      "pos": "v.",
+      "meaningEn": "to swim"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "Happy New Year.",
+        "template": "新年____。",
+        "pinyin": "Xīnnián ____.",
+        "answers": [
+          "快乐",
+          "kuàilè"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "This gift is for you.",
+        "template": "这个____是给你的。",
+        "pinyin": "Zhège ____ shì gěi nǐ de.",
+        "answers": [
+          "礼物",
+          "lǐwù"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "The watch is new.",
+        "template": "____很新。",
+        "pinyin": "____ hěn xīn.",
+        "answers": [
+          "手表",
+          "shǒubiǎo"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "I like it very much.",
+        "template": "我____喜欢。",
+        "pinyin": "Wǒ ____ xǐhuan.",
+        "answers": [
+          "非常",
+          "fēicháng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "The children are playing.",
+        "template": "孩子在____。",
+        "pinyin": "Háizi zài ____.",
+        "answers": [
+          "玩儿",
+          "wánr"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "It’s not bad.",
+        "template": "____好。",
+        "pinyin": "____ hǎo.",
+        "answers": [
+          "还",
+          "hái"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "I went last year.",
+        "template": "我____去了。",
+        "pinyin": "Wǒ ____ qù le.",
+        "answers": [
+          "去年",
+          "qùnián"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "There is snow.",
+        "template": "有____。",
+        "pinyin": "Yǒu ____.",
+        "answers": [
+          "雪",
+          "xuě"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "The road is long.",
+        "tokens": [
+          "路",
+          "很",
+          "长"
+        ],
+        "answers": [
+          "路很长"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "The snow is white.",
+        "tokens": [
+          "雪",
+          "是",
+          "白",
+          "的"
+        ],
+        "answers": [
+          "雪是白的"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "This dish is delicious.",
+        "tokens": [
+          "这个",
+          "菜",
+          "很",
+          "好吃"
+        ],
+        "answers": [
+          "这个菜很好吃"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "The hotel is big.",
+        "tokens": [
+          "宾馆",
+          "很",
+          "大"
+        ],
+        "answers": [
+          "宾馆很大"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "I like swimming.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "游泳"
+        ],
+        "answers": [
+          "我喜欢游泳"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "The gift is a watch.",
+        "tokens": [
+          "礼物",
+          "是",
+          "手表"
+        ],
+        "answers": [
+          "礼物是手表"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "Last year was cold.",
+        "answers": [
+          "去年很冷"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "The road is white.",
+        "answers": [
+          "路是白的"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "The hotel food is good.",
+        "answers": [
+          "宾馆的菜很好吃"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "Let’s play.",
+        "answers": [
+          "我们玩儿吧"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "I am very happy.",
+        "answers": [
+          "我非常高兴"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "She swims every day.",
+        "answers": [
+          "她每天游泳"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "de-phrase",
+      "title": "的-phrase",
+      "structure": "pronoun / adjective / verb + 的",
+      "summary": "的 after a person, adjective, or verb can stand for a noun that is already clear: 我的 = mine, 红的 = the red one, 开车的 = the person who drives.",
+      "exampleHanzi": "这是我的。",
+      "examplePinyin": "Zhè shì wǒ de.",
+      "exampleEn": "This is mine.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "This is mine.",
+            "template": "这是我____。",
+            "pinyin": "Zhè shì wǒ ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "That is dad’s.",
+            "template": "那是爸爸____。",
+            "pinyin": "Nà shì bàba ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "This book is not mine.",
+            "template": "这本书不是我____。",
+            "pinyin": "Zhè běn shū bù shì wǒ ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "My cup is the red one.",
+            "template": "我____杯子是红的。",
+            "pinyin": "Wǒ ____ bēizi shì hóng de.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "This gift is younger sister’s.",
+            "template": "这个礼物是妹妹____。",
+            "pinyin": "Zhège lǐwù shì mèimei ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "The watch is his.",
+            "template": "手表是他____。",
+            "pinyin": "Shǒubiǎo shì tā ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "I want the cheap one.",
+            "template": "我要便宜____。",
+            "pinyin": "Wǒ yào piányi ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "She likes the white one.",
+            "template": "她喜欢白____。",
+            "pinyin": "Tā xǐhuan bái ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "的 can replace a noun you both know."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "This hotel is theirs.",
+            "tokens": [
+              "这个",
+              "宾馆",
+              "是",
+              "他们",
+              "的"
+            ],
+            "answers": [
+              "这个宾馆是他们的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "The delicious one is here.",
+            "tokens": [
+              "好吃",
+              "的",
+              "在",
+              "这儿"
+            ],
+            "answers": [
+              "好吃的在这儿"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "That is mom’s.",
+            "tokens": [
+              "那",
+              "是",
+              "妈妈",
+              "的"
+            ],
+            "answers": [
+              "那是妈妈的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "Is this yours?",
+            "tokens": [
+              "这",
+              "是",
+              "你",
+              "的",
+              "吗"
+            ],
+            "answers": [
+              "这是你的吗"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "I don’t want the small one.",
+            "tokens": [
+              "我",
+              "不要",
+              "小",
+              "的"
+            ],
+            "answers": [
+              "我不要小的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "The new one is pretty.",
+            "tokens": [
+              "新",
+              "的",
+              "很",
+              "漂亮"
+            ],
+            "answers": [
+              "新的很漂亮"
+            ],
+            "tip": "的 can replace a noun you both know."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "This is the teacher’s.",
+            "answers": [
+              "这是老师的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-t02",
+            "source": "Elder brother’s is here.",
+            "answers": [
+              "哥哥的在这儿"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-t03",
+            "source": "I like the big one.",
+            "answers": [
+              "我喜欢大的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-t04",
+            "source": "The red one is cheap.",
+            "answers": [
+              "红的很便宜"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-t05",
+            "source": "This ticket is mine.",
+            "answers": [
+              "这个票是我的"
+            ],
+            "tip": "的 can replace a noun you both know."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Last year’s was better.",
+            "answers": [
+              "去年的很好"
+            ],
+            "tip": "的 can replace a noun you both know."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shi-de",
+      "title": "是…的 (who did it)",
+      "structure": "thing 是 person + verb + 的",
+      "summary": "是 + person + verb + 的 emphasizes who did the action: 这本书是我买的.",
+      "exampleHanzi": "那是李明买的。",
+      "examplePinyin": "Nà shì wǒ mǎi de.",
+      "exampleEn": "That is one I bought.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "This book is one I bought.",
+            "template": "这本书____我买的。",
+            "pinyin": "Zhè běn shū ____ wǒ mǎi de.",
+            "answers": [
+              "是",
+              "shì"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "Breakfast is one mom made.",
+            "template": "饭是妈妈做____。",
+            "pinyin": "Fàn shì māma zuò ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "This character is one he wrote.",
+            "template": "这个字是他写____。",
+            "pinyin": "Zhège zì shì tā xiě ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "The gift is one dad bought.",
+            "template": "礼物____爸爸买的。",
+            "pinyin": "Lǐwù ____ bàba mǎi de.",
+            "answers": [
+              "是",
+              "shì"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "The watch is one she found.",
+            "template": "手表是她找____。",
+            "pinyin": "Shǒubiǎo shì tā zhǎo ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "This ticket is one I bought.",
+            "template": "这个票____我买的。",
+            "pinyin": "Zhège piào ____ wǒ mǎi de.",
+            "answers": [
+              "是",
+              "shì"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "The rice is one I cooked.",
+            "template": "米饭是我做____。",
+            "pinyin": "Mǐfàn shì wǒ zuò ____.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "This is not one I bought.",
+            "template": "这不____我买的。",
+            "pinyin": "Zhè bù ____ wǒ mǎi de.",
+            "answers": [
+              "是",
+              "shì"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "The phone is one he bought.",
+            "tokens": [
+              "手机",
+              "是",
+              "他",
+              "买",
+              "的"
+            ],
+            "answers": [
+              "手机是他买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "The newspaper is one teacher bought.",
+            "tokens": [
+              "报纸",
+              "是",
+              "老师",
+              "买",
+              "的"
+            ],
+            "answers": [
+              "报纸是老师买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "This cup is one younger sister bought.",
+            "tokens": [
+              "杯子",
+              "是",
+              "妹妹",
+              "买",
+              "的"
+            ],
+            "answers": [
+              "杯子是妹妹买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "The hotel was one we found.",
+            "tokens": [
+              "宾馆",
+              "是",
+              "我们",
+              "找",
+              "的"
+            ],
+            "answers": [
+              "宾馆是我们找的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "This is one she wrote.",
+            "tokens": [
+              "这",
+              "是",
+              "她",
+              "写",
+              "的"
+            ],
+            "answers": [
+              "这是她写的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "The coffee is one I bought.",
+            "tokens": [
+              "咖啡",
+              "是",
+              "我",
+              "买",
+              "的"
+            ],
+            "answers": [
+              "咖啡是我买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "That is not one dad made.",
+            "answers": [
+              "那不是爸爸做的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-t02",
+            "source": "This question is one I wrote.",
+            "answers": [
+              "这道题是我写的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-t03",
+            "source": "The milk is one mom bought.",
+            "answers": [
+              "牛奶是妈妈买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-t04",
+            "source": "This is one they bought.",
+            "answers": [
+              "这是他们买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-t05",
+            "source": "The clothes are ones she wears.",
+            "answers": [
+              "衣服是她穿的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          },
+          {
+            "id": "g2-t06",
+            "source": "This train ticket is one I bought.",
+            "answers": [
+              "火车票是我买的"
+            ],
+            "tip": "是 + doer + verb + 的 names who did it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hai-adj",
+      "title": "还 + adjective",
+      "structure": "还 + 好 / 可以 / 行",
+      "summary": "还 before an adjective often means “passably / not bad”: 还好, 还可以.",
+      "exampleHanzi": "还可以。",
+      "examplePinyin": "Hái kěyǐ.",
+      "exampleEn": "Not bad.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "Not bad.",
+            "template": "____好。",
+            "pinyin": "____ hǎo.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "It’s acceptable.",
+            "template": "____可以。",
+            "pinyin": "____ kěyǐ.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "The hotel is all right.",
+            "template": "宾馆____好。",
+            "pinyin": "Bīnguǎn ____ hǎo.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "The weather is not too bad.",
+            "template": "天气____可以。",
+            "pinyin": "Tiānqì ____ kěyǐ.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "This watch is all right.",
+            "template": "这个手表____好。",
+            "pinyin": "Zhège shǒubiǎo ____ hǎo.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "The road is okay.",
+            "template": "路____可以。",
+            "pinyin": "Lù ____ kěyǐ.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "I’m still all right.",
+            "template": "我____好。",
+            "pinyin": "Wǒ ____ hǎo.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "The gift is acceptable.",
+            "template": "礼物____可以。",
+            "pinyin": "Lǐwù ____ kěyǐ.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "Last year was all right.",
+            "tokens": [
+              "去年",
+              "还",
+              "好"
+            ],
+            "answers": [
+              "去年还好"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "Swimming is okay.",
+            "tokens": [
+              "游泳",
+              "还",
+              "可以"
+            ],
+            "answers": [
+              "游泳还可以"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "The food is not bad.",
+            "tokens": [
+              "菜",
+              "还",
+              "好吃"
+            ],
+            "answers": [
+              "菜还好吃"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "The room is all right.",
+            "tokens": [
+              "房间",
+              "还",
+              "好"
+            ],
+            "answers": [
+              "房间还好"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "Work is still okay.",
+            "tokens": [
+              "工作",
+              "还",
+              "可以"
+            ],
+            "answers": [
+              "工作还可以"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Her Chinese is all right.",
+            "tokens": [
+              "她",
+              "的",
+              "汉语",
+              "还",
+              "好"
+            ],
+            "answers": [
+              "她的汉语还好"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "The ticket is acceptable.",
+            "answers": [
+              "票还可以"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-t02",
+            "source": "Today is not too bad.",
+            "answers": [
+              "今天还好"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-t03",
+            "source": "The class is okay.",
+            "answers": [
+              "课还可以"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-t04",
+            "source": "This phone is all right.",
+            "answers": [
+              "这个手机还好"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-t05",
+            "source": "Thailand was okay.",
+            "answers": [
+              "泰国还可以"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          },
+          {
+            "id": "g3-t06",
+            "source": "The snow is pretty enough.",
+            "answers": [
+              "雪还漂亮"
+            ],
+            "tip": "还 + adj = fairly / not too bad."
+          }
+        ]
+      }
+    },
+    {
+      "id": "youdiar",
+      "title": "有点儿 + adjective",
+      "structure": "有点儿 + adj",
+      "summary": "有点儿 + adjective often shows a slight complaint: a bit too hot, a bit expensive, a bit far.",
+      "exampleHanzi": "天气有点儿热。",
+      "examplePinyin": "Tiānqì yǒudiǎnr rè.",
+      "exampleEn": "The weather is a bit hot.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "The weather is a bit hot.",
+            "template": "天气____热。",
+            "pinyin": "Tiānqì ____ rè.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "This is a bit small.",
+            "template": "这个____小。",
+            "pinyin": "Zhège ____ xiǎo.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "That school is a bit far.",
+            "template": "那个学校____远。",
+            "pinyin": "Nàge xuéxiào ____ yuǎn.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "I am a bit busy.",
+            "template": "我____忙。",
+            "pinyin": "Wǒ ____ máng.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "The room is a bit small.",
+            "template": "房间____小。",
+            "pinyin": "Fángjiān ____ xiǎo.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "The coffee is a bit hot.",
+            "template": "咖啡____热。",
+            "pinyin": "Kāfēi ____ rè.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "The hotel is a bit far.",
+            "template": "宾馆____远。",
+            "pinyin": "Bīnguǎn ____ yuǎn.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "This watch is a bit big.",
+            "template": "手表____大。",
+            "pinyin": "Shǒubiǎo ____ dà.",
+            "answers": [
+              "有点儿",
+              "yǒudiǎnr"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "The road is a bit long.",
+            "tokens": [
+              "路",
+              "有点儿",
+              "长"
+            ],
+            "answers": [
+              "路有点儿长"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "I am a bit cold.",
+            "tokens": [
+              "我",
+              "有点儿",
+              "冷"
+            ],
+            "answers": [
+              "我有点儿冷"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "The exam is a bit long.",
+            "tokens": [
+              "考试",
+              "有点儿",
+              "长"
+            ],
+            "answers": [
+              "考试有点儿长"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "She is a bit late.",
+            "tokens": [
+              "她",
+              "有点儿",
+              "迟到"
+            ],
+            "answers": [
+              "她有点儿迟到"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "The dish is a bit hot.",
+            "tokens": [
+              "菜",
+              "有点儿",
+              "热"
+            ],
+            "answers": [
+              "菜有点儿热"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "This book is a bit small.",
+            "tokens": [
+              "这",
+              "本",
+              "书",
+              "有点儿",
+              "小"
+            ],
+            "answers": [
+              "这本书有点儿小"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Work is a bit much.",
+            "answers": [
+              "工作有点儿多"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-t02",
+            "source": "The child is a bit small.",
+            "answers": [
+              "孩子有点儿小"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-t03",
+            "source": "The station is a bit far.",
+            "answers": [
+              "站有点儿远"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-t04",
+            "source": "I am a bit tired of waiting.",
+            "answers": [
+              "我等得有点儿长"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-t05",
+            "source": "The time is a bit long.",
+            "answers": [
+              "时间有点儿长"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          },
+          {
+            "id": "g4-t06",
+            "source": "Last year was a bit cold.",
+            "answers": [
+              "去年有点儿冷"
+            ],
+            "tip": "有点儿 + adj = a bit (often not in a good way)."
+          }
+        ]
+      }
+    }
+  ]
+}
