@@ -1,0 +1,777 @@
+{
+  "id": "01",
+  "number": 1,
+  "titleZh": "去机场接朋友",
+  "titleEn": "Pick up friends at the airport",
+  "titleEs": "Ir al aeropuerto a recoger a unos amigos",
+  "sourceNote": "Everyday Chinese · HSK 2 · 第一课",
+  "words": [
+    {
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "pos": "n.",
+      "meaningEn": "morning",
+      "meaningEs": "mañana"
+    },
+    {
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "pos": "n.",
+      "meaningEn": "airport",
+      "meaningEs": "aeropuerto"
+    },
+    {
+      "hanzi": "接",
+      "pinyin": "jiē",
+      "pos": "v.",
+      "meaningEn": "to pick up / receive / accept",
+      "meaningEs": "recoger, recibir"
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dào",
+      "pos": "v.",
+      "meaningEn": "to arrive, to reach",
+      "meaningEs": "llegar, alcanzar"
+    },
+    {
+      "hanzi": "已经",
+      "pinyin": "yǐjīng",
+      "pos": "adv.",
+      "meaningEn": "already",
+      "meaningEs": "ya"
+    },
+    {
+      "hanzi": "出",
+      "pinyin": "chū",
+      "pos": "v.",
+      "meaningEn": "to come / go out",
+      "meaningEs": "salir"
+    },
+    {
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "pos": "v.",
+      "meaningEn": "to wear, to put on",
+      "meaningEs": "llevar puesto, ponerse"
+    },
+    {
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "pos": "part.",
+      "meaningEn": "aspect particle: a continuing state",
+      "meaningEs": "partícula de estado continuo"
+    },
+    {
+      "hanzi": "红（色）",
+      "pinyin": "hóng (sè)",
+      "pos": "adj.",
+      "meaningEn": "red",
+      "meaningEs": "rojo"
+    },
+    {
+      "hanzi": "介绍",
+      "pinyin": "jièshào",
+      "pos": "v.",
+      "meaningEn": "to introduce, to recommend",
+      "meaningEs": "presentar, recomendar"
+    },
+    {
+      "hanzi": "一下",
+      "pinyin": "yíxià",
+      "pos": "num.-m.",
+      "meaningEn": "after a verb: a brief act or attempt",
+      "meaningEs": "tras un verbo: acción breve o intento"
+    },
+    {
+      "hanzi": "妻子",
+      "pinyin": "qīzi",
+      "pos": "n.",
+      "meaningEn": "wife",
+      "meaningEs": "esposa"
+    },
+    {
+      "hanzi": "孩子",
+      "pinyin": "háizi",
+      "pos": "n.",
+      "meaningEn": "child, kid",
+      "meaningEs": "hijo/a, niño/a"
+    },
+    {
+      "hanzi": "丈夫",
+      "pinyin": "zhàngfu",
+      "pos": "n.",
+      "meaningEn": "husband",
+      "meaningEs": "marido"
+    },
+    {
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "pos": "v.",
+      "meaningEn": "to welcome",
+      "meaningEs": "dar la bienvenida"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "yijing-le",
+      "title": "已经…了",
+      "structure": "sujeto + 已经 + predicado + 了",
+      "summaryEs": "已经 significa «ya». Va después del sujeto y antes del predicado, casi siempre con 了, para indicar que la acción ya se completó.",
+      "exampleHanzi": "我们已经到了。",
+      "examplePinyin": "Wǒmen yǐjīng dào le.",
+      "exampleEn": "We arrived already."
+    },
+    {
+      "id": "zhe",
+      "title": "着",
+      "structure": "verbo + 着",
+      "summaryEs": "着 es una partícula aspectual: detrás del verbo marca que un estado continúa. Negación: 没 + verbo + 着. Pregunta: …没有？",
+      "exampleHanzi": "你穿着红色的衣服。",
+      "examplePinyin": "Nǐ chuānzhe hóngsè de yīfu.",
+      "exampleEn": "You are wearing red clothes."
+    },
+    {
+      "id": "shibushi",
+      "title": "是不是",
+      "structure": "是不是…？ / …，是不是？",
+      "summaryEs": "是不是 pide confirmación («¿verdad?»). Puede ir al principio, después del sujeto o al final de la frase.",
+      "exampleHanzi": "你穿着红色的衣服，是不是？",
+      "examplePinyin": "Nǐ chuānzhe hóngsè de yīfu, shì bu shì?",
+      "exampleEn": "You are wearing red clothes, aren’t you?"
+    },
+    {
+      "id": "yixia",
+      "title": "V + 一下",
+      "structure": "verbo + 一下",
+      "summaryEs": "一下 después del verbo marca una acción breve y suaviza el tono (más cortés).",
+      "exampleHanzi": "我给你们介绍一下。",
+      "examplePinyin": "Wǒ gěi nǐmen jièshào yíxià.",
+      "exampleEn": "Let me make the introductions."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "t1",
+      "title": "Diálogo 1",
+      "lines": [
+        {
+          "speaker": "A",
+          "hanzi": "我们明天早上几点去机场接大卫？",
+          "pinyin": "Wǒmen míngtiān zǎoshang jǐ diǎn qù jīchǎng jiē Dàwèi?",
+          "en": "What time shall we leave for the airport to pick up David tomorrow morning?"
+        },
+        {
+          "speaker": "B",
+          "hanzi": "七点。大卫的飞机早上八点到北京。",
+          "pinyin": "Qī diǎn. Dàwèi de fēijī zǎoshang bā diǎn dào Běijīng.",
+          "en": "7 o'clock. David's flight will arrive in Beijing at eight in the morning."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Diálogo 2",
+      "lines": [
+        {
+          "speaker": "A",
+          "hanzi": "喂，丽丽，你们到机场了吗？",
+          "pinyin": "Wèi, Lìli, nǐmen dào jīchǎng le ma?",
+          "en": "Hello, Lili, did you arrive at the airport?"
+        },
+        {
+          "speaker": "B",
+          "hanzi": "我们已经到了。你们出来了吗？",
+          "pinyin": "Wǒmen yǐjīng dào le. Nǐmen chūlai le ma?",
+          "en": "We arrived already. Did you come out?"
+        },
+        {
+          "speaker": "A",
+          "hanzi": "我们已经出来了。我看见你了！你穿着红色的衣服，是不是？",
+          "pinyin": "Wǒmen yǐjīng chūlai le. Wǒ kànjiàn nǐ le! Nǐ chuānzhe hóngsè de yīfu, shì bu shì?",
+          "en": "We came out already. I see you now. Are you wearing a red T-shirt?"
+        },
+        {
+          "speaker": "B",
+          "hanzi": "是的。",
+          "pinyin": "Shì de.",
+          "en": "Yes, I am."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Diálogo 3",
+      "lines": [
+        {
+          "speaker": "A",
+          "hanzi": "我给你们介绍一下。这是我的妻子珍妮，我的孩子麦克和安娜。",
+          "pinyin": "Wǒ gěi nǐmen jièshào yíxià. Zhè shì wǒ de qīzi Zhēnnī, wǒ de háizi Màikè hé Ānnà.",
+          "en": "Let me make the introductions. This is my wife Jenny, my children Mike and Anna."
+        },
+        {
+          "speaker": "A",
+          "hanzi": "珍妮，这是我的好朋友丽丽，这是她的丈夫李明。",
+          "pinyin": "Zhēnnī, zhè shì wǒ de hǎo péngyou Lìli, zhè shì tā de zhàngfu Lǐ Míng.",
+          "en": "Jenny, this is my good friend Lili, and this is her husband Li Ming."
+        },
+        {
+          "speaker": "B",
+          "hanzi": "李明，丽丽，你们好！很高兴认识你们。",
+          "pinyin": "Lǐ Míng, Lìli, nǐmen hǎo! Hěn gāoxìng rènshi nǐmen.",
+          "en": "Hello, Li Ming and Lili! Nice to meet you!"
+        },
+        {
+          "speaker": "C",
+          "hanzi": "你好，珍妮，欢迎你来中国。",
+          "pinyin": "Nǐ hǎo, Zhēnnī, huānyíng nǐ lái Zhōngguó.",
+          "en": "Hello, Jenny, welcome to China."
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fill": [
+      {
+        "id": "f01",
+        "focus": "早上",
+        "promptEs": "¿A qué hora vamos por la mañana?",
+        "promptEn": "What time tomorrow morning…",
+        "template": "我们明天____几点去机场接大卫？",
+        "pinyin": "Wǒmen míngtiān ____ jǐ diǎn qù jīchǎng jiē Dàwèi?",
+        "answers": ["早上", "zaoshang", "zǎoshang"],
+        "tip": "早上 (zǎoshang) = por la mañana. Palabra nueva de esta lección."
+      },
+      {
+        "id": "f02",
+        "focus": "机场 / 接",
+        "promptEs": "Vamos al aeropuerto a recoger a David.",
+        "promptEn": "We go to the airport to pick up David.",
+        "template": "我们明天早上几点去____接大卫？",
+        "pinyin": "Wǒmen míngtiān zǎoshang jǐ diǎn qù ____ jiē Dàwèi?",
+        "answers": ["机场", "jichang", "jīchǎng"],
+        "tip": "机场 (jīchǎng) = aeropuerto. 接 = recoger a alguien."
+      },
+      {
+        "id": "f03",
+        "focus": "接",
+        "promptEs": "Recoger a David en el aeropuerto.",
+        "promptEn": "Pick David up at the airport.",
+        "template": "我们明天早上去机场____大卫。",
+        "pinyin": "Wǒmen míngtiān zǎoshang qù jīchǎng ____ Dàwèi.",
+        "answers": ["接", "jie", "jiē"],
+        "tip": "接 (jiē) aquí es «recoger / ir a buscar» a una persona."
+      },
+      {
+        "id": "f04",
+        "focus": "到",
+        "promptEs": "El avión de David llega a Pekín a las ocho.",
+        "promptEn": "David’s flight arrives in Beijing at eight.",
+        "template": "大卫的飞机早上八点____北京。",
+        "pinyin": "Dàwèi de fēijī zǎoshang bā diǎn ____ Běijīng.",
+        "answers": ["到", "dao", "dào"],
+        "tip": "到 (dào) = llegar a un lugar. Aquí: 到北京."
+      },
+      {
+        "id": "f05",
+        "focus": "已经…了",
+        "promptEs": "Ya hemos llegado.",
+        "promptEn": "We arrived already.",
+        "template": "我们____到了。",
+        "pinyin": "Wǒmen ____ dào le.",
+        "answers": ["已经", "yijing", "yǐjīng"],
+        "tip": "Estructura: sujeto + 已经 + predicado + 了."
+      },
+      {
+        "id": "f06",
+        "focus": "已经…了 / 出",
+        "promptEs": "¿Ya habéis salido?",
+        "promptEn": "Did you come out?",
+        "template": "你们____了吗？",
+        "pinyin": "Nǐmen ____ le ma?",
+        "answers": ["出来", "出", "chulai", "chūlai", "chu", "chū"],
+        "tip": "出 / 出来 = salir. En el diálogo: 你们出来了吗？"
+      },
+      {
+        "id": "f07",
+        "focus": "着",
+        "promptEs": "Llevas puesta una ropa roja.",
+        "promptEn": "You are wearing red clothes.",
+        "template": "你穿____红色的衣服。",
+        "pinyin": "Nǐ chuān____ hóngsè de yīfu.",
+        "answers": ["着", "zhe"],
+        "tip": "着 (zhe) va pegado al verbo y marca un estado que continúa: 穿着."
+      },
+      {
+        "id": "f08",
+        "focus": "红色",
+        "promptEs": "La ropa es de color rojo.",
+        "promptEn": "The clothes are red.",
+        "template": "你穿着____的衣服，是不是？",
+        "pinyin": "Nǐ chuānzhe ____ de yīfu, shì bu shì?",
+        "answers": ["红色", "红", "hongse", "hóngsè", "hong", "hóng"],
+        "tip": "红 / 红色 (hóng / hóngsè) = rojo. En el texto: 红色的衣服."
+      },
+      {
+        "id": "f09",
+        "focus": "是不是",
+        "promptEs": "Pide confirmación: ¿verdad que llevas ropa roja?",
+        "promptEn": "Ask for confirmation: you’re wearing red clothes, right?",
+        "template": "你穿着红色的衣服，____？",
+        "pinyin": "Nǐ chuānzhe hóngsè de yīfu, ____?",
+        "answers": ["是不是", "是不是", "shibushi", "shìbushì", "shì bu shì"],
+        "tip": "是不是 confirma algo que ya crees: …，是不是？"
+      },
+      {
+        "id": "f10",
+        "focus": "介绍 / 一下",
+        "promptEs": "Deja que os presente.",
+        "promptEn": "Let me introduce you.",
+        "template": "我给你们介绍____。",
+        "pinyin": "Wǒ gěi nǐmen jièshào ____.",
+        "answers": ["一下", "yixia", "yíxià"],
+        "tip": "V + 一下 suaviza la acción: 介绍一下 = presentar un momento."
+      },
+      {
+        "id": "f11",
+        "focus": "妻子",
+        "promptEs": "Presenta a tu esposa.",
+        "promptEn": "This is my wife.",
+        "template": "这是我的____珍妮。",
+        "pinyin": "Zhè shì wǒ de ____ Zhēnnī.",
+        "answers": ["妻子", "qizi", "qīzi"],
+        "tip": "妻子 (qīzi) = esposa. Es la forma de la tabla de palabras (más formal que 老婆)."
+      },
+      {
+        "id": "f12",
+        "focus": "孩子",
+        "promptEs": "Presenta a tus hijos.",
+        "promptEn": "These are my children.",
+        "template": "这是我的____麦克和安娜。",
+        "pinyin": "Zhè shì wǒ de ____ Màikè hé Ānnà.",
+        "answers": ["孩子", "haizi", "háizi"],
+        "tip": "孩子 (háizi) = hijo/a, niño/a. Aquí en plural por el contexto."
+      },
+      {
+        "id": "f13",
+        "focus": "丈夫",
+        "promptEs": "Este es el marido de Lili.",
+        "promptEn": "This is her husband.",
+        "template": "这是她的____李明。",
+        "pinyin": "Zhè shì tā de ____ Lǐ Míng.",
+        "answers": ["丈夫", "zhangfu", "zhàngfu"],
+        "tip": "丈夫 (zhàngfu) = marido. Palabra de la tabla; más formal que 老公."
+      },
+      {
+        "id": "f14",
+        "focus": "欢迎",
+        "promptEs": "Dale la bienvenida a China.",
+        "promptEn": "Welcome you to China.",
+        "template": "____你来中国。",
+        "pinyin": "____ nǐ lái Zhōngguó.",
+        "answers": ["欢迎", "huanying", "huānyíng"],
+        "tip": "欢迎 (huānyíng) = dar la bienvenida. En el diálogo: 欢迎你来中国。"
+      }
+    ],
+    "scramble": [
+      {
+        "id": "s01",
+        "promptEs": "¿A qué hora vamos mañana por la mañana al aeropuerto a recoger a David?",
+        "promptEn": "What time shall we go to the airport to pick up David tomorrow morning?",
+        "tokens": ["我们", "明天", "早上", "几", "点", "去", "机场", "接", "大卫"],
+        "answers": ["我们明天早上几点去机场接大卫"],
+        "tip": "Orden habitual: sujeto + tiempo (明天早上几点) + 去 + lugar + 接 + persona."
+      },
+      {
+        "id": "s02",
+        "promptEs": "El avión de David llega a Pekín a las ocho de la mañana.",
+        "promptEn": "David’s plane arrives in Beijing at 8 in the morning.",
+        "tokens": ["大卫", "的", "飞机", "早上", "八", "点", "到", "北京"],
+        "answers": ["大卫的飞机早上八点到北京"],
+        "tip": "Sujeto (大卫的飞机) + tiempo (早上八点) + 到 + lugar."
+      },
+      {
+        "id": "s03",
+        "promptEs": "Ya hemos llegado.",
+        "promptEn": "We have already arrived.",
+        "tokens": ["我们", "已经", "到", "了"],
+        "answers": ["我们已经到了"],
+        "tip": "sujeto + 已经 + predicado + 了."
+      },
+      {
+        "id": "s04",
+        "promptEs": "¿Ya habéis salido?",
+        "promptEn": "Did you come out?",
+        "tokens": ["你们", "出来", "了", "吗"],
+        "answers": ["你们出来了吗"],
+        "tip": "Pregunta con 吗 al final. 出来了 = ya salisteis."
+      },
+      {
+        "id": "s05",
+        "promptEs": "Llevas puesta ropa roja.",
+        "promptEn": "You are wearing red clothes.",
+        "tokens": ["你", "穿", "着", "红色", "的", "衣服"],
+        "answers": ["你穿着红色的衣服"],
+        "tip": "着 va justo después del verbo: 穿着."
+      },
+      {
+        "id": "s06",
+        "promptEs": "Llevas ropa roja, ¿verdad?",
+        "promptEn": "You’re wearing red clothes, aren’t you?",
+        "tokens": ["你", "穿着", "红色", "的", "衣服", "是不是"],
+        "answers": ["你穿着红色的衣服是不是"],
+        "tip": "是不是 puede ir al final: …，是不是？"
+      },
+      {
+        "id": "s07",
+        "promptEs": "Os presento un momento.",
+        "promptEn": "Let me introduce you.",
+        "tokens": ["我", "给", "你们", "介绍", "一下"],
+        "answers": ["我给你们介绍一下"],
+        "tip": "介绍一下 = V + 一下. 给你们 = «a vosotros»."
+      },
+      {
+        "id": "s08",
+        "promptEs": "Esta es mi esposa.",
+        "promptEn": "This is my wife.",
+        "tokens": ["这", "是", "我", "的", "妻子"],
+        "answers": ["这是我的妻子"],
+        "tip": "这是 + 我的 + parentesco. Mismo molde que el diálogo 3."
+      },
+      {
+        "id": "s09",
+        "promptEs": "Bienvenida a China.",
+        "promptEn": "Welcome you to China.",
+        "tokens": ["欢迎", "你", "来", "中国"],
+        "answers": ["欢迎你来中国"],
+        "tip": "欢迎 + persona + 来 + lugar."
+      },
+      {
+        "id": "s10",
+        "promptEs": "Encantado de conoceros.",
+        "promptEn": "Nice to meet you.",
+        "tokens": ["很", "高兴", "认识", "你们"],
+        "answers": ["很高兴认识你们"],
+        "tip": "Frase del diálogo 3. 认识你们 = conoceros."
+      }
+    ],
+    "guided": [
+      {
+        "id": "g01",
+        "structure": "sujeto + 已经 + predicado + 了",
+        "promptEs": "Di: «Ya hemos llegado.»",
+        "promptEn": "Say: “We have already arrived.”",
+        "answers": ["我们已经到了", "我们已经到了。"],
+        "tip": "No olvides 了 al final. 已经 va delante de 到."
+      },
+      {
+        "id": "g02",
+        "structure": "sujeto + 已经 + predicado + 了",
+        "promptEs": "Di: «Ya hemos salido.»",
+        "promptEn": "Say: “We have already come out.”",
+        "answers": ["我们已经出来了", "我们已经出了"],
+        "tip": "En el diálogo: 我们已经出来了。"
+      },
+      {
+        "id": "g03",
+        "structure": "verbo + 着",
+        "promptEs": "Di: «Llevas puesta ropa roja.»",
+        "promptEn": "Say: “You are wearing red clothes.”",
+        "answers": [
+          "你穿着红色的衣服",
+          "你穿着红的衣服",
+          "你穿着红色衣服"
+        ],
+        "tip": "着 se pega al verbo: 穿着 + 红色的衣服."
+      },
+      {
+        "id": "g04",
+        "structure": "…，是不是？",
+        "promptEs": "Confirma: llevas ropa roja, ¿verdad?",
+        "promptEn": "Confirm: you are wearing red clothes, aren’t you?",
+        "answers": [
+          "你穿着红色的衣服，是不是",
+          "你穿着红色的衣服是不是",
+          "你是不是穿着红色的衣服",
+          "是不是你穿着红色的衣服"
+        ],
+        "tip": "Es igual de válido 是不是 al principio, tras el sujeto o al final."
+      },
+      {
+        "id": "g05",
+        "structure": "verbo + 一下",
+        "promptEs": "Preséntales a alguien con tono cortés.",
+        "promptEn": "Introduce people politely.",
+        "answers": [
+          "我给你们介绍一下",
+          "我介绍一下",
+          "给你们介绍一下"
+        ],
+        "tip": "El modelo de la lección es 我给你们介绍一下。"
+      },
+      {
+        "id": "g06",
+        "structure": "去 + lugar + 接 + persona",
+        "promptEs": "Di: «Mañana por la mañana vamos al aeropuerto a recoger a David.»",
+        "promptEn": "Say: “Tomorrow morning we go to the airport to pick up David.”",
+        "answers": [
+          "我们明天早上去机场接大卫",
+          "明天早上去机场接大卫",
+          "我们明天早上几点去机场接大卫"
+        ],
+        "tip": "去机场接大卫: ir al aeropuerto + recoger a David."
+      },
+      {
+        "id": "g07",
+        "structure": "欢迎 + persona + 来 + lugar",
+        "promptEs": "Dale la bienvenida a Jenny a China.",
+        "promptEn": "Welcome Jenny to China.",
+        "answers": [
+          "欢迎你来中国",
+          "你好珍妮欢迎你来中国",
+          "珍妮欢迎你来中国",
+          "欢迎珍妮来中国"
+        ],
+        "tip": "En el diálogo C: 你好，珍妮，欢迎你来中国。"
+      }
+    ],
+    "translate": [
+      {
+        "id": "t01",
+        "sourceEs": "¿A qué hora vamos mañana por la mañana al aeropuerto a recoger a David?",
+        "sourceEn": "What time shall we go to the airport to pick up David tomorrow morning?",
+        "answers": [
+          "我们明天早上几点去机场接大卫",
+          "明天早上几点去机场接大卫"
+        ],
+        "tip": "几 + 点 para la hora. 去机场接大卫."
+      },
+      {
+        "id": "t02",
+        "sourceEs": "El avión de David llega a Pekín a las ocho de la mañana.",
+        "sourceEn": "David’s flight arrives in Beijing at eight in the morning.",
+        "answers": [
+          "大卫的飞机早上八点到北京",
+          "大卫的飞机八点到北京"
+        ],
+        "tip": "到 + ciudad. 早上八点 = a las ocho de la mañana."
+      },
+      {
+        "id": "t03",
+        "sourceEs": "¿Habéis llegado al aeropuerto?",
+        "sourceEn": "Have you arrived at the airport?",
+        "answers": [
+          "你们到机场了吗",
+          "你到机场了吗",
+          "喂丽丽你们到机场了吗"
+        ],
+        "tip": "到 + 机场 + 了 + 吗."
+      },
+      {
+        "id": "t04",
+        "sourceEs": "Ya hemos llegado.",
+        "sourceEn": "We have already arrived.",
+        "answers": ["我们已经到了", "我们到了"],
+        "tip": "El objetivo de la lección es 已经…了: 我们已经到了。"
+      },
+      {
+        "id": "t05",
+        "sourceEs": "¿Habéis salido ya?",
+        "sourceEn": "Did you come out already?",
+        "answers": [
+          "你们出来了吗",
+          "你们已经出来了吗",
+          "你出来了吗"
+        ],
+        "tip": "出来了吗, como en el diálogo 2."
+      },
+      {
+        "id": "t06",
+        "sourceEs": "Llevas puesta una ropa roja, ¿verdad?",
+        "sourceEn": "You’re wearing red clothes, aren’t you?",
+        "answers": [
+          "你穿着红色的衣服，是不是",
+          "你穿着红色的衣服是不是",
+          "你是不是穿着红色的衣服",
+          "你穿着红色的衣服"
+        ],
+        "tip": "穿着 + 红色的衣服 + 是不是."
+      },
+      {
+        "id": "t07",
+        "sourceEs": "Os presento: esta es mi esposa Jenny.",
+        "sourceEn": "Let me introduce you. This is my wife Jenny.",
+        "answers": [
+          "我给你们介绍一下这是我的妻子珍妮",
+          "这是我的妻子珍妮",
+          "我介绍一下这是我的妻子珍妮"
+        ],
+        "tip": "介绍一下 + 这是我的妻子."
+      },
+      {
+        "id": "t08",
+        "sourceEs": "Este es su marido, Li Ming.",
+        "sourceEn": "This is her husband, Li Ming.",
+        "answers": [
+          "这是她的丈夫李明",
+          "这是他的丈夫李明"
+        ],
+        "tip": "丈夫 = marido. En el texto: 这是她的丈夫李明。"
+      },
+      {
+        "id": "t09",
+        "sourceEs": "Encantado de conoceros.",
+        "sourceEn": "Nice to meet you!",
+        "answers": [
+          "很高兴认识你们",
+          "很高兴认识你",
+          "你们好很高兴认识你们"
+        ],
+        "tip": "很高兴认识你们 — del diálogo 3."
+      },
+      {
+        "id": "t10",
+        "sourceEs": "Bienvenida a China.",
+        "sourceEn": "Welcome to China.",
+        "answers": [
+          "欢迎你来中国",
+          "欢迎你们来中国",
+          "你好珍妮欢迎你来中国"
+        ],
+        "tip": "欢迎你来中国."
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01",
+        "title": "Diálogo 1 — Por la mañana",
+        "contextEs": "Planean ir al aeropuerto a recoger a David.",
+        "lines": [
+          {
+            "kind": "given",
+            "speaker": "A",
+            "hanzi": "我们明天早上几点去机场接大卫？",
+            "pinyin": "Wǒmen míngtiān zǎoshang jǐ diǎn qù jīchǎng jiē Dàwèi?"
+          },
+          {
+            "kind": "blank",
+            "speaker": "B",
+            "hintEs": "A las siete. El avión de David llega a Pekín a las ocho de la mañana.",
+            "hintEn": "7 o’clock. David’s flight arrives in Beijing at 8 in the morning.",
+            "answers": [
+              "七点。大卫的飞机早上八点到北京",
+              "七点大卫的飞机早上八点到北京",
+              "七点。大卫的飞机八点到北京",
+              "七点大卫的飞机八点到北京"
+            ],
+            "tip": "Sigue el texto: 七点。大卫的飞机早上八点到北京。"
+          }
+        ]
+      },
+      {
+        "id": "d02",
+        "title": "Diálogo 2 — ¿Ya llegasteis?",
+        "contextEs": "Lili llama cuando llegan al aeropuerto.",
+        "lines": [
+          {
+            "kind": "given",
+            "speaker": "A",
+            "hanzi": "喂，丽丽，你们到机场了吗？",
+            "pinyin": "Wèi, Lìli, nǐmen dào jīchǎng le ma?"
+          },
+          {
+            "kind": "blank",
+            "speaker": "B",
+            "hintEs": "Ya hemos llegado. ¿Habéis salido?",
+            "hintEn": "We arrived already. Did you come out?",
+            "answers": [
+              "我们已经到了。你们出来了吗",
+              "我们已经到了你们出来了吗",
+              "我们已经到了"
+            ],
+            "tip": "Primero 已经…了, luego la pregunta 你们出来了吗？"
+          }
+        ]
+      },
+      {
+        "id": "d03",
+        "title": "Diálogo 2 — La ropa roja",
+        "contextEs": "Ya han salido y se reconocen.",
+        "lines": [
+          {
+            "kind": "given",
+            "speaker": "A",
+            "hanzi": "我们已经出来了。我看见你了！你穿着红色的衣服，是不是？",
+            "pinyin": "Wǒmen yǐjīng chūlai le. Wǒ kànjiàn nǐ le! Nǐ chuānzhe hóngsè de yīfu, shì bu shì?"
+          },
+          {
+            "kind": "blank",
+            "speaker": "B",
+            "hintEs": "Sí.",
+            "hintEn": "Yes, I am.",
+            "answers": ["是的", "是", "对"],
+            "tip": "En el texto la respuesta es 是的。"
+          }
+        ]
+      },
+      {
+        "id": "d04",
+        "title": "Diálogo 3 — Presentaciones",
+        "contextEs": "David presenta a su familia.",
+        "lines": [
+          {
+            "kind": "given",
+            "speaker": "A",
+            "hanzi": "我给你们介绍一下。这是我的妻子珍妮，我的孩子麦克和安娜。",
+            "pinyin": "Wǒ gěi nǐmen jièshào yíxià. Zhè shì wǒ de qīzi Zhēnnī, wǒ de háizi Màikè hé Ānnà."
+          },
+          {
+            "kind": "given",
+            "speaker": "A",
+            "hanzi": "珍妮，这是我的好朋友丽丽，这是她的丈夫李明。",
+            "pinyin": "Zhēnnī, zhè shì wǒ de hǎo péngyou Lìli, zhè shì tā de zhàngfu Lǐ Míng."
+          },
+          {
+            "kind": "blank",
+            "speaker": "B",
+            "hintEs": "Hola, Li Ming y Lili. Encantada de conoceros.",
+            "hintEn": "Hello, Li Ming and Lili! Nice to meet you!",
+            "answers": [
+              "李明，丽丽，你们好！很高兴认识你们",
+              "李明丽丽你们好很高兴认识你们",
+              "你们好很高兴认识你们",
+              "很高兴认识你们"
+            ],
+            "tip": "Jenny: 李明，丽丽，你们好！很高兴认识你们。"
+          }
+        ]
+      },
+      {
+        "id": "d05",
+        "title": "Diálogo 3 — Bienvenida",
+        "contextEs": "Lili o Li Ming da la bienvenida a Jenny.",
+        "lines": [
+          {
+            "kind": "given",
+            "speaker": "B",
+            "hanzi": "李明，丽丽，你们好！很高兴认识你们。",
+            "pinyin": "Lǐ Míng, Lìli, nǐmen hǎo! Hěn gāoxìng rènshi nǐmen."
+          },
+          {
+            "kind": "blank",
+            "speaker": "C",
+            "hintEs": "Hola, Jenny. Bienvenida a China.",
+            "hintEn": "Hello, Jenny, welcome to China.",
+            "answers": [
+              "你好，珍妮，欢迎你来中国",
+              "你好珍妮欢迎你来中国",
+              "欢迎你来中国",
+              "珍妮欢迎你来中国"
+            ],
+            "tip": "El texto: 你好，珍妮，欢迎你来中国。"
+          }
+        ]
+      }
+    ]
+  }
+}
