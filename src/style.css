@@ -275,6 +275,34 @@ textarea {
   border-color: #c9b59a;
 }
 
+.grammar-card--link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.grammar-card--link .card-cta {
+  margin-top: 0.85rem;
+}
+
+.block-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.block-head h2 {
+  margin: 0;
+}
+
+.text-link {
+  color: var(--cinnabar);
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .ex-num {
   color: var(--cinnabar);
   font-family: var(--serif);

@@ -1,46 +1,15 @@
-export type ExerciseKind =
-  | "fill"
-  | "scramble"
-  | "guided"
-  | "translate"
-  | "dialogue";
+export type ExerciseKind = "fill" | "scramble" | "translate";
 
 export type Word = {
   hanzi: string;
   pinyin: string;
   pos: string;
   meaningEn: string;
-  meaningEs: string;
-};
-
-export type DialogueLine = {
-  speaker: string;
-  hanzi: string;
-  pinyin: string;
-  en: string;
-};
-
-export type Dialogue = {
-  id: string;
-  title: string;
-  lines: DialogueLine[];
-};
-
-export type GrammarPoint = {
-  id: string;
-  title: string;
-  structure: string;
-  summaryEs: string;
-  exampleHanzi: string;
-  examplePinyin: string;
-  exampleEn: string;
 };
 
 export type FillItem = {
   id: string;
-  focus: string;
-  promptEs: string;
-  promptEn: string;
+  prompt: string;
   template: string;
   pinyin: string;
   answers: string[];
@@ -49,51 +18,34 @@ export type FillItem = {
 
 export type ScrambleItem = {
   id: string;
-  promptEs: string;
-  promptEn: string;
+  prompt: string;
   tokens: string[];
-  answers: string[];
-  tip: string;
-};
-
-export type GuidedItem = {
-  id: string;
-  structure: string;
-  promptEs: string;
-  promptEn: string;
   answers: string[];
   tip: string;
 };
 
 export type TranslateItem = {
   id: string;
-  sourceEs: string;
-  sourceEn: string;
+  source: string;
   answers: string[];
   tip: string;
 };
 
-export type DialogueExerciseLine =
-  | {
-      kind: "given";
-      speaker: string;
-      hanzi: string;
-      pinyin: string;
-    }
-  | {
-      kind: "blank";
-      speaker: string;
-      hintEs: string;
-      hintEn: string;
-      answers: string[];
-      tip: string;
-    };
+export type ExerciseBank = {
+  fill: FillItem[];
+  scramble: ScrambleItem[];
+  translate: TranslateItem[];
+};
 
-export type DialogueItem = {
+export type GrammarPoint = {
   id: string;
   title: string;
-  contextEs: string;
-  lines: DialogueExerciseLine[];
+  structure: string;
+  summary: string;
+  exampleHanzi: string;
+  examplePinyin: string;
+  exampleEn: string;
+  exercises: ExerciseBank;
 };
 
 export type Lesson = {
@@ -101,18 +53,10 @@ export type Lesson = {
   number: number;
   titleZh: string;
   titleEn: string;
-  titleEs: string;
   sourceNote: string;
   words: Word[];
+  vocabExercises: ExerciseBank;
   grammar: GrammarPoint[];
-  dialogues: Dialogue[];
-  exercises: {
-    fill: FillItem[];
-    scramble: ScrambleItem[];
-    guided: GuidedItem[];
-    translate: TranslateItem[];
-    dialogue: DialogueItem[];
-  };
 };
 
 export const EXERCISE_META: Record<
@@ -120,36 +64,20 @@ export const EXERCISE_META: Record<
   { title: string; blurb: string; index: number }
 > = {
   fill: {
-    title: "Completar",
-    blurb: "Rellena el hueco con la palabra o partícula de la lección.",
+    title: "Fill in",
+    blurb: "Complete the sentence with the target word or particle.",
     index: 1,
   },
   scramble: {
-    title: "Ordenar",
-    blurb: "Ordena las palabras para formar una frase correcta.",
+    title: "Unscramble",
+    blurb: "Tap the words into the right order.",
     index: 2,
   },
-  guided: {
-    title: "Escritura guiada",
-    blurb: "Escribe una frase china a partir de una estructura.",
-    index: 3,
-  },
   translate: {
-    title: "Traducir",
-    blurb: "Pasa al chino solo con lo que enseña esta lección.",
-    index: 4,
-  },
-  dialogue: {
-    title: "Minidiálogo",
-    blurb: "Completa la réplica que falta, como en el texto.",
-    index: 5,
+    title: "Translate",
+    blurb: "Write the Chinese using this lesson’s vocab and grammar.",
+    index: 3,
   },
 };
 
-export const EXERCISE_ORDER: ExerciseKind[] = [
-  "fill",
-  "scramble",
-  "guided",
-  "translate",
-  "dialogue",
-];
+export const EXERCISE_ORDER: ExerciseKind[] = ["fill", "scramble", "translate"];

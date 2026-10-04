@@ -1,12 +1,17 @@
 import { displayAnswers, matchesAnswer } from "./check";
-import { getItems, getLesson, lessons } from "./data/lessons";
+import {
+  getGrammar,
+  getLesson,
+  getTrackItems,
+  lessons,
+  trackLabel,
+  type Track,
+} from "./data/lessons";
 import {
   EXERCISE_META,
   EXERCISE_ORDER,
-  type DialogueItem,
   type ExerciseKind,
   type FillItem,
-  type GuidedItem,
   type Lesson,
   type ScrambleItem,
   type TranslateItem,
@@ -16,7 +21,8 @@ import { el, shuffle } from "./ui";
 type Route =
   | { name: "home" }
   | { name: "hub"; lessonId: string }
-  | { name: "exercise"; lessonId: string; kind: ExerciseKind };
+  | { name: "track"; lessonId: string; track: Track }
+  | { name: "exercise"; lessonId: string; track: Track; kind: ExerciseKind };
 
 type CheckStatus = "idle" | "correct" | "wrong" | "revealed";
 type ItemResult = "correct" | "wrong" | "skipped";
@@ -39,40 +45,52 @@ const root: HTMLDivElement = appNode;
 
 const sessions = new Map<string, Session>();
 
+function parseTrack(parts: string[]): Track | null {
+  if (parts[0] === "vocab") return { type: "vocab" };
+  if (parts[0] === "g" && parts[1]) return { type: "grammar", grammarId: parts[1] };
+  return null;
+}
+
 function parseRoute(): Route {
   const hash = location.hash.replace(/^#/, "") || "/";
   const parts = hash.split("/").filter(Boolean);
-  if (parts[0] === "l" && parts[1]) {
-    const kind = parts[2];
-    if (kind && KINDS.has(kind)) {
-      return {
-        name: "exercise",
-        lessonId: parts[1],
-        kind: kind as ExerciseKind,
-      };
-    }
-    return { name: "hub", lessonId: parts[1] };
+  if (parts[0] !== "l" || !parts[1]) return { name: "home" };
+  const lessonId = parts[1];
+  const rest = parts.slice(2);
+  if (rest.length === 0) return { name: "hub", lessonId };
+  const track = parseTrack(rest);
+  if (!track) return { name: "hub", lessonId };
+  const kindPart = track.type === "vocab" ? rest[1] : rest[2];
+  if (kindPart && KINDS.has(kindPart)) {
+    return { name: "exercise", lessonId, track, kind: kindPart as ExerciseKind };
   }
-  return { name: "home" };
+  return { name: "track", lessonId, track };
+}
+
+function trackPath(track: Track): string {
+  return track.type === "vocab" ? "vocab" : `g/${track.grammarId}`;
 }
 
 function href(route: Route): string {
   if (route.name === "home") return "#/";
   if (route.name === "hub") return `#/l/${route.lessonId}`;
-  return `#/l/${route.lessonId}/${route.kind}`;
+  const base = `#/l/${route.lessonId}/${trackPath(route.track)}`;
+  if (route.name === "track") return base;
+  return `${base}/${route.kind}`;
 }
 
-function sessionKey(lessonId: string, kind: ExerciseKind): string {
-  return `${lessonId}:${kind}`;
+function sessionKey(lessonId: string, track: Track, kind: ExerciseKind): string {
+  return `${lessonId}:${trackPath(track)}:${kind}`;
 }
 
 function getSession(
   lessonId: string,
+  track: Track,
   kind: ExerciseKind,
   itemId: string,
   tokens?: string[],
 ): Session {
-  const key = sessionKey(lessonId, kind);
+  const key = sessionKey(lessonId, track, kind);
   const existing = sessions.get(key);
   if (existing) return existing;
   const created: Session = {
@@ -117,7 +135,15 @@ function render(): void {
     root.append(renderHub(lesson));
     return;
   }
-  root.append(renderExercise(lesson, route.kind));
+  if (route.track.type === "grammar" && !getGrammar(lesson, route.track.grammarId)) {
+    root.append(renderMissing());
+    return;
+  }
+  if (route.name === "track") {
+    root.append(renderTrack(lesson, route.track));
+    return;
+  }
+  root.append(renderExercise(lesson, route.track, route.kind));
 }
 
 function renderHome(): HTMLElement {
@@ -127,34 +153,29 @@ function renderHome(): HTMLElement {
       el("div", { class: "brand" },
         el("span", { class: "seal", text: "双" }),
         el("div", {},
-          el("p", { class: "eyebrow", text: "Cuaderno local" }),
+          el("p", { class: "eyebrow", text: "Local workbook" }),
           el("h1", { text: "Duo" }),
         ),
       ),
     ),
     el("main", { class: "shell" },
       el("section", { class: "hero" },
-        el("p", { class: "kicker", text: "HSK 2 · solo lo que enseña cada lección" }),
-        el("h2", { text: "Un workbook chino, lección a lección." }),
+        el("p", { class: "kicker", text: "HSK 2 · vocabulary and grammar" }),
+        el("h2", { text: "Practice the words and patterns, not the textbook lines." }),
         el("p", { class: "lede" },
-          "Escribes y formas frases con el vocabulario y la gramática de ",
-          el("em", { text: "esta" }),
-          " lección. Nada inventado de otras unidades.",
+          "Each grammar point has its own drills. Sentences are new; they reuse this lesson’s vocab and structures only.",
         ),
       ),
       el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
         el("div", { class: "lesson-card__meta" },
-          el("span", { class: "chip", text: `Lección ${lesson.number}` }),
+          el("span", { class: "chip", text: `Lesson ${lesson.number}` }),
           el("span", { class: "muted", text: lesson.sourceNote }),
         ),
         el("p", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
-        el("p", { class: "pinyin", text: "Qù jīchǎng jiē péngyou" }),
         el("p", { class: "card-en", text: lesson.titleEn }),
-        el("p", { class: "card-es", text: lesson.titleEs }),
-        el("p", { class: "card-stats", text: `${lesson.words.length} palabras · ${lesson.grammar.length} puntos gramaticales · 5 tipos de ejercicio` }),
-        el("span", { class: "card-cta", text: "Abrir lección →" }),
+        el("p", { class: "card-stats", text: `${lesson.words.length} words · ${lesson.grammar.length} grammar points` }),
+        el("span", { class: "card-cta", text: "Open lesson →" }),
       ),
-      el("p", { class: "footnote", text: "v1 cubre solo la lección 1. La lección 2 se podrá añadir como otro JSON en src/data/." }),
     ),
   );
 }
@@ -162,10 +183,27 @@ function renderHome(): HTMLElement {
 function renderMissing(): HTMLElement {
   return el("div", { class: "page" },
     el("main", { class: "shell" },
-      el("h1", { text: "Lección no encontrada" }),
-      el("a", { class: "text-link", href: "#/", text: "Volver al inicio" }),
+      el("h1", { text: "Lesson not found" }),
+      el("a", { class: "text-link", href: "#/", text: "Back to home" }),
     ),
   );
+}
+
+function renderExerciseTypes(lesson: Lesson, track: Track): HTMLElement {
+  const grid = el("div", { class: "exercise-grid" });
+  for (const kind of EXERCISE_ORDER) {
+    const meta = EXERCISE_META[kind];
+    const count = getTrackItems(lesson, track, kind).length;
+    grid.append(
+      el("a", { class: "ex-card", href: href({ name: "exercise", lessonId: lesson.id, track, kind }) },
+        el("span", { class: "ex-num", text: String(meta.index).padStart(2, "0") }),
+        el("h3", { text: meta.title }),
+        el("p", { class: "muted", text: meta.blurb }),
+        el("p", { class: "ex-count", text: `${count} items` }),
+      ),
+    );
+  }
+  return grid;
 }
 
 function renderHub(lesson: Lesson): HTMLElement {
@@ -176,60 +214,34 @@ function renderHub(lesson: Lesson): HTMLElement {
         el("p", { class: "vocab-hanzi", text: word.hanzi }),
         el("p", { class: "pinyin", text: word.pinyin }),
         el("p", { class: "vocab-pos", text: word.pos }),
-        el("p", { class: "vocab-meaning", text: `${word.meaningEs} · ${word.meaningEn}` }),
+        el("p", { class: "vocab-meaning", text: word.meaningEn }),
       ),
     );
   }
 
   const grammar = el("div", { class: "grammar-grid" });
   for (const point of lesson.grammar) {
+    const total = EXERCISE_ORDER.reduce(
+      (sum, kind) => sum + point.exercises[kind].length,
+      0,
+    );
     grammar.append(
-      el("article", { class: "grammar-card" },
+      el("a", {
+        class: "grammar-card grammar-card--link",
+        href: href({ name: "track", lessonId: lesson.id, track: { type: "grammar", grammarId: point.id } }),
+      },
         el("h3", { text: point.title }),
         el("p", { class: "structure", text: point.structure }),
-        el("p", { class: "muted", text: point.summaryEs }),
+        el("p", { class: "muted", text: point.summary }),
         el("p", { class: "hanzi-inline", text: point.exampleHanzi }),
         el("p", { class: "pinyin", text: point.examplePinyin }),
+        el("p", { class: "muted", text: point.exampleEn }),
+        el("span", { class: "card-cta", text: `Practice · ${total} exercises →` }),
       ),
     );
   }
 
-  const texts = el("div", { class: "dialogue-stack" });
-  for (const dialogue of lesson.dialogues) {
-    const body = el("div", { class: "dialogue-body" });
-    for (const line of dialogue.lines) {
-      body.append(
-        el("div", { class: "line" },
-          el("span", { class: "speaker", text: line.speaker }),
-          el("div", {},
-            el("p", { class: "hanzi-inline", text: line.hanzi }),
-            el("p", { class: "pinyin", text: line.pinyin }),
-            el("p", { class: "muted", text: line.en }),
-          ),
-        ),
-      );
-    }
-    texts.append(
-      el("details", { class: "fold" },
-        el("summary", { text: dialogue.title }),
-        body,
-      ),
-    );
-  }
-
-  const exercises = el("div", { class: "exercise-grid" });
-  for (const kind of EXERCISE_ORDER) {
-    const meta = EXERCISE_META[kind];
-    const count = getItems(lesson, kind).length;
-    exercises.append(
-      el("a", { class: "ex-card", href: href({ name: "exercise", lessonId: lesson.id, kind }) },
-        el("span", { class: "ex-num", text: String(meta.index).padStart(2, "0") }),
-        el("h3", { text: meta.title }),
-        el("p", { class: "muted", text: meta.blurb }),
-        el("p", { class: "ex-count", text: `${count} ítems` }),
-      ),
-    );
-  }
+  const vocabTrack: Track = { type: "vocab" };
 
   return el("div", { class: "page" },
     el("header", { class: "topbar" },
@@ -241,41 +253,93 @@ function renderHub(lesson: Lesson): HTMLElement {
     ),
     el("main", { class: "shell" },
       el("section", { class: "lesson-head" },
-        el("p", { class: "kicker", text: `Lección ${lesson.number}` }),
+        el("p", { class: "kicker", text: `Lesson ${lesson.number}` }),
         el("h1", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
-        el("p", { class: "card-en", text: lesson.titleEn }),
-        el("p", { class: "lede", text: "Practica solo con el texto, la tabla de palabras y los cuatro puntos gramaticales de esta lección." }),
+        el("p", { class: "card-en", text: "Words and grammar only — new practice sentences, not the textbook dialogue." }),
       ),
       el("section", { class: "block" },
-        el("h2", { text: "Ejercicios" }),
-        exercises,
-      ),
-      el("section", { class: "block" },
-        el("h2", { text: "Palabras" }),
-        el("p", { class: "muted", text: "Tabla de la lección. Úsalas en los ejercicios; no añadas vocabulario de otras unidades." }),
+        el("div", { class: "block-head" },
+          el("h2", { text: "Vocabulary" }),
+          el("a", {
+            class: "text-link",
+            href: href({ name: "track", lessonId: lesson.id, track: vocabTrack }),
+            text: "Practice words →",
+          }),
+        ),
+        el("p", { class: "muted", text: "Learn the lesson list, then drill it with new sentences." }),
         vocab,
       ),
       el("section", { class: "block" },
-        el("h2", { text: "Gramática" }),
+        el("h2", { text: "Grammar" }),
+        el("p", { class: "muted", text: "Open a point to get fill-in, unscramble, and translation drills for that pattern." }),
         grammar,
-      ),
-      el("section", { class: "block" },
-        el("h2", { text: "Textos" }),
-        texts,
       ),
     ),
   );
 }
 
-function renderExercise(lesson: Lesson, kind: ExerciseKind): HTMLElement {
-  const items = getItems(lesson, kind);
+function renderTrack(lesson: Lesson, track: Track): HTMLElement {
+  const back = el("a", { class: "back", href: href({ name: "hub", lessonId: lesson.id }), text: "← Lesson" });
+  if (track.type === "vocab") {
+    return el("div", { class: "page" },
+      el("header", { class: "topbar" }, back),
+      el("main", { class: "shell" },
+        el("section", { class: "lesson-head" },
+          el("p", { class: "kicker", text: "Vocabulary" }),
+          el("h1", { text: "Lesson 1 words" }),
+          el("p", { class: "lede", text: "Fill, unscramble, and translate using this lesson’s word list. No copied textbook lines." }),
+        ),
+        el("section", { class: "block" },
+          el("h2", { text: "Exercise types" }),
+          renderExerciseTypes(lesson, track),
+        ),
+      ),
+    );
+  }
+
+  const point = getGrammar(lesson, track.grammarId);
+  if (!point) return renderMissing();
+
+  return el("div", { class: "page" },
+    el("header", { class: "topbar" }, back),
+    el("main", { class: "shell" },
+      el("section", { class: "lesson-head" },
+        el("p", { class: "kicker", text: "Grammar" }),
+        el("h1", { text: point.title }),
+        el("p", { class: "structure-pill", text: point.structure }),
+        el("p", { class: "lede", text: point.summary }),
+        el("p", { class: "hanzi-inline", text: point.exampleHanzi }),
+        el("p", { class: "pinyin", text: point.examplePinyin }),
+        el("p", { class: "muted", text: point.exampleEn }),
+      ),
+      el("section", { class: "block" },
+        el("h2", { text: "Exercises" }),
+        el("p", { class: "muted", text: "Different sentences, same pattern." }),
+        renderExerciseTypes(lesson, track),
+      ),
+    ),
+  );
+}
+
+function renderExercise(lesson: Lesson, track: Track, kind: ExerciseKind): HTMLElement {
+  const items = getTrackItems(lesson, track, kind);
   const meta = EXERCISE_META[kind];
-  const firstTokens = kind === "scramble" ? (items[0] as ScrambleItem).tokens : undefined;
-  const firstId = items[0] && "id" in items[0] ? items[0].id : kind;
-  const session = getSession(lesson.id, kind, firstId, firstTokens);
+  const label = trackLabel(lesson, track);
+  const firstTokens = kind === "scramble" ? (items[0] as ScrambleItem | undefined)?.tokens : undefined;
+  const firstId = items[0]?.id ?? kind;
+  const session = getSession(lesson.id, track, kind, firstId, firstTokens);
+
+  if (items.length === 0) {
+    return el("div", { class: "page" },
+      el("main", { class: "shell" },
+        el("h1", { text: "No items yet" }),
+        el("a", { class: "text-link", href: href({ name: "track", lessonId: lesson.id, track }), text: "Back" }),
+      ),
+    );
+  }
 
   if (session.index >= items.length) {
-    return renderSummary(lesson, kind, session);
+    return renderSummary(lesson, track, kind, session);
   }
 
   const item = items[session.index];
@@ -283,11 +347,11 @@ function renderExercise(lesson: Lesson, kind: ExerciseKind): HTMLElement {
 
   const page = el("div", { class: "page" },
     el("header", { class: "topbar" },
-      el("a", { class: "back", href: href({ name: "hub", lessonId: lesson.id }), text: "← Lección 1" }),
+      el("a", { class: "back", href: href({ name: "track", lessonId: lesson.id, track }), text: `← ${label}` }),
       el("div", { class: "progress-wrap" },
-        el("p", { class: "progress-label", text: `${meta.title} · ${progress}` }),
+        el("p", { class: "progress-label", text: `${label} · ${meta.title} · ${progress}` }),
         el("div", { class: "bar", role: "progressbar", "aria-valuenow": session.index + 1, "aria-valuemax": items.length },
-          el("span", { style: `width:${((session.index) / items.length) * 100}%` }),
+          el("span", { style: `width:${(session.index / items.length) * 100}%` }),
         ),
       ),
     ),
@@ -295,18 +359,14 @@ function renderExercise(lesson: Lesson, kind: ExerciseKind): HTMLElement {
 
   const main = el("main", { class: "shell shell--narrow" });
   const card = el("section", { class: "workbook" });
-  card.append(el("p", { class: "kicker", text: `Ítem ${session.index + 1}` }));
+  card.append(el("p", { class: "kicker", text: `Item ${session.index + 1}` }));
 
   if (kind === "fill") {
-    card.append(renderFill(item as FillItem, session, lesson, kind));
+    card.append(renderFill(item as FillItem, session, lesson, track, kind));
   } else if (kind === "scramble") {
-    card.append(renderScramble(item as ScrambleItem, session, lesson, kind));
-  } else if (kind === "guided") {
-    card.append(renderGuided(item as GuidedItem, session, lesson, kind));
-  } else if (kind === "translate") {
-    card.append(renderTranslate(item as TranslateItem, session, lesson, kind));
+    card.append(renderScramble(item as ScrambleItem, session, lesson, track, kind));
   } else {
-    card.append(renderDialogue(item as DialogueItem, session, lesson, kind));
+    card.append(renderTranslate(item as TranslateItem, session, lesson, track, kind));
   }
 
   main.append(card);
@@ -334,12 +394,12 @@ function feedbackBox(status: CheckStatus, answers: string[], tip: string): HTMLE
   const accepted = displayAnswers(answers);
   if (status === "correct") {
     return el("div", { class: "feedback feedback--ok" },
-      el("p", { class: "feedback-title", text: "Correcto" }),
+      el("p", { class: "feedback-title", text: "Correct" }),
       el("p", { class: "hanzi-inline", text: accepted[0] ?? "" }),
     );
   }
   const box = el("div", { class: "feedback feedback--no" },
-    el("p", { class: "feedback-title", text: status === "revealed" ? "Respuesta" : "Aún no" }),
+    el("p", { class: "feedback-title", text: status === "revealed" ? "Answer" : "Not yet" }),
     el("p", { class: "muted", text: tip }),
   );
   if (status === "revealed") {
@@ -362,22 +422,22 @@ function actionRow(options: {
 }): HTMLElement {
   const row = el("div", { class: "actions" });
   if (options.status === "idle" || options.status === "wrong") {
-    const check = el("button", { class: "btn btn--primary", type: "button", text: "Comprobar" });
+    const check = el("button", { class: "btn btn--primary", type: "button", text: "Check" });
     check.addEventListener("click", options.onCheck);
     row.append(check);
   }
   if (options.status === "wrong") {
-    const reveal = el("button", { class: "btn", type: "button", text: "Mostrar respuesta" });
+    const reveal = el("button", { class: "btn", type: "button", text: "Show answer" });
     reveal.addEventListener("click", options.onReveal);
     row.append(reveal);
   }
   if (options.status === "wrong" || options.status === "revealed") {
-    const retry = el("button", { class: "btn", type: "button", text: "Reintentar" });
+    const retry = el("button", { class: "btn", type: "button", text: "Try again" });
     retry.addEventListener("click", options.onRetry);
     row.append(retry);
   }
   if (options.status === "correct" || options.status === "revealed") {
-    const next = el("button", { class: "btn btn--primary", type: "button", text: options.last ? "Ver resultado" : "Siguiente" });
+    const next = el("button", { class: "btn btn--primary", type: "button", text: options.last ? "See results" : "Next" });
     next.addEventListener("click", options.onNext);
     row.append(next);
   }
@@ -386,6 +446,7 @@ function actionRow(options: {
 
 function advance(
   lesson: Lesson,
+  track: Track,
   kind: ExerciseKind,
   session: Session,
   total: number,
@@ -397,7 +458,7 @@ function advance(
   }
   session.index += 1;
   if (session.index < total) {
-    const items = getItems(lesson, kind);
+    const items = getTrackItems(lesson, track, kind);
     const next = items[session.index];
     const tokens = kind === "scramble" ? (next as ScrambleItem).tokens : undefined;
     resetItem(session, next.id, tokens);
@@ -409,24 +470,26 @@ function renderFill(
   item: FillItem,
   session: Session,
   lesson: Lesson,
+  track: Track,
   kind: ExerciseKind,
 ): HTMLElement {
   const wrap = el("div");
   wrap.append(
-    el("h2", { text: "Completa el hueco" }),
-    el("p", { class: "prompt", text: item.promptEs }),
-    el("p", { class: "muted", text: item.promptEn }),
+    el("h2", { text: "Fill the gap" }),
+    el("p", { class: "prompt", text: item.prompt }),
   );
 
   const parts = item.template.split("____");
   const field = el("input", {
     class: "blank",
     type: "text",
+    name: "answer",
+    id: "answer-field",
     autocomplete: "off",
     spellcheck: "false",
-    "aria-label": "Respuesta",
+    "aria-label": "Answer",
     value: session.input,
-    placeholder: "汉字 o pinyin",
+    placeholder: "汉字 or pinyin",
   }) as HTMLInputElement;
   field.value = session.input;
   if (session.status === "correct") field.disabled = true;
@@ -437,7 +500,7 @@ function renderFill(
   const sentence = el("p", { class: "sentence" }, parts[0] ?? "", field, parts[1] ?? "");
   wrap.append(sentence, el("p", { class: "pinyin", text: item.pinyin }));
 
-  const last = session.index === getItems(lesson, kind).length - 1;
+  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
   const check = () => {
     session.checkedOnce = true;
     session.status = matchesAnswer(session.input, item.answers) ? "correct" : "wrong";
@@ -464,7 +527,7 @@ function renderFill(
         render();
         queueMicrotask(focusFirstField);
       },
-      onNext: () => advance(lesson, kind, session, getItems(lesson, kind).length),
+      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
       last,
     }),
   );
@@ -475,6 +538,7 @@ function renderScramble(
   item: ScrambleItem,
   session: Session,
   lesson: Lesson,
+  track: Track,
   kind: ExerciseKind,
 ): HTMLElement {
   if (session.bank.length === 0 && session.selected.length === 0) {
@@ -483,14 +547,13 @@ function renderScramble(
 
   const wrap = el("div");
   wrap.append(
-    el("h2", { text: "Ordena las palabras" }),
-    el("p", { class: "prompt", text: item.promptEs }),
-    el("p", { class: "muted", text: item.promptEn }),
+    el("h2", { text: "Put the words in order" }),
+    el("p", { class: "prompt", text: item.prompt }),
   );
 
-  const built = el("div", { class: "tile-row tile-row--target", "aria-label": "Frase" });
+  const built = el("div", { class: "tile-row tile-row--target", "aria-label": "Sentence" });
   if (session.selected.length === 0) {
-    built.append(el("p", { class: "placeholder", text: "Toca las palabras de abajo" }));
+    built.append(el("p", { class: "placeholder", text: "Tap the words below" }));
   }
   session.selected.forEach((token, index) => {
     const chip = el("button", { class: "tile tile--in", type: "button", text: token });
@@ -504,7 +567,7 @@ function renderScramble(
     built.append(chip);
   });
 
-  const bank = el("div", { class: "tile-row", "aria-label": "Palabras" });
+  const bank = el("div", { class: "tile-row", "aria-label": "Words" });
   session.bank.forEach((token, index) => {
     const chip = el("button", { class: "tile", type: "button", text: token });
     chip.addEventListener("click", () => {
@@ -519,7 +582,7 @@ function renderScramble(
 
   wrap.append(built, bank);
 
-  const last = session.index === getItems(lesson, kind).length - 1;
+  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
   appendFeedback(wrap, session.status, item.answers, item.tip);
   wrap.append(
     actionRow({
@@ -538,42 +601,35 @@ function renderScramble(
         resetItem(session, item.id, item.tokens);
         render();
       },
-      onNext: () => advance(lesson, kind, session, getItems(lesson, kind).length),
+      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
       last,
     }),
   );
   return wrap;
 }
 
-function renderTextExercise(
-  title: string,
-  structure: string | null,
-  promptEs: string,
-  promptEn: string,
-  answers: string[],
-  tip: string,
+function renderTranslate(
+  item: TranslateItem,
   session: Session,
   lesson: Lesson,
+  track: Track,
   kind: ExerciseKind,
-  itemId: string,
 ): HTMLElement {
   const wrap = el("div");
-  wrap.append(el("h2", { text: title }));
-  if (structure) {
-    wrap.append(el("p", { class: "structure-pill", text: structure }));
-  }
   wrap.append(
-    el("p", { class: "prompt", text: promptEs }),
-    el("p", { class: "muted", text: promptEn }),
+    el("h2", { text: "Translate into Chinese" }),
+    el("p", { class: "prompt", text: item.source }),
   );
 
   const field = el("textarea", {
     class: "writer",
+    name: "answer",
+    id: "answer-field",
     rows: 3,
     autocomplete: "off",
     spellcheck: "false",
-    placeholder: "Escribe en 汉字…",
-    "aria-label": "Respuesta en chino",
+    placeholder: "Write in 汉字…",
+    "aria-label": "Chinese answer",
   }) as HTMLTextAreaElement;
   field.value = session.input;
   if (session.status === "correct") field.disabled = true;
@@ -582,10 +638,10 @@ function renderTextExercise(
   });
   wrap.append(field);
 
-  const last = session.index === getItems(lesson, kind).length - 1;
+  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
   const check = () => {
     session.checkedOnce = true;
-    session.status = matchesAnswer(session.input, answers) ? "correct" : "wrong";
+    session.status = matchesAnswer(session.input, item.answers) ? "correct" : "wrong";
     render();
   };
   field.addEventListener("keydown", (event) => {
@@ -595,7 +651,7 @@ function renderTextExercise(
     }
   });
 
-  appendFeedback(wrap, session.status, answers, tip);
+  appendFeedback(wrap, session.status, item.answers, item.tip);
   wrap.append(
     actionRow({
       status: session.status,
@@ -605,154 +661,32 @@ function renderTextExercise(
         render();
       },
       onRetry: () => {
-        resetItem(session, itemId);
+        resetItem(session, item.id);
         render();
         queueMicrotask(focusFirstField);
       },
-      onNext: () => advance(lesson, kind, session, getItems(lesson, kind).length),
+      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
       last,
     }),
   );
   return wrap;
 }
 
-function renderGuided(
-  item: GuidedItem,
-  session: Session,
+function renderSummary(
   lesson: Lesson,
+  track: Track,
   kind: ExerciseKind,
-): HTMLElement {
-  return renderTextExercise(
-    "Escritura guiada",
-    item.structure,
-    item.promptEs,
-    item.promptEn,
-    item.answers,
-    item.tip,
-    session,
-    lesson,
-    kind,
-    item.id,
-  );
-}
-
-function renderTranslate(
-  item: TranslateItem,
   session: Session,
-  lesson: Lesson,
-  kind: ExerciseKind,
 ): HTMLElement {
-  return renderTextExercise(
-    "Traduce al chino",
-    null,
-    item.sourceEs,
-    item.sourceEn,
-    item.answers,
-    item.tip,
-    session,
-    lesson,
-    kind,
-    item.id,
-  );
-}
-
-function renderDialogue(
-  item: DialogueItem,
-  session: Session,
-  lesson: Lesson,
-  kind: ExerciseKind,
-): HTMLElement {
-  const wrap = el("div");
-  wrap.append(
-    el("h2", { text: item.title }),
-    el("p", { class: "muted", text: item.contextEs }),
-  );
-
-  const stack = el("div", { class: "mini-dialogue" });
-  let blankAnswers: string[] = [];
-  let blankTip = "";
-  let blankId = item.id;
-
-  for (const line of item.lines) {
-    if (line.kind === "given") {
-      stack.append(
-        el("div", { class: "bubble bubble--given" },
-          el("span", { class: "speaker", text: line.speaker }),
-          el("p", { class: "hanzi-inline", text: line.hanzi }),
-          el("p", { class: "pinyin", text: line.pinyin }),
-        ),
-      );
-    } else {
-      blankAnswers = line.answers;
-      blankTip = line.tip;
-      blankId = `${item.id}-${line.speaker}`;
-      const field = el("textarea", {
-        class: "writer",
-        rows: 3,
-        autocomplete: "off",
-        spellcheck: "false",
-        placeholder: "Escribe la réplica…",
-        "aria-label": `Réplica de ${line.speaker}`,
-      }) as HTMLTextAreaElement;
-      field.value = session.input;
-      if (session.status === "correct") field.disabled = true;
-      field.addEventListener("input", () => {
-        session.input = field.value;
-      });
-      field.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" && (event.metaKey || event.ctrlKey)) {
-          event.preventDefault();
-          document.querySelector<HTMLButtonElement>(".btn--primary")?.click();
-        }
-      });
-      stack.append(
-        el("div", { class: "bubble bubble--blank" },
-          el("span", { class: "speaker", text: line.speaker }),
-          el("p", { class: "prompt", text: line.hintEs }),
-          el("p", { class: "muted", text: line.hintEn }),
-          field,
-        ),
-      );
-    }
-  }
-
-  wrap.append(stack);
-
-  const last = session.index === getItems(lesson, kind).length - 1;
-  appendFeedback(wrap, session.status, blankAnswers, blankTip);
-  wrap.append(
-    actionRow({
-      status: session.status,
-      onCheck: () => {
-        session.checkedOnce = true;
-        session.status = matchesAnswer(session.input, blankAnswers) ? "correct" : "wrong";
-        render();
-      },
-      onReveal: () => {
-        session.status = "revealed";
-        render();
-      },
-      onRetry: () => {
-        resetItem(session, blankId);
-        render();
-        queueMicrotask(focusFirstField);
-      },
-      onNext: () => advance(lesson, kind, session, getItems(lesson, kind).length),
-      last,
-    }),
-  );
-  return wrap;
-}
-
-function renderSummary(lesson: Lesson, kind: ExerciseKind, session: Session): HTMLElement {
-  const total = getItems(lesson, kind).length;
+  const total = getTrackItems(lesson, track, kind).length;
   const correct = session.results.filter((result) => result === "correct").length;
   const wrong = session.results.filter((result) => result === "wrong").length;
   const skipped = session.results.filter((result) => result === "skipped").length;
   const meta = EXERCISE_META[kind];
   const nextKind = EXERCISE_ORDER[EXERCISE_ORDER.indexOf(kind) + 1];
+  const label = trackLabel(lesson, track);
 
-  const restart = el("button", { class: "btn btn--primary", type: "button", text: "Repetir esta sección" });
+  const restart = el("button", { class: "btn btn--primary", type: "button", text: "Practice this set again" });
   restart.addEventListener("click", () => {
     sessions.delete(session.key);
     render();
@@ -763,30 +697,30 @@ function renderSummary(lesson: Lesson, kind: ExerciseKind, session: Session): HT
     actions.append(
       el("a", {
         class: "btn",
-        href: href({ name: "exercise", lessonId: lesson.id, kind: nextKind }),
-        text: `Seguir: ${EXERCISE_META[nextKind].title}`,
+        href: href({ name: "exercise", lessonId: lesson.id, track, kind: nextKind }),
+        text: `Continue: ${EXERCISE_META[nextKind].title}`,
       }),
     );
   }
   actions.append(
-    el("a", { class: "btn", href: href({ name: "hub", lessonId: lesson.id }), text: "Volver a la lección" }),
+    el("a", { class: "btn", href: href({ name: "track", lessonId: lesson.id, track }), text: `Back to ${label}` }),
   );
 
   return el("div", { class: "page" },
     el("header", { class: "topbar" },
-      el("a", { class: "back", href: href({ name: "hub", lessonId: lesson.id }), text: "← Lección 1" }),
+      el("a", { class: "back", href: href({ name: "track", lessonId: lesson.id, track }), text: `← ${label}` }),
     ),
     el("main", { class: "shell shell--narrow" },
       el("section", { class: "workbook" },
-        el("p", { class: "kicker", text: meta.title }),
-        el("h2", { text: "Sección terminada" }),
-        el("p", { class: "score", text: `${correct} / ${total} bien a la primera o tras reintentar y acertar.` }),
+        el("p", { class: "kicker", text: `${label} · ${meta.title}` }),
+        el("h2", { text: "Set finished" }),
+        el("p", { class: "score", text: `${correct} / ${total} correct on a first pass or after retrying.` }),
         el("ul", { class: "score-list" },
-          el("li", { text: `${correct} correctas` }),
-          el("li", { text: `${wrong} con respuesta vista` }),
-          el("li", { text: `${skipped} saltadas` }),
+          el("li", { text: `${correct} correct` }),
+          el("li", { text: `${wrong} revealed` }),
+          el("li", { text: `${skipped} skipped` }),
         ),
-        el("p", { class: "muted", text: "El progreso no se guarda: al recargar la página, empiezas de nuevo." }),
+        el("p", { class: "muted", text: "Progress is not saved. Reload and you start over." }),
         actions,
       ),
     ),
