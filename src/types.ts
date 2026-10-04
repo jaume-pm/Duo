@@ -54,6 +54,8 @@ export type Lesson = {
   titleZh: string;
   titleEn: string;
   sourceNote: string;
+  /** Cumulative pool: HSK 1 plus this lesson and every earlier HSK 2 lesson. */
+  vocabScope?: string;
   words: Word[];
   vocabExercises: ExerciseBank;
   grammar: GrammarPoint[];

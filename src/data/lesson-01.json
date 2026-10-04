@@ -3,23 +3,98 @@
   "number": 1,
   "titleZh": "去机场接朋友",
   "titleEn": "Vocabulary and grammar · Lesson 1",
-  "sourceNote": "HSK 2 · Lesson 1 words and grammar",
+  "sourceNote": "HSK 1 words plus HSK 2 Lesson 1",
   "words": [
-    { "hanzi": "早上", "pinyin": "zǎoshang", "pos": "n.", "meaningEn": "morning" },
-    { "hanzi": "机场", "pinyin": "jīchǎng", "pos": "n.", "meaningEn": "airport" },
-    { "hanzi": "接", "pinyin": "jiē", "pos": "v.", "meaningEn": "to pick up / receive" },
-    { "hanzi": "到", "pinyin": "dào", "pos": "v.", "meaningEn": "to arrive, to reach" },
-    { "hanzi": "已经", "pinyin": "yǐjīng", "pos": "adv.", "meaningEn": "already" },
-    { "hanzi": "出", "pinyin": "chū", "pos": "v.", "meaningEn": "to go / come out" },
-    { "hanzi": "穿", "pinyin": "chuān", "pos": "v.", "meaningEn": "to wear, to put on" },
-    { "hanzi": "着", "pinyin": "zhe", "pos": "part.", "meaningEn": "continuing state" },
-    { "hanzi": "红色", "pinyin": "hóngsè", "pos": "adj.", "meaningEn": "red" },
-    { "hanzi": "介绍", "pinyin": "jièshào", "pos": "v.", "meaningEn": "to introduce" },
-    { "hanzi": "一下", "pinyin": "yíxià", "pos": "num.-m.", "meaningEn": "a brief action after a verb" },
-    { "hanzi": "妻子", "pinyin": "qīzi", "pos": "n.", "meaningEn": "wife" },
-    { "hanzi": "孩子", "pinyin": "háizi", "pos": "n.", "meaningEn": "child" },
-    { "hanzi": "丈夫", "pinyin": "zhàngfu", "pos": "n.", "meaningEn": "husband" },
-    { "hanzi": "欢迎", "pinyin": "huānyíng", "pos": "v.", "meaningEn": "to welcome" }
+    {
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "pos": "n.",
+      "meaningEn": "morning"
+    },
+    {
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "pos": "n.",
+      "meaningEn": "airport"
+    },
+    {
+      "hanzi": "接",
+      "pinyin": "jiē",
+      "pos": "v.",
+      "meaningEn": "to pick up / receive"
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dào",
+      "pos": "v.",
+      "meaningEn": "to arrive, to reach"
+    },
+    {
+      "hanzi": "已经",
+      "pinyin": "yǐjīng",
+      "pos": "adv.",
+      "meaningEn": "already"
+    },
+    {
+      "hanzi": "出",
+      "pinyin": "chū",
+      "pos": "v.",
+      "meaningEn": "to go / come out"
+    },
+    {
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "pos": "v.",
+      "meaningEn": "to wear, to put on"
+    },
+    {
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "pos": "part.",
+      "meaningEn": "continuing state"
+    },
+    {
+      "hanzi": "红色",
+      "pinyin": "hóngsè",
+      "pos": "adj.",
+      "meaningEn": "red"
+    },
+    {
+      "hanzi": "介绍",
+      "pinyin": "jièshào",
+      "pos": "v.",
+      "meaningEn": "to introduce"
+    },
+    {
+      "hanzi": "一下",
+      "pinyin": "yíxià",
+      "pos": "num.-m.",
+      "meaningEn": "a brief action after a verb"
+    },
+    {
+      "hanzi": "妻子",
+      "pinyin": "qīzi",
+      "pos": "n.",
+      "meaningEn": "wife"
+    },
+    {
+      "hanzi": "孩子",
+      "pinyin": "háizi",
+      "pos": "n.",
+      "meaningEn": "child"
+    },
+    {
+      "hanzi": "丈夫",
+      "pinyin": "zhàngfu",
+      "pos": "n.",
+      "meaningEn": "husband"
+    },
+    {
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "pos": "v.",
+      "meaningEn": "to welcome"
+    }
   ],
   "vocabExercises": {
     "fill": [
@@ -28,7 +103,11 @@
         "prompt": "I go to the airport in the morning.",
         "template": "____我去机场。",
         "pinyin": "____ wǒ qù jīchǎng.",
-        "answers": ["早上", "zaoshang", "zǎoshang"],
+        "answers": [
+          "早上",
+          "zaoshang",
+          "zǎoshang"
+        ],
         "tip": "早上 means morning."
       },
       {
@@ -36,7 +115,11 @@
         "prompt": "He is going to the airport to pick someone up.",
         "template": "他去____接朋友。",
         "pinyin": "Tā qù ____ jiē péngyou.",
-        "answers": ["机场", "jichang", "jīchǎng"],
+        "answers": [
+          "机场",
+          "jichang",
+          "jīchǎng"
+        ],
         "tip": "机场 is airport."
       },
       {
@@ -44,7 +127,11 @@
         "prompt": "She will pick up the child.",
         "template": "她去____孩子。",
         "pinyin": "Tā qù ____ háizi.",
-        "answers": ["接", "jie", "jiē"],
+        "answers": [
+          "接",
+          "jie",
+          "jiē"
+        ],
         "tip": "接 is to pick someone up."
       },
       {
@@ -52,7 +139,11 @@
         "prompt": "The husband has arrived.",
         "template": "丈夫____了。",
         "pinyin": "Zhàngfu ____ le.",
-        "answers": ["到", "dao", "dào"],
+        "answers": [
+          "到",
+          "dao",
+          "dào"
+        ],
         "tip": "到 means to arrive."
       },
       {
@@ -60,7 +151,11 @@
         "prompt": "This is my wife.",
         "template": "这是我的____。",
         "pinyin": "Zhè shì wǒ de ____.",
-        "answers": ["妻子", "qizi", "qīzi"],
+        "answers": [
+          "妻子",
+          "qizi",
+          "qīzi"
+        ],
         "tip": "妻子 means wife."
       },
       {
@@ -68,7 +163,11 @@
         "prompt": "They welcome the friend.",
         "template": "他们____朋友。",
         "pinyin": "Tāmen ____ péngyou.",
-        "answers": ["欢迎", "huanying", "huānyíng"],
+        "answers": [
+          "欢迎",
+          "huanying",
+          "huānyíng"
+        ],
         "tip": "欢迎 means to welcome."
       },
       {
@@ -76,7 +175,11 @@
         "prompt": "Please introduce your child.",
         "template": "请____一下你的孩子。",
         "pinyin": "Qǐng ____ yíxià nǐ de háizi.",
-        "answers": ["介绍", "jieshao", "jièshào"],
+        "answers": [
+          "介绍",
+          "jieshao",
+          "jièshào"
+        ],
         "tip": "介绍 means to introduce."
       },
       {
@@ -84,7 +187,13 @@
         "prompt": "The clothes are red.",
         "template": "衣服是____的。",
         "pinyin": "Yīfu shì ____ de.",
-        "answers": ["红色", "红色的", "hongse", "hóngsè", "红"],
+        "answers": [
+          "红色",
+          "红色的",
+          "hongse",
+          "hóngsè",
+          "红"
+        ],
         "tip": "红色 means red."
       }
     ],
@@ -92,43 +201,85 @@
       {
         "id": "v-s01",
         "prompt": "I go to the airport in the morning.",
-        "tokens": ["早上", "我", "去", "机场"],
-        "answers": ["早上我去机场", "我早上去机场"],
+        "tokens": [
+          "早上",
+          "我",
+          "去",
+          "机场"
+        ],
+        "answers": [
+          "早上我去机场",
+          "我早上去机场"
+        ],
         "tip": "早上 can come before the subject or right after it."
       },
       {
         "id": "v-s02",
         "prompt": "This is her husband.",
-        "tokens": ["这", "是", "她", "的", "丈夫"],
-        "answers": ["这是她的丈夫"],
+        "tokens": [
+          "这",
+          "是",
+          "她",
+          "的",
+          "丈夫"
+        ],
+        "answers": [
+          "这是她的丈夫"
+        ],
         "tip": "这是 + possessive + noun."
       },
       {
         "id": "v-s03",
         "prompt": "Please welcome the child.",
-        "tokens": ["请", "欢迎", "孩子"],
-        "answers": ["请欢迎孩子"],
+        "tokens": [
+          "请",
+          "欢迎",
+          "孩子"
+        ],
+        "answers": [
+          "请欢迎孩子"
+        ],
         "tip": "请 + verb + object."
       },
       {
         "id": "v-s04",
         "prompt": "He is going to pick up his wife.",
-        "tokens": ["他", "去", "接", "妻子"],
-        "answers": ["他去接妻子"],
+        "tokens": [
+          "他",
+          "去",
+          "接",
+          "妻子"
+        ],
+        "answers": [
+          "他去接妻子"
+        ],
         "tip": "去 + 接 + person."
       },
       {
         "id": "v-s05",
         "prompt": "The child has arrived at the airport.",
-        "tokens": ["孩子", "到", "机场", "了"],
-        "answers": ["孩子到机场了"],
+        "tokens": [
+          "孩子",
+          "到",
+          "机场",
+          "了"
+        ],
+        "answers": [
+          "孩子到机场了"
+        ],
         "tip": "到 + place + 了."
       },
       {
         "id": "v-s06",
         "prompt": "I will introduce my friend.",
-        "tokens": ["我", "介绍", "朋友"],
-        "answers": ["我介绍朋友"],
+        "tokens": [
+          "我",
+          "介绍",
+          "朋友"
+        ],
+        "answers": [
+          "我介绍朋友"
+        ],
         "tip": "Subject + 介绍 + person."
       }
     ],
@@ -136,37 +287,53 @@
       {
         "id": "v-t01",
         "source": "This is my child.",
-        "answers": ["这是我的孩子"],
+        "answers": [
+          "这是我的孩子"
+        ],
         "tip": "这是 + 我的 + 孩子."
       },
       {
         "id": "v-t02",
         "source": "She goes to the airport in the morning.",
-        "answers": ["她早上去机场", "早上她去机场"],
+        "answers": [
+          "她早上去机场",
+          "早上她去机场"
+        ],
         "tip": "Use 早上 and 机场."
       },
       {
         "id": "v-t03",
         "source": "Please pick up the husband.",
-        "answers": ["请接丈夫", "请去接丈夫"],
+        "answers": [
+          "请接丈夫",
+          "请去接丈夫"
+        ],
         "tip": "接 means pick up (a person)."
       },
       {
         "id": "v-t04",
         "source": "They welcome my wife.",
-        "answers": ["他们欢迎我的妻子", "他们欢迎妻子"],
+        "answers": [
+          "他们欢迎我的妻子",
+          "他们欢迎妻子"
+        ],
         "tip": "欢迎 + person."
       },
       {
         "id": "v-t05",
         "source": "The friend has arrived.",
-        "answers": ["朋友到了"],
+        "answers": [
+          "朋友到了"
+        ],
         "tip": "到了 marks arrival."
       },
       {
         "id": "v-t06",
         "source": "I will introduce my husband.",
-        "answers": ["我介绍我的丈夫", "我介绍丈夫"],
+        "answers": [
+          "我介绍我的丈夫",
+          "我介绍丈夫"
+        ],
         "tip": "介绍 + person."
       }
     ]
@@ -187,7 +354,11 @@
             "prompt": "The child has already arrived.",
             "template": "孩子____到了。",
             "pinyin": "Háizi ____ dào le.",
-            "answers": ["已经", "yijing", "yǐjīng"],
+            "answers": [
+              "已经",
+              "yijing",
+              "yǐjīng"
+            ],
             "tip": "Put 已经 after the subject, before the verb."
           },
           {
@@ -195,7 +366,10 @@
             "prompt": "She has already gone to the airport.",
             "template": "她已经去机场____。",
             "pinyin": "Tā yǐjīng qù jīchǎng ____.",
-            "answers": ["了", "le"],
+            "answers": [
+              "了",
+              "le"
+            ],
             "tip": "已经 almost always pairs with 了 at the end of the predicate."
           },
           {
@@ -203,7 +377,11 @@
             "prompt": "My wife has already arrived.",
             "template": "妻子已经____了。",
             "pinyin": "Qīzi yǐjīng ____ le.",
-            "answers": ["到", "dao", "dào"],
+            "answers": [
+              "到",
+              "dao",
+              "dào"
+            ],
             "tip": "已经 + 到 + 了."
           },
           {
@@ -211,7 +389,11 @@
             "prompt": "He has already come out.",
             "template": "他已经____了。",
             "pinyin": "Tā yǐjīng ____ le.",
-            "answers": ["出", "chu", "chū"],
+            "answers": [
+              "出",
+              "chu",
+              "chū"
+            ],
             "tip": "已经 + 出 + 了."
           },
           {
@@ -219,64 +401,189 @@
             "prompt": "I have already picked up the child.",
             "template": "我已经____孩子了。",
             "pinyin": "Wǒ yǐjīng ____ háizi le.",
-            "answers": ["接", "jie", "jiē"],
+            "answers": [
+              "接",
+              "jie",
+              "jiē"
+            ],
             "tip": "已经 + 接 + object + 了."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "The teacher has already come.",
+            "template": "老师已经____了。",
+            "pinyin": "Lǎoshī yǐjīng ____ le.",
+            "answers": [
+              "来",
+              "lai",
+              "lái"
+            ],
+            "tip": "已经 + 来 + 了. 来 is HSK 1."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "I have already eaten.",
+            "template": "我已经____了。",
+            "pinyin": "Wǒ yǐjīng ____ le.",
+            "answers": [
+              "吃",
+              "chi",
+              "chī"
+            ],
+            "tip": "已经 + 吃 + 了."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "They have already gone home.",
+            "template": "他们已经____家了。",
+            "pinyin": "Tāmen yǐjīng ____ jiā le.",
+            "answers": [
+              "回",
+              "hui",
+              "huí"
+            ],
+            "tip": "已经 + 回 + 家 + 了."
           }
         ],
         "scramble": [
           {
             "id": "g1-s01",
             "prompt": "The child has already arrived.",
-            "tokens": ["孩子", "已经", "到", "了"],
-            "answers": ["孩子已经到了"],
+            "tokens": [
+              "孩子",
+              "已经",
+              "到",
+              "了"
+            ],
+            "answers": [
+              "孩子已经到了"
+            ],
             "tip": "Subject + 已经 + verb + 了."
           },
           {
             "id": "g1-s02",
             "prompt": "She has already gone to the airport.",
-            "tokens": ["她", "已经", "去", "机场", "了"],
-            "answers": ["她已经去机场了"],
+            "tokens": [
+              "她",
+              "已经",
+              "去",
+              "机场",
+              "了"
+            ],
+            "answers": [
+              "她已经去机场了"
+            ],
             "tip": "已经 sits after 她, 了 closes the sentence."
           },
           {
             "id": "g1-s03",
             "prompt": "The husband has already come out.",
-            "tokens": ["丈夫", "已经", "出", "了"],
-            "answers": ["丈夫已经出了"],
+            "tokens": [
+              "丈夫",
+              "已经",
+              "出",
+              "了"
+            ],
+            "answers": [
+              "丈夫已经出了"
+            ],
             "tip": "已经 + 出 + 了."
           },
           {
             "id": "g1-s04",
             "prompt": "I have already picked up my wife.",
-            "tokens": ["我", "已经", "接", "妻子", "了"],
-            "answers": ["我已经接妻子了"],
+            "tokens": [
+              "我",
+              "已经",
+              "接",
+              "妻子",
+              "了"
+            ],
+            "answers": [
+              "我已经接妻子了"
+            ],
             "tip": "Object 妻子 stays after 接."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "The teacher has already come.",
+            "tokens": [
+              "老师",
+              "已经",
+              "来",
+              "了"
+            ],
+            "answers": [
+              "老师已经来了"
+            ],
+            "tip": "Subject + 已经 + 来 + 了."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "I have already eaten rice.",
+            "tokens": [
+              "我",
+              "已经",
+              "吃",
+              "米饭",
+              "了"
+            ],
+            "answers": [
+              "我已经吃米饭了"
+            ],
+            "tip": "已经 + 吃 + object + 了."
           }
         ],
         "translate": [
           {
             "id": "g1-t01",
             "source": "The wife has already arrived.",
-            "answers": ["妻子已经到了", "我的妻子已经到了"],
+            "answers": [
+              "妻子已经到了",
+              "我的妻子已经到了"
+            ],
             "tip": "已经…了 around 到."
           },
           {
             "id": "g1-t02",
             "source": "He has already gone to the airport.",
-            "answers": ["他已经去机场了"],
+            "answers": [
+              "他已经去机场了"
+            ],
             "tip": "已经 + 去机场 + 了."
           },
           {
             "id": "g1-t03",
             "source": "The child has already come out.",
-            "answers": ["孩子已经出了"],
+            "answers": [
+              "孩子已经出了"
+            ],
             "tip": "已经 + 出 + 了."
           },
           {
             "id": "g1-t04",
             "source": "I have already picked up my husband.",
-            "answers": ["我已经接丈夫了", "我已经接我的丈夫了"],
+            "answers": [
+              "我已经接丈夫了",
+              "我已经接我的丈夫了"
+            ],
             "tip": "已经 + 接 + 丈夫 + 了."
+          },
+          {
+            "id": "g1-t05",
+            "source": "I have already drunk tea.",
+            "answers": [
+              "我已经喝茶了"
+            ],
+            "tip": "已经 + 喝 + 茶 + 了."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Dad has already gone home.",
+            "answers": [
+              "爸爸已经回家了"
+            ],
+            "tip": "已经 + 回家 + 了."
           }
         ]
       }
@@ -296,7 +603,10 @@
             "prompt": "The child is wearing red clothes.",
             "template": "孩子穿____红色的衣服。",
             "pinyin": "Háizi chuān ____ hóngsè de yīfu.",
-            "answers": ["着", "zhe"],
+            "answers": [
+              "着",
+              "zhe"
+            ],
             "tip": "着 attaches to 穿 to mark the state of wearing."
           },
           {
@@ -304,7 +614,11 @@
             "prompt": "She is wearing red clothes.",
             "template": "她____着红色的衣服。",
             "pinyin": "Tā ____ zhe hóngsè de yīfu.",
-            "answers": ["穿", "chuan", "chuān"],
+            "answers": [
+              "穿",
+              "chuan",
+              "chuān"
+            ],
             "tip": "The verb before 着 is 穿."
           },
           {
@@ -312,7 +626,10 @@
             "prompt": "The husband is watching the child.",
             "template": "丈夫看____孩子。",
             "pinyin": "Zhàngfu kàn ____ háizi.",
-            "answers": ["着", "zhe"],
+            "answers": [
+              "着",
+              "zhe"
+            ],
             "tip": "看着 = watching / looking at (ongoing)."
           },
           {
@@ -320,7 +637,10 @@
             "prompt": "I am not wearing red clothes.",
             "template": "我没穿____红色的衣服。",
             "pinyin": "Wǒ méi chuān ____ hóngsè de yīfu.",
-            "answers": ["着", "zhe"],
+            "answers": [
+              "着",
+              "zhe"
+            ],
             "tip": "Negate with 没, keep 着: 没穿着."
           },
           {
@@ -328,64 +648,189 @@
             "prompt": "The wife is watching the airport.",
             "template": "妻子____着机场。",
             "pinyin": "Qīzi ____ zhe jīchǎng.",
-            "answers": ["看", "kan", "kàn"],
+            "answers": [
+              "看",
+              "kan",
+              "kàn"
+            ],
             "tip": "看着 + place/person."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "The teacher is reading a book.",
+            "template": "老师看____书。",
+            "pinyin": "Lǎoshī kàn ____ shū.",
+            "answers": [
+              "着",
+              "zhe"
+            ],
+            "tip": "看着 + 书 marks the ongoing state of reading/looking."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "Mom is watching the child.",
+            "template": "妈妈____着孩子。",
+            "pinyin": "Māma ____ zhe háizi.",
+            "answers": [
+              "看",
+              "kan",
+              "kàn"
+            ],
+            "tip": "看着 + person."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "The cat is sitting.",
+            "template": "猫坐____。",
+            "pinyin": "Māo zuò ____.",
+            "answers": [
+              "着",
+              "zhe"
+            ],
+            "tip": "坐着 = sitting (state)."
           }
         ],
         "scramble": [
           {
             "id": "g2-s01",
             "prompt": "The child is wearing red clothes.",
-            "tokens": ["孩子", "穿", "着", "红色", "的", "衣服"],
-            "answers": ["孩子穿着红色的衣服"],
+            "tokens": [
+              "孩子",
+              "穿",
+              "着",
+              "红色",
+              "的",
+              "衣服"
+            ],
+            "answers": [
+              "孩子穿着红色的衣服"
+            ],
             "tip": "Verb + 着, then the object."
           },
           {
             "id": "g2-s02",
             "prompt": "She is watching the child.",
-            "tokens": ["她", "看", "着", "孩子"],
-            "answers": ["她看着孩子"],
+            "tokens": [
+              "她",
+              "看",
+              "着",
+              "孩子"
+            ],
+            "answers": [
+              "她看着孩子"
+            ],
             "tip": "看 + 着 + 孩子."
           },
           {
             "id": "g2-s03",
             "prompt": "The husband is wearing red clothes.",
-            "tokens": ["丈夫", "穿", "着", "红色", "的", "衣服"],
-            "answers": ["丈夫穿着红色的衣服"],
+            "tokens": [
+              "丈夫",
+              "穿",
+              "着",
+              "红色",
+              "的",
+              "衣服"
+            ],
+            "answers": [
+              "丈夫穿着红色的衣服"
+            ],
             "tip": "Same pattern, different subject."
           },
           {
             "id": "g2-s04",
             "prompt": "I am not wearing red clothes.",
-            "tokens": ["我", "没", "穿", "着", "红色", "的", "衣服"],
-            "answers": ["我没穿着红色的衣服"],
+            "tokens": [
+              "我",
+              "没",
+              "穿",
+              "着",
+              "红色",
+              "的",
+              "衣服"
+            ],
+            "answers": [
+              "我没穿着红色的衣服"
+            ],
             "tip": "没 comes before the verb, 着 stays after it."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "The teacher is reading a book.",
+            "tokens": [
+              "老师",
+              "看",
+              "着",
+              "书"
+            ],
+            "answers": [
+              "老师看着书"
+            ],
+            "tip": "看 + 着 + 书."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "The cat is sitting.",
+            "tokens": [
+              "猫",
+              "坐",
+              "着"
+            ],
+            "answers": [
+              "猫坐着"
+            ],
+            "tip": "Verb + 着, no extra object needed here."
           }
         ],
         "translate": [
           {
             "id": "g2-t01",
             "source": "The child is wearing red clothes.",
-            "answers": ["孩子穿着红色的衣服"],
+            "answers": [
+              "孩子穿着红色的衣服"
+            ],
             "tip": "穿着 + 红色的衣服."
           },
           {
             "id": "g2-t02",
             "source": "She is watching the child.",
-            "answers": ["她看着孩子"],
+            "answers": [
+              "她看着孩子"
+            ],
             "tip": "看着 + person."
           },
           {
             "id": "g2-t03",
             "source": "The husband is wearing red clothes.",
-            "answers": ["丈夫穿着红色的衣服", "她的丈夫穿着红色的衣服"],
+            "answers": [
+              "丈夫穿着红色的衣服",
+              "她的丈夫穿着红色的衣服"
+            ],
             "tip": "Different subject, same 着 pattern."
           },
           {
             "id": "g2-t04",
             "source": "I am not wearing red clothes.",
-            "answers": ["我没穿着红色的衣服"],
+            "answers": [
+              "我没穿着红色的衣服"
+            ],
             "tip": "没 + 穿着."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Mom is watching the child.",
+            "answers": [
+              "妈妈看着孩子"
+            ],
+            "tip": "看着 + 孩子."
+          },
+          {
+            "id": "g2-t06",
+            "source": "The teacher is wearing red clothes.",
+            "answers": [
+              "老师穿着红色的衣服"
+            ],
+            "tip": "穿着 + 红色的衣服."
           }
         ]
       }
@@ -405,7 +850,13 @@
             "prompt": "This is your wife, right?",
             "template": "这是你的妻子，____？",
             "pinyin": "Zhè shì nǐ de qīzi, ____?",
-            "answers": ["是不是", "是不是？", "shibushi", "shì bu shì", "shìbushì"],
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
             "tip": "Tag 是不是 at the end for confirmation."
           },
           {
@@ -413,7 +864,12 @@
             "prompt": "Has he already arrived? (seeking confirmation)",
             "template": "____他已经到了？",
             "pinyin": "____ tā yǐjīng dào le?",
-            "answers": ["是不是", "shibushi", "shì bu shì", "shìbushì"],
+            "answers": [
+              "是不是",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
             "tip": "是不是 can also open the question."
           },
           {
@@ -421,7 +877,13 @@
             "prompt": "The child has already gone to the airport, right?",
             "template": "孩子已经去机场了，____？",
             "pinyin": "Háizi yǐjīng qù jīchǎng le, ____?",
-            "answers": ["是不是", "是不是？", "shibushi", "shì bu shì", "shìbushì"],
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
             "tip": "Comma + 是不是 at the end."
           },
           {
@@ -429,7 +891,13 @@
             "prompt": "This is her husband, right?",
             "template": "这是她的丈夫，____？",
             "pinyin": "Zhè shì tā de zhàngfu, ____?",
-            "answers": ["是不是", "是不是？", "shibushi", "shì bu shì", "shìbushì"],
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
             "tip": "Same tag, different noun."
           },
           {
@@ -437,64 +905,210 @@
             "prompt": "You are going to pick up the child, right?",
             "template": "你去接孩子，____？",
             "pinyin": "Nǐ qù jiē háizi, ____?",
-            "answers": ["是不是", "是不是？", "shibushi", "shì bu shì", "shìbushì"],
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
             "tip": "是不是 confirms the whole statement."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "This is your teacher, right?",
+            "template": "这是你的老师，____？",
+            "pinyin": "Zhè shì nǐ de lǎoshī, ____?",
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
+            "tip": "Tag 是不是 after the statement."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "Is this your book? (seeking confirmation)",
+            "template": "____这是你的书？",
+            "pinyin": "____ zhè shì nǐ de shū?",
+            "answers": [
+              "是不是",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
+            "tip": "是不是 can open the question."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "Today is hot, right?",
+            "template": "今天很热，____？",
+            "pinyin": "Jīntiān hěn rè, ____?",
+            "answers": [
+              "是不是",
+              "是不是？",
+              "shibushi",
+              "shì bu shì",
+              "shìbushì"
+            ],
+            "tip": "是不是 confirms an adjective sentence too."
           }
         ],
         "scramble": [
           {
             "id": "g3-s01",
             "prompt": "This is your husband, right?",
-            "tokens": ["这", "是", "你", "的", "丈夫", "是不是"],
-            "answers": ["这是你的丈夫是不是"],
+            "tokens": [
+              "这",
+              "是",
+              "你",
+              "的",
+              "丈夫",
+              "是不是"
+            ],
+            "answers": [
+              "这是你的丈夫是不是"
+            ],
             "tip": "Statement first, 是不是 last."
           },
           {
             "id": "g3-s02",
             "prompt": "Has he already arrived?",
-            "tokens": ["是不是", "他", "已经", "到", "了"],
-            "answers": ["是不是他已经到了"],
+            "tokens": [
+              "是不是",
+              "他",
+              "已经",
+              "到",
+              "了"
+            ],
+            "answers": [
+              "是不是他已经到了"
+            ],
             "tip": "是不是 can lead the question."
           },
           {
             "id": "g3-s03",
             "prompt": "The child has already gone to the airport, right?",
-            "tokens": ["孩子", "已经", "去", "机场", "了", "是不是"],
-            "answers": ["孩子已经去机场了是不是"],
+            "tokens": [
+              "孩子",
+              "已经",
+              "去",
+              "机场",
+              "了",
+              "是不是"
+            ],
+            "answers": [
+              "孩子已经去机场了是不是"
+            ],
             "tip": "Keep 已经…了 together, then 是不是."
           },
           {
             "id": "g3-s04",
             "prompt": "She is wearing red clothes, right?",
-            "tokens": ["她", "穿", "着", "红色", "的", "衣服", "是不是"],
-            "answers": ["她穿着红色的衣服是不是"],
+            "tokens": [
+              "她",
+              "穿",
+              "着",
+              "红色",
+              "的",
+              "衣服",
+              "是不是"
+            ],
+            "answers": [
+              "她穿着红色的衣服是不是"
+            ],
             "tip": "着 stays on 穿; 是不是 is only the tag."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "This is your book, right?",
+            "tokens": [
+              "这",
+              "是",
+              "你",
+              "的",
+              "书",
+              "是不是"
+            ],
+            "answers": [
+              "这是你的书是不是"
+            ],
+            "tip": "Statement, then 是不是."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "He is going to school, right?",
+            "tokens": [
+              "是不是",
+              "他",
+              "去",
+              "学校"
+            ],
+            "answers": [
+              "是不是他去学校"
+            ],
+            "tip": "是不是 can lead; 学校 is HSK 1."
           }
         ],
         "translate": [
           {
             "id": "g3-t01",
             "source": "This is your husband, right?",
-            "answers": ["这是你的丈夫是不是", "这是你的丈夫，是不是"],
+            "answers": [
+              "这是你的丈夫是不是",
+              "这是你的丈夫，是不是"
+            ],
             "tip": "Statement + 是不是."
           },
           {
             "id": "g3-t02",
             "source": "The child has already arrived, right?",
-            "answers": ["孩子已经到了是不是", "孩子已经到了，是不是", "是不是孩子已经到了"],
+            "answers": [
+              "孩子已经到了是不是",
+              "孩子已经到了，是不是",
+              "是不是孩子已经到了"
+            ],
             "tip": "Use 已经…了 and 是不是."
           },
           {
             "id": "g3-t03",
             "source": "You are going to the airport, right?",
-            "answers": ["你去机场是不是", "你去机场，是不是", "是不是你去机场"],
+            "answers": [
+              "你去机场是不是",
+              "你去机场，是不是",
+              "是不是你去机场"
+            ],
             "tip": "Short statement plus 是不是."
           },
           {
             "id": "g3-t04",
             "source": "This is her wife, isn’t it?",
-            "answers": ["这是她的妻子是不是", "这是她的妻子，是不是"],
+            "answers": [
+              "这是她的妻子是不是",
+              "这是她的妻子，是不是"
+            ],
             "tip": "这是 + 她的 + 妻子 + 是不是."
+          },
+          {
+            "id": "g3-t05",
+            "source": "This is your teacher, right?",
+            "answers": [
+              "这是你的老师是不是",
+              "这是你的老师，是不是"
+            ],
+            "tip": "这是 + 你的 + 老师 + 是不是."
+          },
+          {
+            "id": "g3-t06",
+            "source": "You like tea, right?",
+            "answers": [
+              "你喜欢茶是不是",
+              "你喜欢茶，是不是",
+              "是不是你喜欢茶"
+            ],
+            "tip": "喜欢 is HSK 1; add 是不是."
           }
         ]
       }
@@ -514,7 +1128,12 @@
             "prompt": "Please introduce your wife.",
             "template": "请介绍____你的妻子。",
             "pinyin": "Qǐng jièshào ____ nǐ de qīzi.",
-            "answers": ["一下", "一下儿", "yixia", "yíxià"],
+            "answers": [
+              "一下",
+              "一下儿",
+              "yixia",
+              "yíxià"
+            ],
             "tip": "一下 comes right after the verb 介绍."
           },
           {
@@ -522,7 +1141,12 @@
             "prompt": "Take a look at the child.",
             "template": "你看____孩子。",
             "pinyin": "Nǐ kàn ____ háizi.",
-            "answers": ["一下", "一下儿", "yixia", "yíxià"],
+            "answers": [
+              "一下",
+              "一下儿",
+              "yixia",
+              "yíxià"
+            ],
             "tip": "看一下 = take a quick look."
           },
           {
@@ -530,7 +1154,11 @@
             "prompt": "Please pick up the child (briefly / as a small favor).",
             "template": "请____一下孩子。",
             "pinyin": "Qǐng ____ yíxià háizi.",
-            "answers": ["接", "jie", "jiē"],
+            "answers": [
+              "接",
+              "jie",
+              "jiē"
+            ],
             "tip": "The verb before 一下 is 接."
           },
           {
@@ -538,7 +1166,11 @@
             "prompt": "Please introduce yourself / make an introduction.",
             "template": "请____一下。",
             "pinyin": "Qǐng ____ yíxià.",
-            "answers": ["介绍", "jieshao", "jièshào"],
+            "answers": [
+              "介绍",
+              "jieshao",
+              "jièshào"
+            ],
             "tip": "介绍一下 is the polite “make an introduction.”"
           },
           {
@@ -546,67 +1178,196 @@
             "prompt": "Have a quick look at the airport.",
             "template": "看一下____。",
             "pinyin": "Kàn yíxià ____.",
-            "answers": ["机场", "jichang", "jīchǎng"],
+            "answers": [
+              "机场",
+              "jichang",
+              "jīchǎng"
+            ],
             "tip": "一下 still follows 看; the object comes after."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "Please listen (for a moment).",
+            "template": "请听____。",
+            "pinyin": "Qǐng tīng ____.",
+            "answers": [
+              "一下",
+              "一下儿",
+              "yixia",
+              "yíxià"
+            ],
+            "tip": "听一下 softens 听."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "Have a look at the book.",
+            "template": "你看一下____。",
+            "pinyin": "Nǐ kàn yíxià ____.",
+            "answers": [
+              "书",
+              "shu",
+              "shū"
+            ],
+            "tip": "看一下 + object. 书 is HSK 1."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "Please say your name.",
+            "template": "请说____你的名字。",
+            "pinyin": "Qǐng shuō ____ nǐ de míngzi.",
+            "answers": [
+              "一下",
+              "一下儿",
+              "yixia",
+              "yíxià"
+            ],
+            "tip": "说一下 + 你的名字."
           }
         ],
         "scramble": [
           {
             "id": "g4-s01",
             "prompt": "Please introduce your husband.",
-            "tokens": ["请", "介绍", "一下", "你", "的", "丈夫"],
-            "answers": ["请介绍一下你的丈夫"],
+            "tokens": [
+              "请",
+              "介绍",
+              "一下",
+              "你",
+              "的",
+              "丈夫"
+            ],
+            "answers": [
+              "请介绍一下你的丈夫"
+            ],
             "tip": "请 + verb + 一下 + object."
           },
           {
             "id": "g4-s02",
             "prompt": "Take a look at the child.",
-            "tokens": ["你", "看", "一下", "孩子"],
-            "answers": ["你看一下孩子"],
+            "tokens": [
+              "你",
+              "看",
+              "一下",
+              "孩子"
+            ],
+            "answers": [
+              "你看一下孩子"
+            ],
             "tip": "看一下 + 孩子."
           },
           {
             "id": "g4-s03",
             "prompt": "Please pick up your wife.",
-            "tokens": ["请", "接", "一下", "妻子"],
-            "answers": ["请接一下妻子"],
+            "tokens": [
+              "请",
+              "接",
+              "一下",
+              "妻子"
+            ],
+            "answers": [
+              "请接一下妻子"
+            ],
             "tip": "接一下 + person."
           },
           {
             "id": "g4-s04",
             "prompt": "Introduce your friend.",
-            "tokens": ["介绍", "一下", "朋友"],
-            "answers": ["介绍一下朋友"],
+            "tokens": [
+              "介绍",
+              "一下",
+              "朋友"
+            ],
+            "answers": [
+              "介绍一下朋友"
+            ],
             "tip": "Verb + 一下 + object, even without 请."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "Please listen.",
+            "tokens": [
+              "请",
+              "听",
+              "一下"
+            ],
+            "answers": [
+              "请听一下"
+            ],
+            "tip": "请 + verb + 一下."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "Have a look at the book.",
+            "tokens": [
+              "你",
+              "看",
+              "一下",
+              "书"
+            ],
+            "answers": [
+              "你看一下书"
+            ],
+            "tip": "看一下 + 书."
           }
         ],
         "translate": [
           {
             "id": "g4-t01",
             "source": "Please introduce your child.",
-            "answers": ["请介绍一下你的孩子", "介绍一下你的孩子"],
+            "answers": [
+              "请介绍一下你的孩子",
+              "介绍一下你的孩子"
+            ],
             "tip": "介绍一下 + person."
           },
           {
             "id": "g4-t02",
             "source": "Take a look at the airport.",
-            "answers": ["看一下机场", "你看一下机场"],
+            "answers": [
+              "看一下机场",
+              "你看一下机场"
+            ],
             "tip": "看一下 + 机场."
           },
           {
             "id": "g4-t03",
             "source": "Please pick up the child.",
-            "answers": ["请接一下孩子", "接一下孩子"],
+            "answers": [
+              "请接一下孩子",
+              "接一下孩子"
+            ],
             "tip": "接一下 + 孩子."
           },
           {
             "id": "g4-t04",
             "source": "Please introduce your wife.",
-            "answers": ["请介绍一下你的妻子", "介绍一下你的妻子"],
+            "answers": [
+              "请介绍一下你的妻子",
+              "介绍一下你的妻子"
+            ],
             "tip": "Same pattern with 妻子."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Please listen.",
+            "answers": [
+              "请听一下",
+              "听一下"
+            ],
+            "tip": "听一下."
+          },
+          {
+            "id": "g4-t06",
+            "source": "Please say your name.",
+            "answers": [
+              "请说一下你的名字",
+              "说一下你的名字"
+            ],
+            "tip": "说一下 + 你的名字."
           }
         ]
       }
     }
-  ]
+  ],
+  "vocabScope": "HSK 1 and HSK 2 Lesson 1. Later lessons add earlier HSK 2 lessons."
 }

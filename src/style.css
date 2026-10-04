@@ -160,7 +160,8 @@ textarea {
 .workbook,
 .ex-card,
 .grammar-card,
-.vocab-item {
+.vocab-item,
+.mix-card {
   background: var(--card);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -175,6 +176,23 @@ textarea {
 
 .lesson-card:hover {
   border-color: #c9b59a;
+}
+
+.mix-card {
+  display: block;
+  padding: 1.35rem 1.45rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.mix-card:hover {
+  border-color: #c9b59a;
+}
+
+.mix-card h2 {
+  margin: 0.15rem 0 0.45rem;
+  font-family: var(--serif);
+  font-size: 1.55rem;
 }
 
 .lesson-card__meta,

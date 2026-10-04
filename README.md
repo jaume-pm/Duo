@@ -26,6 +26,9 @@ npm run preview
 ## What’s inside
 
 - **Vocabulary** — fill, unscramble, and translate drills for the lesson word list.
-- **Grammar** — each point opens its own set of fill, unscramble, and translate exercises.
+- **Grammar** — each point has at least 20 fill, unscramble, and translate items.
+- **Mixed practice** — one shuffled stream of every grammar item in the lesson, so the pattern keeps changing.
+
+Sentences use **HSK 1 plus the HSK 2 lessons you have already reached**. Lesson 1 only uses HSK 1 + Lesson 1 words. Lesson 2 will be allowed to use Lessons 1 and 2, and so on. Not every word appears; the pool is just what you already know so the grammar is answerable.
 
 Lesson data lives in `src/data/lesson-01.json`. Add lesson 2 as another JSON file and register it in `src/data/lessons.ts`.

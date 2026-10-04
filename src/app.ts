@@ -1,10 +1,13 @@
 import { displayAnswers, matchesAnswer } from "./check";
 import {
+  collectMixCards,
   getGrammar,
   getLesson,
   getTrackItems,
+  grammarItemCount,
   lessons,
   trackLabel,
+  type MixCard,
   type Track,
 } from "./data/lessons";
 import {
@@ -22,7 +25,8 @@ type Route =
   | { name: "home" }
   | { name: "hub"; lessonId: string }
   | { name: "track"; lessonId: string; track: Track }
-  | { name: "exercise"; lessonId: string; track: Track; kind: ExerciseKind };
+  | { name: "exercise"; lessonId: string; track: Track; kind: ExerciseKind }
+  | { name: "mix"; lessonId: string };
 
 type CheckStatus = "idle" | "correct" | "wrong" | "revealed";
 type ItemResult = "correct" | "wrong" | "skipped";
@@ -36,6 +40,7 @@ type Session = {
   bank: string[];
   results: ItemResult[];
   checkedOnce: boolean;
+  mixDeck?: MixCard[];
 };
 
 const KINDS = new Set<string>(EXERCISE_ORDER);
@@ -47,6 +52,7 @@ const sessions = new Map<string, Session>();
 
 function parseTrack(parts: string[]): Track | null {
   if (parts[0] === "vocab") return { type: "vocab" };
+  if (parts[0] === "mix") return { type: "mix" };
   if (parts[0] === "g" && parts[1]) return { type: "grammar", grammarId: parts[1] };
   return null;
 }
@@ -58,6 +64,7 @@ function parseRoute(): Route {
   const lessonId = parts[1];
   const rest = parts.slice(2);
   if (rest.length === 0) return { name: "hub", lessonId };
+  if (rest[0] === "mix") return { name: "mix", lessonId };
   const track = parseTrack(rest);
   if (!track) return { name: "hub", lessonId };
   const kindPart = track.type === "vocab" ? rest[1] : rest[2];
@@ -68,12 +75,15 @@ function parseRoute(): Route {
 }
 
 function trackPath(track: Track): string {
-  return track.type === "vocab" ? "vocab" : `g/${track.grammarId}`;
+  if (track.type === "vocab") return "vocab";
+  if (track.type === "mix") return "mix";
+  return `g/${track.grammarId}`;
 }
 
 function href(route: Route): string {
   if (route.name === "home") return "#/";
   if (route.name === "hub") return `#/l/${route.lessonId}`;
+  if (route.name === "mix") return `#/l/${route.lessonId}/mix`;
   const base = `#/l/${route.lessonId}/${trackPath(route.track)}`;
   if (route.name === "track") return base;
   return `${base}/${route.kind}`;
@@ -135,9 +145,16 @@ function render(): void {
     root.append(renderHub(lesson));
     return;
   }
-  if (route.track.type === "grammar" && !getGrammar(lesson, route.track.grammarId)) {
-    root.append(renderMissing());
+  if (route.name === "mix") {
+    root.append(renderMix(lesson));
     return;
+  }
+  const activeTrack = route.track;
+  if (activeTrack.type === "grammar") {
+    if (!getGrammar(lesson, activeTrack.grammarId)) {
+      root.append(renderMissing());
+      return;
+    }
   }
   if (route.name === "track") {
     root.append(renderTrack(lesson, route.track));
@@ -163,7 +180,7 @@ function renderHome(): HTMLElement {
         el("p", { class: "kicker", text: "HSK 2 · vocabulary and grammar" }),
         el("h2", { text: "Practice the words and patterns, not the textbook lines." }),
         el("p", { class: "lede" },
-          "Each grammar point has its own drills. Sentences are new; they reuse this lesson’s vocab and structures only.",
+          "Drill each grammar point, or mix them so the pattern keeps changing. Sentences use HSK 1 plus the words you have already learned.",
         ),
       ),
       el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
@@ -221,10 +238,7 @@ function renderHub(lesson: Lesson): HTMLElement {
 
   const grammar = el("div", { class: "grammar-grid" });
   for (const point of lesson.grammar) {
-    const total = EXERCISE_ORDER.reduce(
-      (sum, kind) => sum + point.exercises[kind].length,
-      0,
-    );
+    const total = grammarItemCount(point);
     grammar.append(
       el("a", {
         class: "grammar-card grammar-card--link",
@@ -256,6 +270,14 @@ function renderHub(lesson: Lesson): HTMLElement {
         el("p", { class: "kicker", text: `Lesson ${lesson.number}` }),
         el("h1", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
         el("p", { class: "card-en", text: "Words and grammar only — new practice sentences, not the textbook dialogue." }),
+      ),
+      el("section", { class: "block" },
+        el("a", { class: "mix-card", href: href({ name: "mix", lessonId: lesson.id }) },
+          el("p", { class: "kicker", text: "Mixed practice" }),
+          el("h2", { text: "All grammar, shuffled" }),
+          el("p", { class: "muted", text: "Fill, unscramble, and translate items from every point in this lesson, in random order, so you are not drilling the same pattern the whole time." }),
+          el("span", { class: "card-cta", text: `Start mix · ${lesson.grammar.reduce((n, point) => n + grammarItemCount(point), 0)} items →` }),
+        ),
       ),
       el("section", { class: "block" },
         el("div", { class: "block-head" },
@@ -296,6 +318,8 @@ function renderTrack(lesson: Lesson, track: Track): HTMLElement {
       ),
     );
   }
+
+  if (track.type === "mix") return renderMissing();
 
   const point = getGrammar(lesson, track.grammarId);
   if (!point) return renderMissing();
@@ -362,14 +386,90 @@ function renderExercise(lesson: Lesson, track: Track, kind: ExerciseKind): HTMLE
   card.append(el("p", { class: "kicker", text: `Item ${session.index + 1}` }));
 
   if (kind === "fill") {
-    card.append(renderFill(item as FillItem, session, lesson, track, kind));
+    card.append(renderFill(item as FillItem, session, lesson, track, kind, items.length));
   } else if (kind === "scramble") {
-    card.append(renderScramble(item as ScrambleItem, session, lesson, track, kind));
+    card.append(renderScramble(item as ScrambleItem, session, lesson, track, kind, items.length));
   } else {
-    card.append(renderTranslate(item as TranslateItem, session, lesson, track, kind));
+    card.append(renderTranslate(item as TranslateItem, session, lesson, track, kind, items.length));
   }
 
   main.append(card);
+  page.append(main);
+  return page;
+}
+
+function mixTokens(card: MixCard): string[] | undefined {
+  return card.kind === "scramble" ? (card.item as ScrambleItem).tokens : undefined;
+}
+
+function getMixSession(lesson: Lesson): Session {
+  const key = `${lesson.id}:mix`;
+  const existing = sessions.get(key);
+  if (existing) return existing;
+  const mixDeck = shuffle(collectMixCards(lesson), `${lesson.id}:mix`);
+  const first = mixDeck[0];
+  const created: Session = {
+    key,
+    index: 0,
+    status: "idle",
+    input: "",
+    selected: [],
+    bank: first && mixTokens(first) ? shuffle(mixTokens(first) as string[], first.item.id) : [],
+    results: [],
+    checkedOnce: false,
+    mixDeck,
+  };
+  sessions.set(key, created);
+  return created;
+}
+
+function renderMix(lesson: Lesson): HTMLElement {
+  const session = getMixSession(lesson);
+  const deck = session.mixDeck ?? [];
+  const mixTrack: Track = { type: "mix" };
+
+  if (deck.length === 0) {
+    return el("div", { class: "page" },
+      el("main", { class: "shell" },
+        el("h1", { text: "No mixed items yet" }),
+        el("a", { class: "text-link", href: href({ name: "hub", lessonId: lesson.id }), text: "Back" }),
+      ),
+    );
+  }
+
+  if (session.index >= deck.length) {
+    return renderSummary(lesson, mixTrack, "fill", session, deck.length);
+  }
+
+  const current = deck[session.index];
+  const meta = EXERCISE_META[current.kind];
+  const progress = `${session.index + 1} / ${deck.length}`;
+
+  const page = el("div", { class: "page" },
+    el("header", { class: "topbar" },
+      el("a", { class: "back", href: href({ name: "hub", lessonId: lesson.id }), text: "← Lesson" }),
+      el("div", { class: "progress-wrap" },
+        el("p", { class: "progress-label", text: `Mix · ${current.grammarTitle} · ${meta.title} · ${progress}` }),
+        el("div", { class: "bar", role: "progressbar", "aria-valuenow": session.index + 1, "aria-valuemax": deck.length },
+          el("span", { style: `width:${(session.index / deck.length) * 100}%` }),
+        ),
+      ),
+    ),
+  );
+
+  const main = el("main", { class: "shell shell--narrow" });
+  const workbook = el("section", { class: "workbook" });
+  workbook.append(el("p", { class: "kicker", text: `${current.grammarTitle} · ${meta.title}` }));
+
+  if (current.kind === "fill") {
+    workbook.append(renderFill(current.item as FillItem, session, lesson, mixTrack, current.kind, deck.length));
+  } else if (current.kind === "scramble") {
+    workbook.append(renderScramble(current.item as ScrambleItem, session, lesson, mixTrack, current.kind, deck.length));
+  } else {
+    workbook.append(renderTranslate(current.item as TranslateItem, session, lesson, mixTrack, current.kind, deck.length));
+  }
+
+  main.append(workbook);
   page.append(main);
   return page;
 }
@@ -458,10 +558,15 @@ function advance(
   }
   session.index += 1;
   if (session.index < total) {
-    const items = getTrackItems(lesson, track, kind);
-    const next = items[session.index];
-    const tokens = kind === "scramble" ? (next as ScrambleItem).tokens : undefined;
-    resetItem(session, next.id, tokens);
+    if (track.type === "mix" && session.mixDeck) {
+      const next = session.mixDeck[session.index];
+      resetItem(session, next.item.id, mixTokens(next));
+    } else {
+      const items = getTrackItems(lesson, track, kind);
+      const next = items[session.index];
+      const tokens = kind === "scramble" ? (next as ScrambleItem).tokens : undefined;
+      resetItem(session, next.id, tokens);
+    }
   }
   render();
 }
@@ -472,6 +577,7 @@ function renderFill(
   lesson: Lesson,
   track: Track,
   kind: ExerciseKind,
+  total: number,
 ): HTMLElement {
   const wrap = el("div");
   wrap.append(
@@ -500,7 +606,7 @@ function renderFill(
   const sentence = el("p", { class: "sentence" }, parts[0] ?? "", field, parts[1] ?? "");
   wrap.append(sentence, el("p", { class: "pinyin", text: item.pinyin }));
 
-  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
+  const last = session.index === total - 1;
   const check = () => {
     session.checkedOnce = true;
     session.status = matchesAnswer(session.input, item.answers) ? "correct" : "wrong";
@@ -527,7 +633,7 @@ function renderFill(
         render();
         queueMicrotask(focusFirstField);
       },
-      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
+      onNext: () => advance(lesson, track, kind, session, total),
       last,
     }),
   );
@@ -540,6 +646,7 @@ function renderScramble(
   lesson: Lesson,
   track: Track,
   kind: ExerciseKind,
+  total: number,
 ): HTMLElement {
   if (session.bank.length === 0 && session.selected.length === 0) {
     session.bank = shuffle(item.tokens, item.id);
@@ -582,7 +689,7 @@ function renderScramble(
 
   wrap.append(built, bank);
 
-  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
+  const last = session.index === total - 1;
   appendFeedback(wrap, session.status, item.answers, item.tip);
   wrap.append(
     actionRow({
@@ -601,7 +708,7 @@ function renderScramble(
         resetItem(session, item.id, item.tokens);
         render();
       },
-      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
+      onNext: () => advance(lesson, track, kind, session, total),
       last,
     }),
   );
@@ -614,6 +721,7 @@ function renderTranslate(
   lesson: Lesson,
   track: Track,
   kind: ExerciseKind,
+  total: number,
 ): HTMLElement {
   const wrap = el("div");
   wrap.append(
@@ -638,7 +746,7 @@ function renderTranslate(
   });
   wrap.append(field);
 
-  const last = session.index === getTrackItems(lesson, track, kind).length - 1;
+  const last = session.index === total - 1;
   const check = () => {
     session.checkedOnce = true;
     session.status = matchesAnswer(session.input, item.answers) ? "correct" : "wrong";
@@ -665,7 +773,7 @@ function renderTranslate(
         render();
         queueMicrotask(focusFirstField);
       },
-      onNext: () => advance(lesson, track, kind, session, getTrackItems(lesson, track, kind).length),
+      onNext: () => advance(lesson, track, kind, session, total),
       last,
     }),
   );
@@ -677,14 +785,18 @@ function renderSummary(
   track: Track,
   kind: ExerciseKind,
   session: Session,
+  totalOverride?: number,
 ): HTMLElement {
-  const total = getTrackItems(lesson, track, kind).length;
+  const total = totalOverride ?? getTrackItems(lesson, track, kind).length;
   const correct = session.results.filter((result) => result === "correct").length;
   const wrong = session.results.filter((result) => result === "wrong").length;
   const skipped = session.results.filter((result) => result === "skipped").length;
   const meta = EXERCISE_META[kind];
-  const nextKind = EXERCISE_ORDER[EXERCISE_ORDER.indexOf(kind) + 1];
+  const nextKind = track.type === "mix" ? undefined : EXERCISE_ORDER[EXERCISE_ORDER.indexOf(kind) + 1];
   const label = trackLabel(lesson, track);
+  const backHref = track.type === "mix"
+    ? href({ name: "hub", lessonId: lesson.id })
+    : href({ name: "track", lessonId: lesson.id, track });
 
   const restart = el("button", { class: "btn btn--primary", type: "button", text: "Practice this set again" });
   restart.addEventListener("click", () => {
@@ -703,16 +815,16 @@ function renderSummary(
     );
   }
   actions.append(
-    el("a", { class: "btn", href: href({ name: "track", lessonId: lesson.id, track }), text: `Back to ${label}` }),
+    el("a", { class: "btn", href: backHref, text: track.type === "mix" ? "Back to the lesson" : `Back to ${label}` }),
   );
 
   return el("div", { class: "page" },
     el("header", { class: "topbar" },
-      el("a", { class: "back", href: href({ name: "track", lessonId: lesson.id, track }), text: `← ${label}` }),
+      el("a", { class: "back", href: backHref, text: `← ${label}` }),
     ),
     el("main", { class: "shell shell--narrow" },
       el("section", { class: "workbook" },
-        el("p", { class: "kicker", text: `${label} · ${meta.title}` }),
+        el("p", { class: "kicker", text: track.type === "mix" ? "Mixed practice" : `${label} · ${meta.title}` }),
         el("h2", { text: "Set finished" }),
         el("p", { class: "score", text: `${correct} / ${total} correct on a first pass or after retrying.` }),
         el("ul", { class: "score-list" },
