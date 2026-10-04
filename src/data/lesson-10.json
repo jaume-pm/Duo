@@ -1,0 +1,1062 @@
+{
+  "id": "10",
+  "number": 10,
+  "titleZh": "过生日",
+  "titleEn": "Celebrating a birthday",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–10",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–10",
+  "words": [
+    {
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "pos": "v.",
+      "meaningEn": "to ask"
+    },
+    {
+      "hanzi": "问题",
+      "pinyin": "wèntí",
+      "pos": "n.",
+      "meaningEn": "question, problem"
+    },
+    {
+      "hanzi": "阿姨",
+      "pinyin": "āyí",
+      "pos": "n.",
+      "meaningEn": "aunt"
+    },
+    {
+      "hanzi": "面条",
+      "pinyin": "miàntiáo",
+      "pos": "n.",
+      "meaningEn": "noodles"
+    },
+    {
+      "hanzi": "希望",
+      "pinyin": "xīwàng",
+      "pos": "v.",
+      "meaningEn": "to hope"
+    },
+    {
+      "hanzi": "生命",
+      "pinyin": "shēngmìng",
+      "pos": "n.",
+      "meaningEn": "life"
+    },
+    {
+      "hanzi": "长",
+      "pinyin": "cháng",
+      "pos": "adj.",
+      "meaningEn": "long"
+    },
+    {
+      "hanzi": "娃娃",
+      "pinyin": "wáwa",
+      "pos": "n.",
+      "meaningEn": "doll"
+    },
+    {
+      "hanzi": "它",
+      "pinyin": "tā",
+      "pos": "pron.",
+      "meaningEn": "it"
+    },
+    {
+      "hanzi": "唱歌",
+      "pinyin": "chànggē",
+      "pos": "v.",
+      "meaningEn": "to sing"
+    },
+    {
+      "hanzi": "跳舞",
+      "pinyin": "tiàowǔ",
+      "pos": "v.",
+      "meaningEn": "to dance"
+    },
+    {
+      "hanzi": "照相",
+      "pinyin": "zhàoxiàng",
+      "pos": "v.",
+      "meaningEn": "to take a picture"
+    },
+    {
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "pos": "adj.",
+      "meaningEn": "tall, high"
+    },
+    {
+      "hanzi": "往",
+      "pinyin": "wǎng",
+      "pos": "prep.",
+      "meaningEn": "towards"
+    },
+    {
+      "hanzi": "左边",
+      "pinyin": "zuǒbian",
+      "pos": "n.",
+      "meaningEn": "left side"
+    },
+    {
+      "hanzi": "右边",
+      "pinyin": "yòubian",
+      "pos": "n.",
+      "meaningEn": "right side"
+    },
+    {
+      "hanzi": "笑",
+      "pinyin": "xiào",
+      "pos": "v.",
+      "meaningEn": "to smile, to laugh"
+    },
+    {
+      "hanzi": "意思",
+      "pinyin": "yìsi",
+      "pos": "n.",
+      "meaningEn": "meaning"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "I want to ask.",
+        "template": "我想____。",
+        "pinyin": "Wǒ xiǎng ____.",
+        "answers": [
+          "问",
+          "wèn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "I have a question.",
+        "template": "我有____。",
+        "pinyin": "Wǒ yǒu ____.",
+        "answers": [
+          "问题",
+          "wèntí"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "Aunt is here.",
+        "template": "____在。",
+        "pinyin": "____ zài.",
+        "answers": [
+          "阿姨",
+          "āyí"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "Chinese people eat noodles.",
+        "template": "中国人吃____。",
+        "pinyin": "Zhōngguó rén chī ____.",
+        "answers": [
+          "面条",
+          "miàntiáo"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "I hope you are happy.",
+        "template": "我____你高兴。",
+        "pinyin": "Wǒ ____ nǐ gāoxìng.",
+        "answers": [
+          "希望",
+          "xīwàng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Life is long.",
+        "template": "____很长。",
+        "pinyin": "____ hěn cháng.",
+        "answers": [
+          "生命",
+          "shēngmìng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "Noodles are long.",
+        "template": "面条很____。",
+        "pinyin": "Miàntiáo hěn ____.",
+        "answers": [
+          "长",
+          "cháng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "The doll can sing.",
+        "template": "____会唱歌。",
+        "pinyin": "____ huì chànggē.",
+        "answers": [
+          "娃娃",
+          "wáwa"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "It can dance.",
+        "tokens": [
+          "它",
+          "会",
+          "跳舞"
+        ],
+        "answers": [
+          "它会跳舞"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "Let’s take a photo.",
+        "tokens": [
+          "我们",
+          "照相",
+          "吧"
+        ],
+        "answers": [
+          "我们照相吧"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "He is very tall.",
+        "tokens": [
+          "他",
+          "很",
+          "高"
+        ],
+        "answers": [
+          "他很高"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "Go to the left.",
+        "tokens": [
+          "往",
+          "左边",
+          "走"
+        ],
+        "answers": [
+          "往左边走"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "Stand on the right.",
+        "tokens": [
+          "在",
+          "右边",
+          "站"
+        ],
+        "answers": [
+          "在右边站"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "Smile a little.",
+        "tokens": [
+          "笑",
+          "一下"
+        ],
+        "answers": [
+          "笑一下"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "What’s the meaning?",
+        "answers": [
+          "什么意思"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "Aunt gave me a doll.",
+        "answers": [
+          "阿姨给我娃娃"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "I like singing.",
+        "answers": [
+          "我喜欢唱歌"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "She likes dancing.",
+        "answers": [
+          "她喜欢跳舞"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "The left side is pretty.",
+        "answers": [
+          "左边很漂亮"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "This is interesting.",
+        "answers": [
+          "这很有意思"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "dou-le",
+      "title": "都…了",
+      "structure": "都 + situation + 了",
+      "summary": "都…了 means “already” with emphasis or complaint: it’s already this late / you’ve already waited so long. Often paired with 还.",
+      "exampleHanzi": "都七点了，爸爸怎么还没回来？",
+      "examplePinyin": "Dōu qī diǎn le, bàba zěnme hái méi huílai?",
+      "exampleEn": "It’s already seven. Why isn’t dad back yet?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "It’s already seven.",
+            "template": "____七点了。",
+            "pinyin": "____ qī diǎn le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "I’ve already waited an hour.",
+            "template": "我____等一个小时了。",
+            "pinyin": "Wǒ ____ děng yī ge xiǎoshí le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "He has already rested two months.",
+            "template": "他____休息两个月了。",
+            "pinyin": "Tā ____ xiūxi liǎng ge yuè le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "It’s already ten, and he’s still sleeping.",
+            "template": "____十点了他还在睡觉。",
+            "pinyin": "____ shí diǎn le tā hái zài shuìjiào.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "You’re already a student.",
+            "template": "你____是学生了。",
+            "pinyin": "Nǐ ____ shì xuésheng le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "I’ve already asked.",
+            "template": "我____问了。",
+            "pinyin": "Wǒ ____ wèn le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "The noodles are already cold.",
+            "template": "面条____冷了。",
+            "pinyin": "Miàntiáo ____ lěng le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Aunt has already come.",
+            "template": "阿姨____来了。",
+            "pinyin": "Āyí ____ lái le.",
+            "answers": [
+              "都",
+              "dōu"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "It’s already evening.",
+            "tokens": [
+              "都",
+              "晚上",
+              "了"
+            ],
+            "answers": [
+              "都晚上了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "Dad still isn’t back, and it’s already seven.",
+            "tokens": [
+              "都",
+              "七",
+              "点",
+              "了",
+              "爸爸",
+              "还",
+              "没",
+              "回来"
+            ],
+            "answers": [
+              "都七点了爸爸还没回来"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "I’ve already taken the photo.",
+            "tokens": [
+              "我",
+              "都",
+              "照相",
+              "了"
+            ],
+            "answers": [
+              "我都照相了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "She has already sung.",
+            "tokens": [
+              "她",
+              "都",
+              "唱歌",
+              "了"
+            ],
+            "answers": [
+              "她都唱歌了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "The child has already danced.",
+            "tokens": [
+              "孩子",
+              "都",
+              "跳舞",
+              "了"
+            ],
+            "answers": [
+              "孩子都跳舞了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "You’re already this tall.",
+            "tokens": [
+              "你",
+              "都",
+              "这么",
+              "高",
+              "了"
+            ],
+            "answers": [
+              "你都这么高了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "I’ve already smiled.",
+            "answers": [
+              "我都笑了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-t02",
+            "source": "It’s already my birthday.",
+            "answers": [
+              "都是我的生日了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-t03",
+            "source": "They have already waited.",
+            "answers": [
+              "他们都等了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-t04",
+            "source": "The doll already sings.",
+            "answers": [
+              "娃娃都会唱歌了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-t05",
+            "source": "I’ve already hoped too long.",
+            "answers": [
+              "我都希望很长时间了"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          },
+          {
+            "id": "g1-t06",
+            "source": "He’s already left, and you’re still here.",
+            "answers": [
+              "他都走了你还在"
+            ],
+            "tip": "都…了 emphasizes “already,” often with 还."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jiu-early",
+      "title": "就…了 (early / quick)",
+      "structure": "time + 就 + verb + 了",
+      "summary": "就…了 after a time word says something happened earlier or faster than expected.",
+      "exampleHanzi": "我十分钟就到家了。",
+      "examplePinyin": "Wǒ shí fēnzhōng jiù dào jiā le.",
+      "exampleEn": "I’ll be home in just ten minutes.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "I’ll be home in just ten minutes.",
+            "template": "我十分钟____到家了。",
+            "pinyin": "Wǒ shí fēnzhōng ____ dào jiā le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "He went to bed at seven already.",
+            "template": "他七点____睡觉了。",
+            "pinyin": "Tā qī diǎn ____ shuìjiào le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "She started Chinese at five.",
+            "template": "她五岁____开始学汉语了。",
+            "pinyin": "Tā wǔ suì ____ kāishǐ xué Hànyǔ le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "The plane arrives in an hour.",
+            "template": "坐飞机一个小时____到了。",
+            "pinyin": "Zuò fēijī yī ge xiǎoshí ____ dào le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Aunt arrived at six already.",
+            "template": "阿姨六点____到了。",
+            "pinyin": "Āyí liù diǎn ____ dào le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "I finished in two minutes.",
+            "template": "我两分钟____做完了。",
+            "pinyin": "Wǒ liǎng fēnzhōng ____ zuòwán le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "He smiled at once.",
+            "template": "他____笑了。",
+            "pinyin": "Tā ____ xiào le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "We’ll be there soon.",
+            "template": "我们____到了。",
+            "pinyin": "Wǒmen ____ dào le.",
+            "answers": [
+              "就",
+              "jiù"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "The child slept at eight already.",
+            "tokens": [
+              "孩子",
+              "八",
+              "点",
+              "就",
+              "睡觉",
+              "了"
+            ],
+            "answers": [
+              "孩子八点就睡觉了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "I knew at once.",
+            "tokens": [
+              "我",
+              "就",
+              "知道",
+              "了"
+            ],
+            "answers": [
+              "我就知道了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "She came back in ten minutes.",
+            "tokens": [
+              "她",
+              "十",
+              "分钟",
+              "就",
+              "回来",
+              "了"
+            ],
+            "answers": [
+              "她十分钟就回来了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "Dad arrived early.",
+            "tokens": [
+              "爸爸",
+              "很",
+              "早",
+              "就",
+              "到",
+              "了"
+            ],
+            "answers": [
+              "爸爸很早就到了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "The photo was done quickly.",
+            "tokens": [
+              "照相",
+              "很",
+              "快",
+              "就",
+              "好",
+              "了"
+            ],
+            "answers": [
+              "照相很快就好了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "Noodles were ready at once.",
+            "tokens": [
+              "面条",
+              "就",
+              "好",
+              "了"
+            ],
+            "answers": [
+              "面条就好了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "They started dancing at once.",
+            "answers": [
+              "他们就跳舞了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-t02",
+            "source": "I’ll ask now.",
+            "answers": [
+              "我现在就问"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-t03",
+            "source": "He left at six already.",
+            "answers": [
+              "他六点就走了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-t04",
+            "source": "Younger sister got up at six.",
+            "answers": [
+              "妹妹六点就起床了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-t05",
+            "source": "The meaning was clear at once.",
+            "answers": [
+              "我就懂意思了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          },
+          {
+            "id": "g2-t06",
+            "source": "Wait a bit and we’ll start.",
+            "answers": [
+              "我们就开始了"
+            ],
+            "tip": "就…了 = earlier or quicker than you think."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wang",
+      "title": "往 + direction + verb",
+      "structure": "往 + 左边 / 右边 / 前 + verb",
+      "summary": "往 is a preposition meaning “towards.” Pattern: 往 + place/direction + verb.",
+      "exampleHanzi": "你往左边站一点儿。",
+      "examplePinyin": "Nǐ wǎng zuǒbian zhàn yìdiǎnr.",
+      "exampleEn": "Move a little to the left.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "Move a little to the left.",
+            "template": "你____左边站一点儿。",
+            "pinyin": "Nǐ ____ zuǒbian zhàn yìdiǎnr.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "Move a little to the right.",
+            "template": "你____右边站一点儿。",
+            "pinyin": "Nǐ ____ yòubian zhàn yìdiǎnr.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "They went outside.",
+            "template": "他们____外面走了。",
+            "pinyin": "Tāmen ____ wàimiàn zǒu le.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "Look ahead.",
+            "template": "你____前看。",
+            "pinyin": "Nǐ ____ qián kàn.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "Walk to the left.",
+            "template": "____左边走。",
+            "pinyin": "____ zuǒbian zǒu.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "Run to the right.",
+            "template": "____右边跑。",
+            "pinyin": "____ yòubian pǎo.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "Stand on the left a bit.",
+            "template": "____左边站。",
+            "pinyin": "____ zuǒbian zhàn.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "The child ran over there.",
+            "template": "孩子____那儿跑了。",
+            "pinyin": "Háizi ____ nàr pǎo le.",
+            "answers": [
+              "往",
+              "wǎng"
+            ],
+            "tip": "往 + direction + verb."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "Please look to the right.",
+            "tokens": [
+              "请",
+              "往",
+              "右边",
+              "看"
+            ],
+            "answers": [
+              "请往右边看"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "Go towards the door.",
+            "tokens": [
+              "往",
+              "门",
+              "走"
+            ],
+            "answers": [
+              "往门走"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "Come towards me.",
+            "tokens": [
+              "往",
+              "我",
+              "这儿",
+              "来"
+            ],
+            "answers": [
+              "往我这儿来"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "Walk towards the station.",
+            "tokens": [
+              "往",
+              "站",
+              "走"
+            ],
+            "answers": [
+              "往站走"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "Dad went outside.",
+            "tokens": [
+              "爸爸",
+              "往",
+              "外面",
+              "去",
+              "了"
+            ],
+            "answers": [
+              "爸爸往外面去了"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Smile to the left.",
+            "tokens": [
+              "往",
+              "左边",
+              "笑"
+            ],
+            "answers": [
+              "往左边笑"
+            ],
+            "tip": "往 + direction + verb."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "Aunt stood on the right.",
+            "answers": [
+              "阿姨往右边站"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-t02",
+            "source": "Move towards home.",
+            "answers": [
+              "往家走"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-t03",
+            "source": "Look to the left.",
+            "answers": [
+              "往左边看"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-t04",
+            "source": "They walked to the right.",
+            "answers": [
+              "他们往右边走"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-t05",
+            "source": "The doll faces the left.",
+            "answers": [
+              "娃娃往左边"
+            ],
+            "tip": "往 + direction + verb."
+          },
+          {
+            "id": "g3-t06",
+            "source": "Please go outside.",
+            "answers": [
+              "请往外面走"
+            ],
+            "tip": "往 + direction + verb."
+          }
+        ]
+      }
+    }
+  ]
+}

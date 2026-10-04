@@ -1,0 +1,1317 @@
+{
+  "id": "09",
+  "number": 9,
+  "titleZh": "生病",
+  "titleEn": "Getting ill",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–9",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–9",
+  "words": [
+    {
+      "hanzi": "生病",
+      "pinyin": "shēngbìng",
+      "pos": "v.",
+      "meaningEn": "to fall ill"
+    },
+    {
+      "hanzi": "一直",
+      "pinyin": "yìzhí",
+      "pos": "adv.",
+      "meaningEn": "always, all along"
+    },
+    {
+      "hanzi": "事情",
+      "pinyin": "shìqing",
+      "pos": "n.",
+      "meaningEn": "thing, matter"
+    },
+    {
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "pos": "adj.",
+      "meaningEn": "busy"
+    },
+    {
+      "hanzi": "因为",
+      "pinyin": "yīnwèi",
+      "pos": "conj.",
+      "meaningEn": "because"
+    },
+    {
+      "hanzi": "所以",
+      "pinyin": "suǒyǐ",
+      "pos": "conj.",
+      "meaningEn": "so, therefore"
+    },
+    {
+      "hanzi": "出院",
+      "pinyin": "chūyuàn",
+      "pos": "v.",
+      "meaningEn": "to leave hospital"
+    },
+    {
+      "hanzi": "完",
+      "pinyin": "wán",
+      "pos": "v.",
+      "meaningEn": "to finish"
+    },
+    {
+      "hanzi": "按时",
+      "pinyin": "ànshí",
+      "pos": "adv.",
+      "meaningEn": "on time"
+    },
+    {
+      "hanzi": "药",
+      "pinyin": "yào",
+      "pos": "n.",
+      "meaningEn": "medicine"
+    },
+    {
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "pos": "n.",
+      "meaningEn": "fruit"
+    },
+    {
+      "hanzi": "运动",
+      "pinyin": "yùndòng",
+      "pos": "v./n.",
+      "meaningEn": "sport, to exercise"
+    },
+    {
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "pos": "adj.",
+      "meaningEn": "wrong"
+    },
+    {
+      "hanzi": "跑步",
+      "pinyin": "pǎobù",
+      "pos": "v.",
+      "meaningEn": "to jog"
+    },
+    {
+      "hanzi": "经常",
+      "pinyin": "jīngcháng",
+      "pos": "adv.",
+      "meaningEn": "often"
+    },
+    {
+      "hanzi": "打篮球",
+      "pinyin": "dǎlánqiú",
+      "pos": "v.",
+      "meaningEn": "to play basketball"
+    },
+    {
+      "hanzi": "踢足球",
+      "pinyin": "tīzúqiú",
+      "pos": "v.",
+      "meaningEn": "to play football"
+    },
+    {
+      "hanzi": "更",
+      "pinyin": "gèng",
+      "pos": "adv.",
+      "meaningEn": "even more"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "He is ill.",
+        "template": "他____了。",
+        "pinyin": "Tā ____ le.",
+        "answers": [
+          "生病",
+          "shēngbìng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "I have always liked this.",
+        "template": "我____喜欢。",
+        "pinyin": "Wǒ ____ xǐhuan.",
+        "answers": [
+          "一直",
+          "yìzhí"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "There are many things.",
+        "template": "____很多。",
+        "pinyin": "____ hěn duō.",
+        "answers": [
+          "事情",
+          "shìqing"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "I am busy today.",
+        "template": "我今天很____。",
+        "pinyin": "Wǒ jīntiān hěn ____.",
+        "answers": [
+          "忙",
+          "máng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "Because I am ill.",
+        "template": "____我生病了。",
+        "pinyin": "____ wǒ shēngbìng le.",
+        "answers": [
+          "因为",
+          "yīnwèi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "So I rest.",
+        "template": "____我休息。",
+        "pinyin": "____ wǒ xiūxi.",
+        "answers": [
+          "所以",
+          "suǒyǐ"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "He can leave the hospital.",
+        "template": "他可以____了。",
+        "pinyin": "Tā kěyǐ ____ le.",
+        "answers": [
+          "出院",
+          "chūyuàn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "I finished the work.",
+        "template": "我做____了。",
+        "pinyin": "Wǒ zuò ____ le.",
+        "answers": [
+          "完",
+          "wán"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "Take medicine on time.",
+        "tokens": [
+          "按时",
+          "吃",
+          "药"
+        ],
+        "answers": [
+          "按时吃药"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "This medicine is new.",
+        "tokens": [
+          "这个",
+          "药",
+          "很",
+          "新"
+        ],
+        "answers": [
+          "这个药很新"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "I like fruit.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "水果"
+        ],
+        "answers": [
+          "我喜欢水果"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "Exercise is good.",
+        "tokens": [
+          "运动",
+          "很",
+          "好"
+        ],
+        "answers": [
+          "运动很好"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "That’s wrong.",
+        "tokens": [
+          "那",
+          "是",
+          "错",
+          "的"
+        ],
+        "answers": [
+          "那是错的"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "I jog in the morning.",
+        "tokens": [
+          "我",
+          "早上",
+          "跑步"
+        ],
+        "answers": [
+          "我早上跑步"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "I often swim.",
+        "answers": [
+          "我经常游泳"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "They play basketball.",
+        "answers": [
+          "他们打篮球"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "I play football.",
+        "answers": [
+          "我踢足球"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "I like this even more.",
+        "answers": [
+          "我更喜欢这个"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "Take the medicine.",
+        "answers": [
+          "吃药"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "Finish it.",
+        "answers": [
+          "做完了"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "zenme-why",
+      "title": "怎么 (why)",
+      "structure": "subject + 怎么 + situation",
+      "summary": "怎么 can ask why, often with surprise: 你怎么没来？",
+      "exampleHanzi": "他怎么没来公司？",
+      "examplePinyin": "Tā zěnme méi lái gōngsī?",
+      "exampleEn": "Why didn’t he come to the company?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "Why didn’t he come to the company?",
+            "template": "他____没来公司？",
+            "pinyin": "Tā ____ méi lái gōngsī?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "Why are you so happy?",
+            "template": "你____这么高兴？",
+            "pinyin": "Nǐ ____ zhème gāoxìng?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "Why isn’t he eating?",
+            "template": "他____不吃饭？",
+            "pinyin": "Tā ____ bù chī fàn?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "Why is it so hot outside?",
+            "template": "外面____这么热？",
+            "pinyin": "Wàimiàn ____ zhème rè?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "Why haven’t you slept?",
+            "template": "你____还没睡觉？",
+            "pinyin": "Nǐ ____ hái méi shuìjiào?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "Why is she ill?",
+            "template": "她____生病了？",
+            "pinyin": "Tā ____ shēngbìng le?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "Why didn’t you call?",
+            "template": "你____没打电话？",
+            "pinyin": "Nǐ ____ méi dǎ diànhuà?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Why are you standing outside?",
+            "template": "你____在外面？",
+            "pinyin": "Nǐ ____ zài wàimiàn?",
+            "answers": [
+              "怎么",
+              "zěnme"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "Why is work so busy?",
+            "tokens": [
+              "工作",
+              "怎么",
+              "这么",
+              "忙"
+            ],
+            "answers": [
+              "工作怎么这么忙"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "Why didn’t they come to class?",
+            "tokens": [
+              "他们",
+              "怎么",
+              "没",
+              "来",
+              "上课"
+            ],
+            "answers": [
+              "他们怎么没来上课"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "Why is the child not playing?",
+            "tokens": [
+              "孩子",
+              "怎么",
+              "不",
+              "玩儿"
+            ],
+            "answers": [
+              "孩子怎么不玩儿"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "Why are you still here?",
+            "tokens": [
+              "你",
+              "怎么",
+              "还",
+              "在"
+            ],
+            "answers": [
+              "你怎么还在"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "Why didn’t he take the medicine?",
+            "tokens": [
+              "他",
+              "怎么",
+              "没",
+              "吃",
+              "药"
+            ],
+            "answers": [
+              "他怎么没吃药"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "Why is younger sister late?",
+            "tokens": [
+              "妹妹",
+              "怎么",
+              "迟到",
+              "了"
+            ],
+            "answers": [
+              "妹妹怎么迟到了"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "Why don’t you rest?",
+            "answers": [
+              "你怎么不休息"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-t02",
+            "source": "Why is this wrong?",
+            "answers": [
+              "这个怎么是错的"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-t03",
+            "source": "Why do you jog every day?",
+            "answers": [
+              "你怎么每天跑步"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-t04",
+            "source": "Why didn’t you wait?",
+            "answers": [
+              "你怎么没等"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-t05",
+            "source": "Why is he leaving the hospital?",
+            "answers": [
+              "他怎么出院了"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Why are things so many?",
+            "answers": [
+              "事情怎么这么多"
+            ],
+            "tip": "怎么 here means why (often surprised)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "yinwei-suoyi",
+      "title": "因为…所以",
+      "structure": "因为 cause，所以 result",
+      "summary": "因为 introduces the cause and 所以 the result. You can use both, or only one of them.",
+      "exampleHanzi": "因为没有休息好，所以生病了。",
+      "examplePinyin": "Yīnwèi méiyǒu xiūxi hǎo, suǒyǐ shēngbìng le.",
+      "exampleEn": "Because he didn’t rest well, he got ill.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "Because he is ill, he didn’t go.",
+            "template": "____他生病了所以他没去。",
+            "pinyin": "____ tā shēngbìng le suǒyǐ tā méi qù.",
+            "answers": [
+              "因为",
+              "yīnwèi"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "He runs every day, so he is healthy.",
+            "template": "他每天跑步____身体很好。",
+            "pinyin": "Tā měi tiān pǎobù ____ shēntǐ hěn hǎo.",
+            "answers": [
+              "所以",
+              "suǒyǐ"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "Because it is raining, we didn’t play football.",
+            "template": "____下雨了所以我们没踢足球。",
+            "pinyin": "____ xiàyǔ le suǒyǐ wǒmen méi tīzúqiú.",
+            "answers": [
+              "因为",
+              "yīnwèi"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "I am busy, so I didn’t rest.",
+            "template": "我很忙____没休息。",
+            "pinyin": "Wǒ hěn máng ____ méi xiūxi.",
+            "answers": [
+              "所以",
+              "suǒyǐ"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Because I finished, I can go.",
+            "template": "____我做完了所以我可以去。",
+            "pinyin": "____ wǒ zuòwán le suǒyǐ wǒ kěyǐ qù.",
+            "answers": [
+              "因为",
+              "yīnwèi"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "She takes medicine on time, so she is better.",
+            "template": "她按时吃药____好了。",
+            "pinyin": "Tā ànshí chī yào ____ hǎo le.",
+            "answers": [
+              "所以",
+              "suǒyǐ"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "Because work is a lot, he is ill.",
+            "template": "____事情很多所以他生病了。",
+            "pinyin": "____ shìqing hěn duō suǒyǐ tā shēngbìng le.",
+            "answers": [
+              "因为",
+              "yīnwèi"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "I like fruit, so I eat apples.",
+            "template": "我喜欢水果____我吃苹果。",
+            "pinyin": "Wǒ xǐhuan shuǐguǒ ____ wǒ chī píngguǒ.",
+            "answers": [
+              "所以",
+              "suǒyǐ"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "Because I am wrong, I will say it again.",
+            "tokens": [
+              "因为",
+              "我",
+              "错",
+              "了",
+              "所以",
+              "我",
+              "再",
+              "说"
+            ],
+            "answers": [
+              "因为我错了所以我再说"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "He exercises, so he is not ill.",
+            "tokens": [
+              "他",
+              "运动",
+              "所以",
+              "不",
+              "生病"
+            ],
+            "answers": [
+              "他运动所以不生病"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "Because she is still working, she cannot leave.",
+            "tokens": [
+              "因为",
+              "她",
+              "还",
+              "没",
+              "做完",
+              "所以",
+              "不",
+              "出院"
+            ],
+            "answers": [
+              "因为她还没做完所以不出院"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "I often jog, so I am healthy.",
+            "tokens": [
+              "我",
+              "经常",
+              "跑步",
+              "所以",
+              "身体",
+              "好"
+            ],
+            "answers": [
+              "我经常跑步所以身体好"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "Because it is cold, I don’t swim.",
+            "tokens": [
+              "因为",
+              "很",
+              "冷",
+              "所以",
+              "我",
+              "不",
+              "游泳"
+            ],
+            "answers": [
+              "因为很冷所以我不游泳"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "Dad is busy, so he didn’t come.",
+            "tokens": [
+              "爸爸",
+              "很",
+              "忙",
+              "所以",
+              "没",
+              "来"
+            ],
+            "answers": [
+              "爸爸很忙所以没来"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "Because I like basketball, I play.",
+            "answers": [
+              "因为我喜欢打篮球所以我打篮球"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-t02",
+            "source": "The medicine is good, so I take it.",
+            "answers": [
+              "药很好所以我吃"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-t03",
+            "source": "Because I have no time, I don’t exercise.",
+            "answers": [
+              "因为我没有时间所以不运动"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-t04",
+            "source": "He is better, so he can leave hospital.",
+            "answers": [
+              "他好了所以可以出院"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Because younger sister is ill, she rests.",
+            "answers": [
+              "因为妹妹生病了所以她休息"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          },
+          {
+            "id": "g2-t06",
+            "source": "I finished, so I am happy.",
+            "answers": [
+              "我做完了所以很高兴"
+            ],
+            "tip": "因为 = because; 所以 = so."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hai-mei",
+      "title": "还 / 还没",
+      "structure": "还在 + verb / 还没 + verb",
+      "summary": "还 means still. 还在 + verb = still doing it. 还没 + verb = still haven’t done it.",
+      "exampleHanzi": "你怎么还没睡觉？",
+      "examplePinyin": "Nǐ zěnme hái méi shuìjiào?",
+      "exampleEn": "Why haven’t you gone to bed yet?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "Why haven’t you gone to bed yet?",
+            "template": "你怎么____没睡觉？",
+            "pinyin": "Nǐ zěnme ____ méi shuìjiào?",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "He is still sleeping.",
+            "template": "他____在睡觉。",
+            "pinyin": "Tā ____ zài shuìjiào.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "She is still eating.",
+            "template": "她____在吃饭。",
+            "pinyin": "Tā ____ zài chī fàn.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "They are still taking the exam.",
+            "template": "他们____在考试。",
+            "pinyin": "Tāmen ____ zài kǎoshì.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "I still haven’t finished.",
+            "template": "我____没做完。",
+            "pinyin": "Wǒ ____ méi zuòwán.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "He still hasn’t come.",
+            "template": "他____没来。",
+            "pinyin": "Tā ____ méi lái.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "Younger sister still hasn’t eaten.",
+            "template": "妹妹____没吃。",
+            "pinyin": "Mèimei ____ méi chī.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "I am still waiting.",
+            "template": "我____在等。",
+            "pinyin": "Wǒ ____ zài děng.",
+            "answers": [
+              "还",
+              "hái"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "Dad is still at the company.",
+            "tokens": [
+              "爸爸",
+              "还",
+              "在",
+              "公司"
+            ],
+            "answers": [
+              "爸爸还在公司"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "She still hasn’t left the hospital.",
+            "tokens": [
+              "她",
+              "还",
+              "没",
+              "出院"
+            ],
+            "answers": [
+              "她还没出院"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "He is still ill.",
+            "tokens": [
+              "他",
+              "还",
+              "在",
+              "生病"
+            ],
+            "answers": [
+              "他还在生病"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "I still haven’t taken the medicine.",
+            "tokens": [
+              "我",
+              "还",
+              "没",
+              "吃",
+              "药"
+            ],
+            "answers": [
+              "我还没吃药"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "They are still playing football.",
+            "tokens": [
+              "他们",
+              "还",
+              "在",
+              "踢足球"
+            ],
+            "answers": [
+              "他们还在踢足球"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Mom is still working.",
+            "tokens": [
+              "妈妈",
+              "还",
+              "在",
+              "工作"
+            ],
+            "answers": [
+              "妈妈还在工作"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "I still haven’t rested.",
+            "answers": [
+              "我还没休息"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-t02",
+            "source": "The child is still playing.",
+            "answers": [
+              "孩子还在玩儿"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-t03",
+            "source": "He still hasn’t gotten up.",
+            "answers": [
+              "他还没起床"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-t04",
+            "source": "We are still exercising.",
+            "answers": [
+              "我们还在运动"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-t05",
+            "source": "She still hasn’t told me.",
+            "answers": [
+              "她还没告诉我"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          },
+          {
+            "id": "g3-t06",
+            "source": "I am still jogging.",
+            "answers": [
+              "我还在跑步"
+            ],
+            "tip": "还在 = still doing; 还没 = still not."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ne-mood",
+      "title": "…呢 (emphasis)",
+      "structure": "statement + 呢",
+      "summary": "呢 at the end of a statement can add emphasis, as if you are reminding the listener: it really is that way.",
+      "exampleHanzi": "最少还要一个星期呢！",
+      "examplePinyin": "Zuì shǎo hái yào yí ge xīngqī ne!",
+      "exampleEn": "It will take at least another week!",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "It takes two hours from home.",
+            "template": "从家到公司要两个小时____。",
+            "pinyin": "Cóng jiā dào gōngsī yào liǎng ge xiǎoshí ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "He has seven children.",
+            "template": "他有七个孩子____。",
+            "pinyin": "Tā yǒu qī ge háizi ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "It’s still early.",
+            "template": "现在还早____。",
+            "pinyin": "Xiànzài hái zǎo ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "Walking to the supermarket takes an hour.",
+            "template": "走去超市要一个小时____。",
+            "pinyin": "Zǒu qù chāoshì yào yī ge xiǎoshí ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "I still have work.",
+            "template": "我还有工作____。",
+            "pinyin": "Wǒ hái yǒu gōngzuò ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "She has been ill for a week.",
+            "template": "她生病一个星期了____。",
+            "pinyin": "Tā shēngbìng yī ge xīngqī le ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "There are still many things.",
+            "template": "事情还很多____。",
+            "pinyin": "Shìqing hái hěn duō ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "Dad is still busy.",
+            "template": "爸爸还很忙____。",
+            "pinyin": "Bàba hái hěn máng ____.",
+            "answers": [
+              "呢",
+              "ne"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "I haven’t finished yet.",
+            "tokens": [
+              "我",
+              "还",
+              "没",
+              "做完",
+              "呢"
+            ],
+            "answers": [
+              "我还没做完呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "The hospital is far.",
+            "tokens": [
+              "医院",
+              "很",
+              "远",
+              "呢"
+            ],
+            "answers": [
+              "医院很远呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "He needs to rest more.",
+            "tokens": [
+              "他",
+              "还",
+              "要",
+              "休息",
+              "呢"
+            ],
+            "answers": [
+              "他还要休息呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "This medicine is really good.",
+            "tokens": [
+              "这个",
+              "药",
+              "很",
+              "好",
+              "呢"
+            ],
+            "answers": [
+              "这个药很好呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "I jog every morning.",
+            "tokens": [
+              "我",
+              "每",
+              "天",
+              "早上",
+              "跑步",
+              "呢"
+            ],
+            "answers": [
+              "我每天早上跑步呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "Younger sister still hasn’t eaten.",
+            "tokens": [
+              "妹妹",
+              "还",
+              "没",
+              "吃",
+              "呢"
+            ],
+            "answers": [
+              "妹妹还没吃呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "We waited a long time.",
+            "answers": [
+              "我们等了很长时间呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-t02",
+            "source": "He can leave tomorrow.",
+            "answers": [
+              "他明天可以出院呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-t03",
+            "source": "There is still a lot of fruit.",
+            "answers": [
+              "水果还很多呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-t04",
+            "source": "I like basketball even more.",
+            "answers": [
+              "我更喜欢打篮球呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Class is still going.",
+            "answers": [
+              "课还没完呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          },
+          {
+            "id": "g4-t06",
+            "source": "She always takes medicine on time.",
+            "answers": [
+              "她一直按时吃药呢"
+            ],
+            "tip": "呢 here adds a convincing or emphatic tone."
+          }
+        ]
+      }
+    }
+  ]
+}

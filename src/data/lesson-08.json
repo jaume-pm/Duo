@@ -1,0 +1,1306 @@
+{
+  "id": "08",
+  "number": 8,
+  "titleZh": "买东西",
+  "titleEn": "Buying things",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–8",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–8",
+  "words": [
+    {
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "pos": "adv.",
+      "meaningEn": "together"
+    },
+    {
+      "hanzi": "生日",
+      "pinyin": "shēngrì",
+      "pos": "n.",
+      "meaningEn": "birthday"
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "pos": "m.w.",
+      "meaningEn": "for clothes"
+    },
+    {
+      "hanzi": "您",
+      "pinyin": "nín",
+      "pos": "pron.",
+      "meaningEn": "honorific you"
+    },
+    {
+      "hanzi": "粉色",
+      "pinyin": "fěnsè",
+      "pos": "adj.",
+      "meaningEn": "pink"
+    },
+    {
+      "hanzi": "别的",
+      "pinyin": "biéde",
+      "pos": "pron.",
+      "meaningEn": "other"
+    },
+    {
+      "hanzi": "颜色",
+      "pinyin": "yánsè",
+      "pos": "n.",
+      "meaningEn": "color"
+    },
+    {
+      "hanzi": "黑",
+      "pinyin": "hēi",
+      "pos": "adj.",
+      "meaningEn": "black"
+    },
+    {
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "pos": "v.",
+      "meaningEn": "to take, to hold"
+    },
+    {
+      "hanzi": "就",
+      "pinyin": "jiù",
+      "pos": "adv.",
+      "meaningEn": "then / that’s settled"
+    },
+    {
+      "hanzi": "服务员",
+      "pinyin": "fúwùyuán",
+      "pos": "n.",
+      "meaningEn": "waiter / salesperson"
+    },
+    {
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "pos": "prep.",
+      "meaningEn": "than"
+    },
+    {
+      "hanzi": "羊肉",
+      "pinyin": "yángròu",
+      "pos": "n.",
+      "meaningEn": "lamb, mutton"
+    },
+    {
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "pos": "n.",
+      "meaningEn": "fish"
+    },
+    {
+      "hanzi": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "pos": "n.",
+      "meaningEn": "bathroom"
+    },
+    {
+      "hanzi": "洗",
+      "pinyin": "xǐ",
+      "pos": "v.",
+      "meaningEn": "to wash"
+    },
+    {
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "pos": "n.",
+      "meaningEn": "hand"
+    },
+    {
+      "hanzi": "门",
+      "pinyin": "mén",
+      "pos": "n.",
+      "meaningEn": "door"
+    },
+    {
+      "hanzi": "外",
+      "pinyin": "wài",
+      "pos": "n.",
+      "meaningEn": "outside"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "Let’s go together.",
+        "template": "我们____去。",
+        "pinyin": "Wǒmen ____ qù.",
+        "answers": [
+          "一起",
+          "yìqǐ"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "Today is my birthday.",
+        "template": "今天是我的____。",
+        "pinyin": "Jīntiān shì wǒ de ____.",
+        "answers": [
+          "生日",
+          "shēngrì"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "I want one piece of clothing.",
+        "template": "我要一____衣服。",
+        "pinyin": "Wǒ yào yī ____ yīfu.",
+        "answers": [
+          "件",
+          "jiàn"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "How are you? (polite)",
+        "template": "____好。",
+        "pinyin": "____ hǎo.",
+        "answers": [
+          "您",
+          "nín"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "I like pink.",
+        "template": "我喜欢____。",
+        "pinyin": "Wǒ xǐhuan ____.",
+        "answers": [
+          "粉色",
+          "fěnsè"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "Do you have other colors?",
+        "template": "有____颜色吗？",
+        "pinyin": "Yǒu ____ yánsè ma?",
+        "answers": [
+          "别的",
+          "biéde"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "What color is this?",
+        "template": "这是什么____？",
+        "pinyin": "Zhè shì shénme ____?",
+        "answers": [
+          "颜色",
+          "yánsè"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "This is black.",
+        "template": "这是____的。",
+        "pinyin": "Zhè shì ____ de.",
+        "answers": [
+          "黑",
+          "hēi"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "Please take it.",
+        "tokens": [
+          "请",
+          "拿"
+        ],
+        "answers": [
+          "请拿"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "Then I’ll take this.",
+        "tokens": [
+          "就",
+          "要",
+          "这个"
+        ],
+        "answers": [
+          "就要这个"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "The waiter is here.",
+        "tokens": [
+          "服务员",
+          "在"
+        ],
+        "answers": [
+          "服务员在"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "This is better than that.",
+        "tokens": [
+          "这个",
+          "比",
+          "那个",
+          "好"
+        ],
+        "answers": [
+          "这个比那个好"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "I don’t eat lamb.",
+        "tokens": [
+          "我",
+          "不",
+          "吃",
+          "羊肉"
+        ],
+        "answers": [
+          "我不吃羊肉"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "The fish is delicious.",
+        "tokens": [
+          "鱼",
+          "很",
+          "好吃"
+        ],
+        "answers": [
+          "鱼很好吃"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "Where is the bathroom?",
+        "answers": [
+          "洗手间在哪儿"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "Wash your hands.",
+        "answers": [
+          "洗手"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "My hands are cold.",
+        "answers": [
+          "手很冷"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "The door is open.",
+        "answers": [
+          "门开了"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "Wait outside.",
+        "answers": [
+          "在外等"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "Let’s eat fish together.",
+        "answers": [
+          "我们一起吃鱼"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "haoma",
+      "title": "…好吗",
+      "structure": "statement + 好吗？",
+      "summary": "好吗 after a suggestion asks “is that OK?” / “shall we?”",
+      "exampleHanzi": "我们一起去，好吗？",
+      "examplePinyin": "Wǒmen yìqǐ qù, hǎo ma?",
+      "exampleEn": "Shall we go together?",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "Shall we go together?",
+            "template": "我们一起去好____？",
+            "pinyin": "Wǒmen yìqǐ qù hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "Will you call me tomorrow?",
+            "template": "你明天给我打电话好____？",
+            "pinyin": "Nǐ míngtiān gěi wǒ dǎ diànhuà hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "Shall we watch a movie?",
+            "template": "我们看电影好____？",
+            "pinyin": "Wǒmen kàn diànyǐng hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "Let’s eat fish, okay?",
+            "template": "我们吃鱼好____？",
+            "pinyin": "Wǒmen chī yú hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "Wait here, okay?",
+            "template": "你在这儿等好____？",
+            "pinyin": "Nǐ zài zhèr děng hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "Shall we go shopping?",
+            "template": "我们去买东西好____？",
+            "pinyin": "Wǒmen qù mǎi dōngxi hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "Help me, okay?",
+            "template": "你帮助我好____？",
+            "pinyin": "Nǐ bāngzhù wǒ hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Let’s rest, okay?",
+            "template": "我们休息好____？",
+            "pinyin": "Wǒmen xiūxi hǎo ____?",
+            "answers": [
+              "吗",
+              "ma"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "Come in, okay?",
+            "tokens": [
+              "你",
+              "进",
+              "来",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "你进来好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "Shall we take the train?",
+            "tokens": [
+              "我们",
+              "坐",
+              "火车",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "我们坐火车好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "Buy this, okay?",
+            "tokens": [
+              "买",
+              "这个",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "买这个好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "Let’s swim, okay?",
+            "tokens": [
+              "我们",
+              "游泳",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "我们游泳好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "Tell her, okay?",
+            "tokens": [
+              "你",
+              "告诉",
+              "她",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "你告诉她好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "Shall we eat lamb?",
+            "tokens": [
+              "我们",
+              "吃",
+              "羊肉",
+              "好",
+              "吗"
+            ],
+            "answers": [
+              "我们吃羊肉好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "Wait outside, okay?",
+            "answers": [
+              "你在门外等好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-t02",
+            "source": "Let’s go in the evening, okay?",
+            "answers": [
+              "我们晚上去好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-t03",
+            "source": "Wash your hands, okay?",
+            "answers": [
+              "你洗手好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-t04",
+            "source": "Shall we look together?",
+            "answers": [
+              "我们一起看好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-t05",
+            "source": "Take the pink one, okay?",
+            "answers": [
+              "拿粉色的好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          },
+          {
+            "id": "g1-t06",
+            "source": "Let’s start, okay?",
+            "answers": [
+              "我们开始好吗"
+            ],
+            "tip": "Put 好吗 after a plan to check it is OK."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mw-redup",
+      "title": "Measure-word reduplication",
+      "structure": "件件 / 个个 / 天天 + 都",
+      "summary": "A doubled measure word means “every.” It is usually followed by 都, same idea as 每 + measure word.",
+      "exampleHanzi": "衣服件件都好看。",
+      "examplePinyin": "Yīfu jiànjiàn dōu hǎokàn.",
+      "exampleEn": "Every piece of clothing looks good.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "Every piece of clothing looks good.",
+            "template": "衣服____都好看。",
+            "pinyin": "Yīfu ____ dōu hǎokàn.",
+            "answers": [
+              "件件",
+              "jiànjiàn"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "Every student is happy.",
+            "template": "学生____都很高兴。",
+            "pinyin": "Xuésheng ____ dōu hěn gāoxìng.",
+            "answers": [
+              "个个",
+              "gègè"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "He is late every day.",
+            "template": "他____都迟到。",
+            "pinyin": "Tā ____ dōu chídào.",
+            "answers": [
+              "天天",
+              "tiāntiān"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "Every room is pretty.",
+            "template": "房间____都很漂亮。",
+            "pinyin": "Fángjiān ____ dōu hěn piàoliang.",
+            "answers": [
+              "个个",
+              "gègè"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Every piece is cheap.",
+            "template": "____都很便宜。",
+            "pinyin": "____ dōu hěn piányi.",
+            "answers": [
+              "件件",
+              "jiànjiàn"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "I walk every day.",
+            "template": "我____都走。",
+            "pinyin": "Wǒ ____ dōu zǒu.",
+            "answers": [
+              "天天",
+              "tiāntiān"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "Every friend came.",
+            "template": "朋友____都来了。",
+            "pinyin": "Péngyou ____ dōu lái le.",
+            "answers": [
+              "个个",
+              "gègè"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "Every dish is delicious.",
+            "template": "菜____都很好吃。",
+            "pinyin": "Cài ____ dōu hěn hǎochī.",
+            "answers": [
+              "个个",
+              "gègè"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "She works every day.",
+            "tokens": [
+              "她",
+              "天天",
+              "都",
+              "上班"
+            ],
+            "answers": [
+              "她天天都上班"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "Every book is new.",
+            "tokens": [
+              "书",
+              "本本",
+              "都",
+              "很",
+              "新"
+            ],
+            "answers": [
+              "书本本都很新"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "Every color is pretty.",
+            "tokens": [
+              "颜色",
+              "个个",
+              "都",
+              "很",
+              "漂亮"
+            ],
+            "answers": [
+              "颜色个个都很漂亮"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "Every waiter is nice.",
+            "tokens": [
+              "服务员",
+              "个个",
+              "都",
+              "很",
+              "好"
+            ],
+            "answers": [
+              "服务员个个都很好"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "I swim every day.",
+            "tokens": [
+              "我",
+              "天天",
+              "都",
+              "游泳"
+            ],
+            "answers": [
+              "我天天都游泳"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "Every gift is good.",
+            "tokens": [
+              "礼物",
+              "个个",
+              "都",
+              "很",
+              "好"
+            ],
+            "answers": [
+              "礼物个个都很好"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "Every piece of clothing is pink.",
+            "answers": [
+              "衣服件件都是粉色的"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-t02",
+            "source": "They rest every day.",
+            "answers": [
+              "他们天天都休息"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-t03",
+            "source": "Every child is here.",
+            "answers": [
+              "孩子个个都在"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-t04",
+            "source": "Every ticket is cheap.",
+            "answers": [
+              "票个个都很便宜"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-t05",
+            "source": "I get up every day.",
+            "answers": [
+              "我天天都起床"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          },
+          {
+            "id": "g2-t06",
+            "source": "Every watch is black.",
+            "answers": [
+              "手表个个都是黑的"
+            ],
+            "tip": "Doubled measure word + 都 = every."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vp-de-n",
+      "title": "Verb phrase + 的 + noun",
+      "structure": "VP 的 noun",
+      "summary": "A verb phrase plus 的 describes a noun: 妈妈做的饭, 女孩子穿的衣服.",
+      "exampleHanzi": "我想买一件新的衣服。",
+      "examplePinyin": "Wǒ xiǎng mǎi yí jiàn xīn de yīfu.",
+      "exampleEn": "I want to buy a new piece of clothing.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "Clothes that girls wear.",
+            "template": "女孩子穿____衣服。",
+            "pinyin": "Nǚ háizi chuān ____ yīfu.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "The car I just bought.",
+            "template": "我买____车。",
+            "pinyin": "Wǒ mǎi ____ chē.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "Food mom made.",
+            "template": "妈妈做____饭。",
+            "pinyin": "Māma zuò ____ fàn.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "The person who came with you.",
+            "template": "和你一起来____人。",
+            "pinyin": "Hé nǐ yìqǐ lái ____ rén.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "The book I like.",
+            "template": "我喜欢____书。",
+            "pinyin": "Wǒ xǐhuan ____ shū.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "The phone dad bought.",
+            "template": "爸爸买____手机。",
+            "pinyin": "Bàba mǎi ____ shǒujī.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "The hotel we found.",
+            "template": "我们找____宾馆。",
+            "pinyin": "Wǒmen zhǎo ____ bīnguǎn.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "The ticket she bought.",
+            "template": "她买____票。",
+            "pinyin": "Tā mǎi ____ piào.",
+            "answers": [
+              "的",
+              "de"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "The fish this shop has.",
+            "tokens": [
+              "这个",
+              "商店",
+              "的",
+              "鱼"
+            ],
+            "answers": [
+              "这个商店的鱼"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "The pink clothes.",
+            "tokens": [
+              "粉色",
+              "的",
+              "衣服"
+            ],
+            "answers": [
+              "粉色的衣服"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "The black one.",
+            "tokens": [
+              "黑",
+              "的"
+            ],
+            "answers": [
+              "黑的"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "Friends who travel.",
+            "tokens": [
+              "去",
+              "旅游",
+              "的",
+              "朋友"
+            ],
+            "answers": [
+              "去旅游的朋友"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "The bathroom outside.",
+            "tokens": [
+              "门",
+              "外",
+              "的",
+              "洗手间"
+            ],
+            "answers": [
+              "门外的洗手间"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "The waiter I know.",
+            "tokens": [
+              "我",
+              "认识",
+              "的",
+              "服务员"
+            ],
+            "answers": [
+              "我认识的服务员"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "Clothes younger sister wears.",
+            "answers": [
+              "妹妹穿的衣服"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-t02",
+            "source": "The gift I bought.",
+            "answers": [
+              "我买的礼物"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-t03",
+            "source": "The train we take.",
+            "answers": [
+              "我们坐的火车"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-t04",
+            "source": "The color I like.",
+            "answers": [
+              "我喜欢的颜色"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-t05",
+            "source": "Work I do.",
+            "answers": [
+              "我做的工作"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          },
+          {
+            "id": "g3-t06",
+            "source": "The birthday she likes.",
+            "answers": [
+              "她喜欢的生日"
+            ],
+            "tip": "Put 的 between the description and the noun."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bi-compare",
+      "title": "A 比 B + adjective",
+      "structure": "A 比 B + adj",
+      "summary": "比 compares two things: A 比 B + adjective. The negative is A 没有 B + adjective, not 不比 in this lesson.",
+      "exampleHanzi": "粉色的比黑色的好看。",
+      "examplePinyin": "Fěnsè de bǐ hēisè de hǎokàn.",
+      "exampleEn": "The pink one looks better than the black one.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "The pink one looks better than the black one.",
+            "template": "粉色的____黑的好看。",
+            "pinyin": "Fěnsè de ____ hēi de hǎokàn.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "Elder brother is older than I am.",
+            "template": "哥哥____我大。",
+            "pinyin": "Gēge ____ wǒ dà.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "Today is hotter than yesterday.",
+            "template": "今天____昨天热。",
+            "pinyin": "Jīntiān ____ zuótiān rè.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "I am older than you.",
+            "template": "我____你大。",
+            "pinyin": "Wǒ ____ nǐ dà.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "This phone is cheaper than that one.",
+            "template": "这个手机____那个便宜。",
+            "pinyin": "Zhège shǒujī ____ nàge piányi.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "Fish is more delicious than lamb.",
+            "template": "鱼____羊肉好吃。",
+            "pinyin": "Yú ____ yángròu hǎochī.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "This room is bigger than that room.",
+            "template": "这个房间____那个房间大。",
+            "pinyin": "Zhège fángjiān ____ nàge fángjiān dà.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "She is not as old as he is.",
+            "template": "她____他大。",
+            "pinyin": "Tā ____ tā dà.",
+            "answers": [
+              "没有",
+              "méiyǒu"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "This is not as pretty as that.",
+            "tokens": [
+              "这个",
+              "没有",
+              "那个",
+              "漂亮"
+            ],
+            "answers": [
+              "这个没有那个漂亮"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "The train is faster than walking.",
+            "tokens": [
+              "火车",
+              "比",
+              "走",
+              "快"
+            ],
+            "answers": [
+              "火车比走快"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "My watch is newer than yours.",
+            "tokens": [
+              "我",
+              "的",
+              "手表",
+              "比",
+              "你",
+              "的",
+              "新"
+            ],
+            "answers": [
+              "我的手表比你的新"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "Beijing is farther than here.",
+            "tokens": [
+              "北京",
+              "比",
+              "这儿",
+              "远"
+            ],
+            "answers": [
+              "北京比这儿远"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "Coffee is hotter than milk.",
+            "tokens": [
+              "咖啡",
+              "比",
+              "牛奶",
+              "热"
+            ],
+            "answers": [
+              "咖啡比牛奶热"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "This class is better than that class.",
+            "tokens": [
+              "这个",
+              "班",
+              "比",
+              "那个",
+              "班",
+              "好"
+            ],
+            "answers": [
+              "这个班比那个班好"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Younger sister is smaller than I am.",
+            "answers": [
+              "妹妹比我小"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-t02",
+            "source": "This gift is prettier.",
+            "answers": [
+              "这个礼物比那个漂亮"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-t03",
+            "source": "The hotel is cheaper than that one.",
+            "answers": [
+              "这个宾馆比那个便宜"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-t04",
+            "source": "He speaks better than I do.",
+            "answers": [
+              "他说得比我好"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Pink is prettier than black.",
+            "answers": [
+              "粉色比黑好看"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          },
+          {
+            "id": "g4-t06",
+            "source": "This door is bigger than that door.",
+            "answers": [
+              "这个门比那个门大"
+            ],
+            "tip": "A 比 B + adj. Negative: A 没有 B + adj."
+          }
+        ]
+      }
+    }
+  ]
+}

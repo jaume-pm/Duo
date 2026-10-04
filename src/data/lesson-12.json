@@ -1,0 +1,1270 @@
+{
+  "id": "12",
+  "number": 12,
+  "titleZh": "复习",
+  "titleEn": "Review",
+  "sourceNote": "HSK 1 plus HSK 2 Lessons 1–12",
+  "vocabScope": "HSK 1 plus HSK 2 Lessons 1–12",
+  "words": [
+    {
+      "hanzi": "度",
+      "pinyin": "dù",
+      "pos": "m.w.",
+      "meaningEn": "degree"
+    },
+    {
+      "hanzi": "说话",
+      "pinyin": "shuōhuà",
+      "pos": "v.",
+      "meaningEn": "to speak, to talk"
+    },
+    {
+      "hanzi": "祝",
+      "pinyin": "zhù",
+      "pos": "v.",
+      "meaningEn": "to wish"
+    },
+    {
+      "hanzi": "长",
+      "pinyin": "zhǎng",
+      "pos": "v.",
+      "meaningEn": "to grow"
+    },
+    {
+      "hanzi": "像",
+      "pinyin": "xiàng",
+      "pos": "v./adj.",
+      "meaningEn": "to look like"
+    },
+    {
+      "hanzi": "舅舅",
+      "pinyin": "jiùjiu",
+      "pos": "n.",
+      "meaningEn": "uncle (mother’s brother)"
+    },
+    {
+      "hanzi": "彩色",
+      "pinyin": "cǎisè",
+      "pos": "adj.",
+      "meaningEn": "colorful"
+    },
+    {
+      "hanzi": "铅笔",
+      "pinyin": "qiānbǐ",
+      "pos": "n.",
+      "meaningEn": "pencil"
+    },
+    {
+      "hanzi": "西瓜",
+      "pinyin": "xīguā",
+      "pos": "n.",
+      "meaningEn": "watermelon"
+    },
+    {
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "pos": "n.",
+      "meaningEn": "egg"
+    },
+    {
+      "hanzi": "骑",
+      "pinyin": "qí",
+      "pos": "v.",
+      "meaningEn": "to ride"
+    },
+    {
+      "hanzi": "自行车",
+      "pinyin": "zìxíngchē",
+      "pos": "n.",
+      "meaningEn": "bicycle"
+    },
+    {
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "pos": "adj.",
+      "meaningEn": "expensive"
+    },
+    {
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "pos": "adj.",
+      "meaningEn": "slow"
+    }
+  ],
+  "vocabExercises": {
+    "fill": [
+      {
+        "id": "v-f01",
+        "prompt": "It is ten degrees.",
+        "template": "十____。",
+        "pinyin": "Shí ____.",
+        "answers": [
+          "度",
+          "dù"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f02",
+        "prompt": "Who are you talking to?",
+        "template": "你在和谁____？",
+        "pinyin": "Nǐ zài hé shéi ____?",
+        "answers": [
+          "说话",
+          "shuōhuà"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f03",
+        "prompt": "I wish you a happy New Year.",
+        "template": "____你新年快乐。",
+        "pinyin": "____ nǐ xīnnián kuàilè.",
+        "answers": [
+          "祝",
+          "zhù"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f04",
+        "prompt": "They look alike.",
+        "template": "他们长得很____。",
+        "pinyin": "Tāmen zhǎng de hěn ____.",
+        "answers": [
+          "像",
+          "xiàng"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f05",
+        "prompt": "Uncle gave me a gift.",
+        "template": "____给我礼物。",
+        "pinyin": "____ gěi wǒ lǐwù.",
+        "answers": [
+          "舅舅",
+          "jiùjiu"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f06",
+        "prompt": "The pencils are colorful.",
+        "template": "铅笔是____的。",
+        "pinyin": "Qiānbǐ shì ____ de.",
+        "answers": [
+          "彩色",
+          "cǎisè"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f07",
+        "prompt": "I have a pencil.",
+        "template": "我有____。",
+        "pinyin": "Wǒ yǒu ____.",
+        "answers": [
+          "铅笔",
+          "qiānbǐ"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-f08",
+        "prompt": "Watermelon is delicious.",
+        "template": "____很好吃。",
+        "pinyin": "____ hěn hǎochī.",
+        "answers": [
+          "西瓜",
+          "xīguā"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "scramble": [
+      {
+        "id": "v-s01",
+        "prompt": "I bought eggs.",
+        "tokens": [
+          "我",
+          "买",
+          "了",
+          "鸡蛋"
+        ],
+        "answers": [
+          "我买了鸡蛋"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s02",
+        "prompt": "He rides a bike.",
+        "tokens": [
+          "他",
+          "骑",
+          "自行车"
+        ],
+        "answers": [
+          "他骑自行车"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s03",
+        "prompt": "The bike is new.",
+        "tokens": [
+          "自行车",
+          "很",
+          "新"
+        ],
+        "answers": [
+          "自行车很新"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s04",
+        "prompt": "Beef is expensive.",
+        "tokens": [
+          "这个",
+          "很",
+          "贵"
+        ],
+        "answers": [
+          "这个很贵"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s05",
+        "prompt": "The bike is slow.",
+        "tokens": [
+          "自行车",
+          "很",
+          "慢"
+        ],
+        "answers": [
+          "自行车很慢"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-s06",
+        "prompt": "I like talking.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "说话"
+        ],
+        "answers": [
+          "我喜欢说话"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ],
+    "translate": [
+      {
+        "id": "v-t01",
+        "source": "She looks like mom.",
+        "answers": [
+          "她像妈妈"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t02",
+        "source": "Uncle is swimming.",
+        "answers": [
+          "舅舅在游泳"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t03",
+        "source": "The watermelon is expensive.",
+        "answers": [
+          "西瓜很贵"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t04",
+        "source": "I ride slowly.",
+        "answers": [
+          "我骑得很慢"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t05",
+        "source": "Wish him well.",
+        "answers": [
+          "祝他好"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      },
+      {
+        "id": "v-t06",
+        "source": "It is over ten degrees.",
+        "answers": [
+          "十几度"
+        ],
+        "tip": "Use the lesson word in a new sentence."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "approx-review",
+      "title": "Approximate numbers (review)",
+      "structure": "几 / 十几 / 几十 / number + 多",
+      "summary": "Review of 几 and 多 for approximate numbers, now with 度, 颜色, and other review words.",
+      "exampleHanzi": "每天都有十几度呢。",
+      "examplePinyin": "Měi tiān dōu yǒu shíjǐ dù ne.",
+      "exampleEn": "It’s over ten degrees every day.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g1-f01",
+            "prompt": "It’s over ten degrees every day.",
+            "template": "每天都有十____度呢。",
+            "pinyin": "Měi tiān dōu yǒu shí ____ dù ne.",
+            "answers": [
+              "几",
+              "jǐ"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f02",
+            "prompt": "There are more than twenty colors.",
+            "template": "有二十____个颜色。",
+            "pinyin": "Yǒu èrshí ____ ge yánsè.",
+            "answers": [
+              "多",
+              "duō"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f03",
+            "prompt": "Several pencils.",
+            "template": "____支铅笔。",
+            "pinyin": "____ zhī qiānbǐ.",
+            "answers": [
+              "几",
+              "jǐ"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f04",
+            "prompt": "Dozens of people.",
+            "template": "____十个人。",
+            "pinyin": "____ shí ge rén.",
+            "answers": [
+              "几",
+              "jǐ"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f05",
+            "prompt": "More than two weeks.",
+            "template": "两个____星期。",
+            "pinyin": "Liǎng ge ____ xīngqī.",
+            "answers": [
+              "多",
+              "duō"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f06",
+            "prompt": "More than five months.",
+            "template": "五个____月。",
+            "pinyin": "Wǔ ge ____ yuè.",
+            "answers": [
+              "多",
+              "duō"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f07",
+            "prompt": "More than ten degrees.",
+            "template": "十____度。",
+            "pinyin": "Shí ____ dù.",
+            "answers": [
+              "多",
+              "duō"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-f08",
+            "prompt": "Several watermelons.",
+            "template": "____个西瓜。",
+            "pinyin": "____ ge xīguā.",
+            "answers": [
+              "几",
+              "jǐ"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g1-s01",
+            "prompt": "More than thirty eggs.",
+            "tokens": [
+              "三十",
+              "多",
+              "个",
+              "鸡蛋"
+            ],
+            "answers": [
+              "三十多个鸡蛋"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-s02",
+            "prompt": "A dozen or so bikes.",
+            "tokens": [
+              "十",
+              "几",
+              "个",
+              "自行车"
+            ],
+            "answers": [
+              "十几个自行车"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-s03",
+            "prompt": "Several friends.",
+            "tokens": [
+              "几",
+              "个",
+              "朋友"
+            ],
+            "answers": [
+              "几个朋友"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-s04",
+            "prompt": "More than eighty kuai.",
+            "tokens": [
+              "八十",
+              "多",
+              "块"
+            ],
+            "answers": [
+              "八十多块"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-s05",
+            "prompt": "It’s a little over ten degrees.",
+            "tokens": [
+              "十",
+              "几",
+              "度"
+            ],
+            "answers": [
+              "十几度"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-s06",
+            "prompt": "More than three years.",
+            "tokens": [
+              "三",
+              "年",
+              "多"
+            ],
+            "answers": [
+              "三年多"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g1-t01",
+            "source": "Several colorful pencils.",
+            "answers": [
+              "几支彩色铅笔"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-t02",
+            "source": "Dozens of tickets.",
+            "answers": [
+              "几十张票"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-t03",
+            "source": "More than four hours.",
+            "answers": [
+              "四个多小时"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-t04",
+            "source": "Several questions.",
+            "answers": [
+              "几道题"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-t05",
+            "source": "More than twenty people.",
+            "answers": [
+              "二十多个人"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          },
+          {
+            "id": "g1-t06",
+            "source": "A dozen or so rooms.",
+            "answers": [
+              "十几个房间"
+            ],
+            "tip": "几 and 多 still mark approximate numbers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "state-review",
+      "title": "State complement (review)",
+      "structure": "verb + 得 + adjective",
+      "summary": "Review of 得 after a verb: 说得很好, 长得真像, 骑得很慢.",
+      "exampleHanzi": "她汉语说得很好。",
+      "examplePinyin": "Tā Hànyǔ shuō de hěn hǎo.",
+      "exampleEn": "She speaks Chinese very well.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g2-f01",
+            "prompt": "She speaks Chinese very well.",
+            "template": "她汉语说____很好。",
+            "pinyin": "Tā Hànyǔ shuō ____ hěn hǎo.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f02",
+            "prompt": "You speak really well.",
+            "template": "你说____真好。",
+            "pinyin": "Nǐ shuō ____ zhēn hǎo.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f03",
+            "prompt": "You two look really alike.",
+            "template": "你们____真像。",
+            "pinyin": "Nǐmen ____ zhēn xiàng.",
+            "answers": [
+              "长得",
+              "zhǎng de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f04",
+            "prompt": "He runs very fast.",
+            "template": "他跑____很快。",
+            "pinyin": "Tā pǎo ____ hěn kuài.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f05",
+            "prompt": "Mom cooks very well.",
+            "template": "妈妈做____很好吃。",
+            "pinyin": "Māma zuò ____ hěn hǎochī.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f06",
+            "prompt": "She sings very well.",
+            "template": "她唱____很好听。",
+            "pinyin": "Tā chàng ____ hěn hǎotīng.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f07",
+            "prompt": "I ride very slowly.",
+            "template": "我骑____很慢。",
+            "pinyin": "Wǒ qí ____ hěn màn.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-f08",
+            "prompt": "Uncle speaks very fast.",
+            "template": "舅舅说____很快。",
+            "pinyin": "Jiùjiu shuō ____ hěn kuài.",
+            "answers": [
+              "得",
+              "de"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g2-s01",
+            "prompt": "The child writes well.",
+            "tokens": [
+              "孩子",
+              "写",
+              "得",
+              "很",
+              "好"
+            ],
+            "answers": [
+              "孩子写得很好"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-s02",
+            "prompt": "He eats slowly.",
+            "tokens": [
+              "他",
+              "吃",
+              "得",
+              "很",
+              "慢"
+            ],
+            "answers": [
+              "他吃得很慢"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-s03",
+            "prompt": "I talk a lot.",
+            "tokens": [
+              "我",
+              "说话",
+              "说",
+              "得",
+              "很",
+              "多"
+            ],
+            "answers": [
+              "我说话说得很多"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-s04",
+            "prompt": "She looks like dad.",
+            "tokens": [
+              "她",
+              "长得",
+              "像",
+              "爸爸"
+            ],
+            "answers": [
+              "她长得像爸爸"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-s05",
+            "prompt": "You walk too slowly.",
+            "tokens": [
+              "你",
+              "走",
+              "得",
+              "太",
+              "慢"
+            ],
+            "answers": [
+              "你走得太慢"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-s06",
+            "prompt": "The bike goes slowly.",
+            "tokens": [
+              "自行车",
+              "走",
+              "得",
+              "很",
+              "慢"
+            ],
+            "answers": [
+              "自行车走得很慢"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g2-t01",
+            "source": "He does exams well.",
+            "answers": [
+              "他考得很好"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-t02",
+            "source": "I get up early.",
+            "answers": [
+              "我起床得很早"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-t03",
+            "source": "This tastes good.",
+            "answers": [
+              "这个吃得很好"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-t04",
+            "source": "Younger brother runs slowly.",
+            "answers": [
+              "弟弟跑得很慢"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-t05",
+            "source": "Elder sister speaks well.",
+            "answers": [
+              "姐姐说得很好"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          },
+          {
+            "id": "g2-t06",
+            "source": "I wait a long time.",
+            "answers": [
+              "我等得很长"
+            ],
+            "tip": "Verb + 得 + how it is done."
+          }
+        ]
+      }
+    },
+    {
+      "id": "redup-review",
+      "title": "Verb reduplication (review)",
+      "structure": "AA / ABAB",
+      "summary": "Monosyllabic verbs reduplicate as AA or A一A. Disyllabic verbs use ABAB: 运动运动, 准备准备.",
+      "exampleHanzi": "他想运动运动。",
+      "examplePinyin": "Tā xiǎng yùndòng yùndòng.",
+      "exampleEn": "He wants to get some exercise.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g3-f01",
+            "prompt": "He wants to get some exercise.",
+            "template": "他想____。",
+            "pinyin": "Tā xiǎng ____.",
+            "answers": [
+              "运动运动",
+              "yùndòng yùndòng"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f02",
+            "prompt": "Go get ready.",
+            "template": "你____。",
+            "pinyin": "Nǐ ____.",
+            "answers": [
+              "准备准备",
+              "zhǔnbèi zhǔnbèi"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f03",
+            "prompt": "Study a bit.",
+            "template": "____。",
+            "pinyin": "____.",
+            "answers": [
+              "学习学习",
+              "xuéxí xuéxí"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f04",
+            "prompt": "Rest a bit.",
+            "template": "____。",
+            "pinyin": "____.",
+            "answers": [
+              "休息休息",
+              "xiūxi xiūxi"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f05",
+            "prompt": "Take a look.",
+            "template": "你____。",
+            "pinyin": "Nǐ ____.",
+            "answers": [
+              "看看",
+              "kànkan"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f06",
+            "prompt": "Think about it.",
+            "template": "你____。",
+            "pinyin": "Nǐ ____.",
+            "answers": [
+              "想想",
+              "xiǎngxiang"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f07",
+            "prompt": "Walk a bit.",
+            "template": "我们____。",
+            "pinyin": "Wǒmen ____.",
+            "answers": [
+              "走走",
+              "zǒuzou"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-f08",
+            "prompt": "Ask around.",
+            "template": "你____。",
+            "pinyin": "Nǐ ____.",
+            "answers": [
+              "问问",
+              "wènwen"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g3-s01",
+            "prompt": "Talk about it.",
+            "tokens": [
+              "你",
+              "说说"
+            ],
+            "answers": [
+              "你说说"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-s02",
+            "prompt": "Introduce him.",
+            "tokens": [
+              "介绍介绍"
+            ],
+            "answers": [
+              "介绍介绍"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-s03",
+            "prompt": "Ride a bit.",
+            "tokens": [
+              "骑",
+              "骑",
+              "自行车"
+            ],
+            "answers": [
+              "骑骑自行车"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-s04",
+            "prompt": "Look at the pencils.",
+            "tokens": [
+              "看看",
+              "铅笔"
+            ],
+            "answers": [
+              "看看铅笔"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-s05",
+            "prompt": "Have a taste of the melon.",
+            "tokens": [
+              "看看",
+              "西瓜"
+            ],
+            "answers": [
+              "看看西瓜"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-s06",
+            "prompt": "Rest, then go.",
+            "tokens": [
+              "休息休息",
+              "再",
+              "去"
+            ],
+            "answers": [
+              "休息休息再去"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g3-t01",
+            "source": "Get some exercise this morning.",
+            "answers": [
+              "早上运动运动"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-t02",
+            "source": "Prepare the gift.",
+            "answers": [
+              "准备准备礼物"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-t03",
+            "source": "Study Chinese a bit.",
+            "answers": [
+              "学习学习汉语"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-t04",
+            "source": "Walk outside.",
+            "answers": [
+              "外面走走"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-t05",
+            "source": "Ask uncle.",
+            "answers": [
+              "问问舅舅"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          },
+          {
+            "id": "g3-t06",
+            "source": "Have a look at the eggs.",
+            "answers": [
+              "看看鸡蛋"
+            ],
+            "tip": "AA or ABAB makes the action short and casual."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bi-yidian",
+      "title": "比 + complement",
+      "structure": "A 比 B + adj + 一点儿 / 得多 / number",
+      "summary": "After 比 you can add how much: 贵一点儿, 高得多, 贵三块钱.",
+      "exampleHanzi": "今天的西瓜比昨天的贵一点儿。",
+      "examplePinyin": "Jīntiān de xīguā bǐ zuótiān de guì yìdiǎnr.",
+      "exampleEn": "Today’s watermelon is a bit more expensive than yesterday’s.",
+      "exercises": {
+        "fill": [
+          {
+            "id": "g4-f01",
+            "prompt": "Today’s watermelon is a bit more expensive.",
+            "template": "西瓜____昨天贵一点儿。",
+            "pinyin": "Xīguā ____ zuótiān guì yìdiǎnr.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f02",
+            "prompt": "Elder brother is a bit taller than sister.",
+            "template": "哥哥____姐姐高一点儿。",
+            "pinyin": "Gēge ____ jiějie gāo yìdiǎnr.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f03",
+            "prompt": "Today is much colder than yesterday.",
+            "template": "今天____昨天冷得多。",
+            "pinyin": "Jīntiān ____ zuótiān lěng de duō.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f04",
+            "prompt": "This bike is a bit slower.",
+            "template": "自行车____那个慢一点儿。",
+            "pinyin": "Zìxíngchē ____ nàge màn yìdiǎnr.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f05",
+            "prompt": "Eggs are three kuai more expensive.",
+            "template": "鸡蛋____那个贵三块。",
+            "pinyin": "Jīdàn ____ nàge guì sān kuài.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f06",
+            "prompt": "Uncle is much taller.",
+            "template": "舅舅____我高得多。",
+            "pinyin": "Jiùjiu ____ wǒ gāo de duō.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f07",
+            "prompt": "This pencil is a bit more expensive.",
+            "template": "铅笔____那个贵一点儿。",
+            "pinyin": "Qiānbǐ ____ nàge guì yìdiǎnr.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-f08",
+            "prompt": "I am a bit slower.",
+            "template": "我____你慢一点儿。",
+            "pinyin": "Wǒ ____ nǐ màn yìdiǎnr.",
+            "answers": [
+              "比",
+              "bǐ"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          }
+        ],
+        "scramble": [
+          {
+            "id": "g4-s01",
+            "prompt": "Watermelon is much more delicious.",
+            "tokens": [
+              "西瓜",
+              "比",
+              "苹果",
+              "好吃",
+              "得",
+              "多"
+            ],
+            "answers": [
+              "西瓜比苹果好吃得多"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-s02",
+            "prompt": "The colorful one is a bit prettier.",
+            "tokens": [
+              "彩色",
+              "的",
+              "比",
+              "黑",
+              "的",
+              "漂亮",
+              "一点儿"
+            ],
+            "answers": [
+              "彩色的比黑的漂亮一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-s03",
+            "prompt": "Talking is a bit slower.",
+            "tokens": [
+              "说话",
+              "比",
+              "写",
+              "慢",
+              "一点儿"
+            ],
+            "answers": [
+              "说话比写慢一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-s04",
+            "prompt": "This is much more expensive.",
+            "tokens": [
+              "这个",
+              "比",
+              "那个",
+              "贵",
+              "得",
+              "多"
+            ],
+            "answers": [
+              "这个比那个贵得多"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-s05",
+            "prompt": "She looks a bit more like mom.",
+            "tokens": [
+              "她",
+              "比",
+              "我",
+              "像",
+              "妈妈",
+              "一点儿"
+            ],
+            "answers": [
+              "她比我像妈妈一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-s06",
+            "prompt": "The bike is much slower than the train.",
+            "tokens": [
+              "自行车",
+              "比",
+              "火车",
+              "慢",
+              "得",
+              "多"
+            ],
+            "answers": [
+              "自行车比火车慢得多"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          }
+        ],
+        "translate": [
+          {
+            "id": "g4-t01",
+            "source": "Today is a bit more overcast.",
+            "answers": [
+              "今天比昨天阴一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-t02",
+            "source": "He is a bit taller than younger brother.",
+            "answers": [
+              "他比弟弟高一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-t03",
+            "source": "This room is much bigger.",
+            "answers": [
+              "这个房间比那个大得多"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-t04",
+            "source": "I ride a bit slower.",
+            "answers": [
+              "我骑得比你慢一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-t05",
+            "source": "Eggs are a bit more expensive than watermelon.",
+            "answers": [
+              "鸡蛋比西瓜贵一点儿"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          },
+          {
+            "id": "g4-t06",
+            "source": "New Year is much happier.",
+            "answers": [
+              "新年比昨天快乐得多"
+            ],
+            "tip": "比 + adj + 一点儿 / 得多 / a number."
+          }
+        ]
+      }
+    }
+  ]
+}

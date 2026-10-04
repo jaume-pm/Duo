@@ -4,10 +4,17 @@ import {
   getGrammar,
   getLesson,
   getTrackItems,
+  grammarBankCount,
   grammarItemCount,
+  lessonHeading,
   lessons,
+  lessonsByIds,
+  lessonsThrough,
+  mixHref,
+  mixLabel,
   trackLabel,
   type MixCard,
+  type MixFilter,
   type Track,
 } from "./data/lessons";
 import {
@@ -26,7 +33,7 @@ type Route =
   | { name: "hub"; lessonId: string }
   | { name: "track"; lessonId: string; track: Track }
   | { name: "exercise"; lessonId: string; track: Track; kind: ExerciseKind }
-  | { name: "mix"; lessonId: string };
+  | { name: "mix"; filter: MixFilter };
 
 type CheckStatus = "idle" | "correct" | "wrong" | "revealed";
 type ItemResult = "correct" | "wrong" | "skipped";
@@ -41,6 +48,7 @@ type Session = {
   results: ItemResult[];
   checkedOnce: boolean;
   mixDeck?: MixCard[];
+  mixFilter?: MixFilter;
 };
 
 const KINDS = new Set<string>(EXERCISE_ORDER);
@@ -57,14 +65,56 @@ function parseTrack(parts: string[]): Track | null {
   return null;
 }
 
+function parseMixKind(part: string | undefined): ExerciseKind | undefined | "bad" {
+  if (!part) return undefined;
+  if (KINDS.has(part)) return part as ExerciseKind;
+  return "bad";
+}
+
+function parseGlobalMix(parts: string[]): Route {
+  const kind = parseMixKind(parts[3]);
+  if (kind === "bad") return { name: "home" };
+  if (parts[1] === "through" && parts[2]) {
+    const selected = lessonsThrough(parts[2]);
+    if (selected.length === 0) return { name: "home" };
+    return {
+      name: "mix",
+      filter: {
+        mode: "through",
+        throughId: parts[2],
+        lessonIds: selected.map((lesson) => lesson.id),
+        kind,
+      },
+    };
+  }
+  if (parts[1] === "pick" && parts[2]) {
+    const selected = lessonsByIds(parts[2].split("+"));
+    if (selected.length === 0) return { name: "home" };
+    return {
+      name: "mix",
+      filter: {
+        mode: "pick",
+        lessonIds: selected.map((lesson) => lesson.id),
+        kind,
+      },
+    };
+  }
+  return { name: "home" };
+}
+
 function parseRoute(): Route {
   const hash = location.hash.replace(/^#/, "") || "/";
   const parts = hash.split("/").filter(Boolean);
+  if (parts[0] === "mix") return parseGlobalMix(parts);
   if (parts[0] !== "l" || !parts[1]) return { name: "home" };
   const lessonId = parts[1];
   const rest = parts.slice(2);
   if (rest.length === 0) return { name: "hub", lessonId };
-  if (rest[0] === "mix") return { name: "mix", lessonId };
+  if (rest[0] === "mix") {
+    const kind = parseMixKind(rest[1]);
+    if (kind === "bad") return { name: "hub", lessonId };
+    return { name: "mix", filter: { mode: "lesson", lessonIds: [lessonId], kind } };
+  }
   const track = parseTrack(rest);
   if (!track) return { name: "hub", lessonId };
   const kindPart = track.type === "vocab" ? rest[1] : rest[2];
@@ -83,7 +133,7 @@ function trackPath(track: Track): string {
 function href(route: Route): string {
   if (route.name === "home") return "#/";
   if (route.name === "hub") return `#/l/${route.lessonId}`;
-  if (route.name === "mix") return `#/l/${route.lessonId}/mix`;
+  if (route.name === "mix") return mixHref(route.filter);
   const base = `#/l/${route.lessonId}/${trackPath(route.track)}`;
   if (route.name === "track") return base;
   return `${base}/${route.kind}`;
@@ -136,6 +186,10 @@ function render(): void {
     root.append(renderHome());
     return;
   }
+  if (route.name === "mix") {
+    root.append(renderMix(route.filter));
+    return;
+  }
   const lesson = getLesson(route.lessonId);
   if (!lesson) {
     root.append(renderMissing());
@@ -143,10 +197,6 @@ function render(): void {
   }
   if (route.name === "hub") {
     root.append(renderHub(lesson));
-    return;
-  }
-  if (route.name === "mix") {
-    root.append(renderMix(lesson));
     return;
   }
   const activeTrack = route.track;
@@ -164,7 +214,21 @@ function render(): void {
 }
 
 function renderHome(): HTMLElement {
-  const lesson = lessons[0];
+  const list = el("div", { class: "lesson-list" });
+  for (const lesson of lessons) {
+    list.append(
+      el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
+        el("div", { class: "lesson-card__meta" },
+          el("span", { class: "chip", text: `Lesson ${lesson.number}` }),
+          el("span", { class: "muted", text: lesson.sourceNote }),
+        ),
+        el("p", { class: "hanzi-title", text: lessonHeading(lesson) }),
+        el("p", { class: "card-en", text: lesson.titleEn }),
+        el("p", { class: "card-stats", text: `${lesson.words.length} words · ${lesson.grammar.length} grammar points` }),
+        el("span", { class: "card-cta", text: "Open lesson →" }),
+      ),
+    );
+  }
   return el("div", { class: "page" },
     el("header", { class: "topbar" },
       el("div", { class: "brand" },
@@ -183,16 +247,80 @@ function renderHome(): HTMLElement {
           "Drill each grammar point, or mix them so the pattern keeps changing. Sentences use HSK 1 plus the words you have already learned.",
         ),
       ),
-      el("a", { class: "lesson-card", href: href({ name: "hub", lessonId: lesson.id }) },
-        el("div", { class: "lesson-card__meta" },
-          el("span", { class: "chip", text: `Lesson ${lesson.number}` }),
-          el("span", { class: "muted", text: lesson.sourceNote }),
-        ),
-        el("p", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
-        el("p", { class: "card-en", text: lesson.titleEn }),
-        el("p", { class: "card-stats", text: `${lesson.words.length} words · ${lesson.grammar.length} grammar points` }),
-        el("span", { class: "card-cta", text: "Open lesson →" }),
-      ),
+      renderMixBuilder(),
+      list,
+    ),
+  );
+}
+
+function mixKindSelect(name: string): HTMLSelectElement {
+  const select = el("select", { class: "mix-select", name, "aria-label": "Exercise type" }) as HTMLSelectElement;
+  select.append(el("option", { value: "", text: "All types" }));
+  for (const kind of EXERCISE_ORDER) {
+    select.append(el("option", { value: kind, text: EXERCISE_META[kind].title }));
+  }
+  return select;
+}
+
+function mixKindFromSelect(select: HTMLSelectElement): ExerciseKind | undefined {
+  return KINDS.has(select.value) ? (select.value as ExerciseKind) : undefined;
+}
+
+function renderMixBuilder(): HTMLElement {
+  const throughSelect = el("select", { class: "mix-select", name: "through", "aria-label": "Through lesson" }) as HTMLSelectElement;
+  for (const lesson of lessons) {
+    throughSelect.append(
+      el("option", { value: lesson.id, text: `Lesson ${lesson.number} · ${lessonHeading(lesson)}` }),
+    );
+  }
+  if (lessons[2]) throughSelect.value = lessons[2].id;
+  const throughKind = mixKindSelect("through-kind");
+  const throughStart = el("button", { class: "btn btn--primary", type: "button", text: "Start mix" });
+  throughStart.addEventListener("click", () => {
+    location.hash = mixHref({
+      mode: "through",
+      throughId: throughSelect.value,
+      lessonIds: lessonsThrough(throughSelect.value).map((lesson) => lesson.id),
+      kind: mixKindFromSelect(throughKind),
+    });
+  });
+
+  const pickBox = el("div", { class: "mix-pick" });
+  for (const lesson of lessons) {
+    const box = el("input", { type: "checkbox", value: lesson.id }) as HTMLInputElement;
+    pickBox.append(el("label", { class: "mix-chip" }, box, `Lesson ${lesson.number}`));
+  }
+  const pickKind = mixKindSelect("pick-kind");
+  const pickNote = el("p", { class: "muted mix-note", text: "Tick two or more lessons, or just one." });
+  const pickStart = el("button", { class: "btn btn--primary", type: "button", text: "Start mix" });
+  pickStart.addEventListener("click", () => {
+    const ids = [...pickBox.querySelectorAll<HTMLInputElement>("input:checked")].map((input) => input.value);
+    if (ids.length === 0) {
+      pickNote.textContent = "Pick at least one lesson.";
+      return;
+    }
+    location.hash = mixHref({
+      mode: "pick",
+      lessonIds: lessonsByIds(ids).map((lesson) => lesson.id),
+      kind: mixKindFromSelect(pickKind),
+    });
+  });
+
+  return el("section", { class: "mix-builder" },
+    el("p", { class: "kicker", text: "Custom mix" }),
+    el("h2", { text: "Mix grammar across lessons" }),
+    el("p", { class: "muted", text: "Shuffle every grammar point from a range, or only the lessons you tick. You can keep all exercise types or lock it to fill-in, unscramble, or translate." }),
+    el("div", { class: "mix-build-block" },
+      el("h3", { text: "Through a lesson" }),
+      el("p", { class: "muted", text: "Choose lesson 3 and you get grammar from lessons 1, 2, and 3." }),
+      el("div", { class: "mix-build-row" }, throughSelect, throughKind, throughStart),
+    ),
+    el("div", { class: "mix-build-block" },
+      el("h3", { text: "Choose lessons" }),
+      el("p", { class: "muted", text: "For example, only lessons 3 and 4." }),
+      pickBox,
+      el("div", { class: "mix-build-row" }, pickKind, pickStart),
+      pickNote,
     ),
   );
 }
@@ -268,15 +396,39 @@ function renderHub(lesson: Lesson): HTMLElement {
     el("main", { class: "shell" },
       el("section", { class: "lesson-head" },
         el("p", { class: "kicker", text: `Lesson ${lesson.number}` }),
-        el("h1", { class: "hanzi-title", text: `第一课 ${lesson.titleZh}` }),
+        el("h1", { class: "hanzi-title", text: lessonHeading(lesson) }),
         el("p", { class: "card-en", text: "Words and grammar only — new practice sentences, not the textbook dialogue." }),
       ),
       el("section", { class: "block" },
-        el("a", { class: "mix-card", href: href({ name: "mix", lessonId: lesson.id }) },
+        el("div", { class: "mix-card mix-card--panel" },
           el("p", { class: "kicker", text: "Mixed practice" }),
           el("h2", { text: "All grammar, shuffled" }),
-          el("p", { class: "muted", text: "Fill, unscramble, and translate items from every point in this lesson, in random order, so you are not drilling the same pattern the whole time." }),
-          el("span", { class: "card-cta", text: `Start mix · ${lesson.grammar.reduce((n, point) => n + grammarItemCount(point), 0)} items →` }),
+          el("p", { class: "muted", text: "Items from every grammar point in this lesson, in random order. Start with every type, or lock it to one." }),
+          el("div", { class: "mix-type-row" },
+            el("a", {
+              class: "btn btn--primary",
+              href: mixHref({ mode: "lesson", lessonIds: [lesson.id] }),
+              text: `All types · ${grammarBankCount(lesson)}`,
+            }),
+            ...EXERCISE_ORDER.map((kind) => el("a", {
+              class: "btn",
+              href: mixHref({ mode: "lesson", lessonIds: [lesson.id], kind }),
+              text: `${EXERCISE_META[kind].title} · ${grammarBankCount(lesson, kind)}`,
+            })),
+          ),
+          lesson.number > 1
+            ? el("p", { class: "mix-cumulative" },
+              el("a", {
+                class: "text-link",
+                href: mixHref({
+                  mode: "through",
+                  throughId: lesson.id,
+                  lessonIds: lessonsThrough(lesson.id).map((item) => item.id),
+                }),
+                text: `Or mix lessons 1–${lesson.number}, all types →`,
+              }),
+            )
+            : null,
         ),
       ),
       el("section", { class: "block" },
@@ -308,7 +460,7 @@ function renderTrack(lesson: Lesson, track: Track): HTMLElement {
       el("main", { class: "shell" },
         el("section", { class: "lesson-head" },
           el("p", { class: "kicker", text: "Vocabulary" }),
-          el("h1", { text: "Lesson 1 words" }),
+          el("h1", { text: `Lesson ${lesson.number} words` }),
           el("p", { class: "lede", text: "Fill, unscramble, and translate using this lesson’s word list. No copied textbook lines." }),
         ),
         el("section", { class: "block" },
@@ -402,11 +554,30 @@ function mixTokens(card: MixCard): string[] | undefined {
   return card.kind === "scramble" ? (card.item as ScrambleItem).tokens : undefined;
 }
 
-function getMixSession(lesson: Lesson): Session {
-  const key = `${lesson.id}:mix`;
+function mixSessionKey(filter: MixFilter): string {
+  const kind = filter.kind ?? "all";
+  if (filter.mode === "lesson") return `${filter.lessonIds[0] ?? "01"}:mix:${kind}`;
+  if (filter.mode === "through") return `through:${filter.throughId ?? "01"}:mix:${kind}`;
+  return `pick:${filter.lessonIds.join("+")}:mix:${kind}`;
+}
+
+function mixBackHref(filter: MixFilter): string {
+  if (filter.mode === "lesson" && filter.lessonIds[0]) {
+    return href({ name: "hub", lessonId: filter.lessonIds[0] });
+  }
+  return "#/";
+}
+
+function mixCardKey(card: MixCard): string {
+  return `${card.lessonId}:${card.item.id}`;
+}
+
+function getMixSession(filter: MixFilter): Session {
+  const key = mixSessionKey(filter);
   const existing = sessions.get(key);
   if (existing) return existing;
-  const mixDeck = shuffle(collectMixCards(lesson), `${lesson.id}:mix`);
+  const selected = lessonsByIds(filter.lessonIds);
+  const mixDeck = shuffle(collectMixCards(selected, filter.kind), key);
   const first = mixDeck[0];
   const created: Session = {
     key,
@@ -414,42 +585,52 @@ function getMixSession(lesson: Lesson): Session {
     status: "idle",
     input: "",
     selected: [],
-    bank: first && mixTokens(first) ? shuffle(mixTokens(first) as string[], first.item.id) : [],
+    bank: first && mixTokens(first) ? shuffle(mixTokens(first) as string[], mixCardKey(first)) : [],
     results: [],
     checkedOnce: false,
     mixDeck,
+    mixFilter: filter,
   };
   sessions.set(key, created);
   return created;
 }
 
-function renderMix(lesson: Lesson): HTMLElement {
-  const session = getMixSession(lesson);
+function renderMix(filter: MixFilter): HTMLElement {
+  const session = getMixSession(filter);
   const deck = session.mixDeck ?? [];
   const mixTrack: Track = { type: "mix" };
+  const backHref = mixBackHref(filter);
+  const backLabel = filter.mode === "lesson" ? "← Lesson" : "← Duo";
 
   if (deck.length === 0) {
     return el("div", { class: "page" },
       el("main", { class: "shell" },
         el("h1", { text: "No mixed items yet" }),
-        el("a", { class: "text-link", href: href({ name: "hub", lessonId: lesson.id }), text: "Back" }),
+        el("a", { class: "text-link", href: backHref, text: "Back" }),
       ),
     );
   }
 
+  const fallbackLesson = getLesson(filter.lessonIds[0] ?? "") ?? lessons[0];
+  if (!fallbackLesson) {
+    return renderMissing();
+  }
+
   if (session.index >= deck.length) {
-    return renderSummary(lesson, mixTrack, "fill", session, deck.length);
+    return renderSummary(fallbackLesson, mixTrack, filter.kind ?? "fill", session, deck.length);
   }
 
   const current = deck[session.index];
+  const lesson = getLesson(current.lessonId) ?? fallbackLesson;
   const meta = EXERCISE_META[current.kind];
   const progress = `${session.index + 1} / ${deck.length}`;
+  const where = filter.lessonIds.length > 1 ? `Lesson ${current.lessonNumber} · ` : "";
 
   const page = el("div", { class: "page" },
     el("header", { class: "topbar" },
-      el("a", { class: "back", href: href({ name: "hub", lessonId: lesson.id }), text: "← Lesson" }),
+      el("a", { class: "back", href: backHref, text: backLabel }),
       el("div", { class: "progress-wrap" },
-        el("p", { class: "progress-label", text: `Mix · ${current.grammarTitle} · ${meta.title} · ${progress}` }),
+        el("p", { class: "progress-label", text: `${mixLabel(filter)} · ${where}${current.grammarTitle} · ${meta.title} · ${progress}` }),
         el("div", { class: "bar", role: "progressbar", "aria-valuenow": session.index + 1, "aria-valuemax": deck.length },
           el("span", { style: `width:${(session.index / deck.length) * 100}%` }),
         ),
@@ -459,7 +640,9 @@ function renderMix(lesson: Lesson): HTMLElement {
 
   const main = el("main", { class: "shell shell--narrow" });
   const workbook = el("section", { class: "workbook" });
-  workbook.append(el("p", { class: "kicker", text: `${current.grammarTitle} · ${meta.title}` }));
+  workbook.append(
+    el("p", { class: "kicker", text: `${where}${current.grammarTitle} · ${meta.title}` }),
+  );
 
   if (current.kind === "fill") {
     workbook.append(renderFill(current.item as FillItem, session, lesson, mixTrack, current.kind, deck.length));
@@ -560,7 +743,7 @@ function advance(
   if (session.index < total) {
     if (track.type === "mix" && session.mixDeck) {
       const next = session.mixDeck[session.index];
-      resetItem(session, next.item.id, mixTokens(next));
+      resetItem(session, mixCardKey(next), mixTokens(next));
     } else {
       const items = getTrackItems(lesson, track, kind);
       const next = items[session.index];
@@ -787,16 +970,20 @@ function renderSummary(
   session: Session,
   totalOverride?: number,
 ): HTMLElement {
+  const mix = session.mixFilter;
   const total = totalOverride ?? getTrackItems(lesson, track, kind).length;
   const correct = session.results.filter((result) => result === "correct").length;
   const wrong = session.results.filter((result) => result === "wrong").length;
   const skipped = session.results.filter((result) => result === "skipped").length;
   const meta = EXERCISE_META[kind];
   const nextKind = track.type === "mix" ? undefined : EXERCISE_ORDER[EXERCISE_ORDER.indexOf(kind) + 1];
-  const label = trackLabel(lesson, track);
-  const backHref = track.type === "mix"
-    ? href({ name: "hub", lessonId: lesson.id })
+  const label = mix ? mixLabel(mix) : trackLabel(lesson, track);
+  const backHref = mix
+    ? mixBackHref(mix)
     : href({ name: "track", lessonId: lesson.id, track });
+  const backText = mix
+    ? (mix.mode === "lesson" ? "Back to the lesson" : "Back to home")
+    : `Back to ${label}`;
 
   const restart = el("button", { class: "btn btn--primary", type: "button", text: "Practice this set again" });
   restart.addEventListener("click", () => {
@@ -815,7 +1002,7 @@ function renderSummary(
     );
   }
   actions.append(
-    el("a", { class: "btn", href: backHref, text: track.type === "mix" ? "Back to the lesson" : `Back to ${label}` }),
+    el("a", { class: "btn", href: backHref, text: backText }),
   );
 
   return el("div", { class: "page" },
@@ -824,7 +1011,7 @@ function renderSummary(
     ),
     el("main", { class: "shell shell--narrow" },
       el("section", { class: "workbook" },
-        el("p", { class: "kicker", text: track.type === "mix" ? "Mixed practice" : `${label} · ${meta.title}` }),
+        el("p", { class: "kicker", text: mix ? label : `${label} · ${meta.title}` }),
         el("h2", { text: "Set finished" }),
         el("p", { class: "score", text: `${correct} / ${total} correct on a first pass or after retrying.` }),
         el("ul", { class: "score-list" },
