@@ -190,6 +190,16 @@ textarea {
   border-color: #c9b59a;
 }
 
+.lesson-card__main {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.lesson-card__actions {
+  margin-top: 0.95rem;
+}
+
 .mix-card {
   display: block;
   padding: 1.35rem 1.45rem 1.2rem;
@@ -284,6 +294,16 @@ textarea {
 
 .mix-note {
   margin: 0.55rem 0 0;
+}
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  min-height: min(72vh, 52rem);
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
 }
 
 .lesson-card__meta,

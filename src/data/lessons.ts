@@ -54,6 +54,12 @@ export function lessonHeading(lesson: Lesson): string {
   return `第${CN_NUM[lesson.number] ?? lesson.number}课 ${lesson.titleZh}`;
 }
 
+export function lessonPdfUrl(lessonId: string): string {
+  const base = import.meta.env.BASE_URL;
+  const root = base.endsWith("/") ? base : `${base}/`;
+  return `${root}notes/hsk2-lesson-${lessonId}.pdf`;
+}
+
 export function getLesson(id: string): Lesson | undefined {
   return lessons.find((lesson) => lesson.id === id);
 }
